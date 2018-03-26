@@ -1,10 +1,6 @@
-package com.ncfxy.designPattern.sigleton;
-
-import com.ncfxy.designPattern.singleton.*;
-import org.junit.Test;
+package com.ncfxy.designPattern.singleton;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -57,12 +53,16 @@ public class SingletonTest {
         }
     };
 
-    @Test
+    public static void main(String[] args) {
+        SingletonTest a = new SingletonTest();
+        a.testAll();
+    }
+
     public void testAll() {
-        System.out.println("Implement 1: ");
-        testOne(supplier1);
-//        System.out.println("Implement 2: ");
-//        testOne(supplier2);
+//        System.out.println("Implement 1: ");
+//        testOne(supplier1);
+        System.out.println("Implement 2: ");
+        testOne(supplier2);
 //        System.out.println("Implement 3: ");
 //        testOne(supplier3);
 //        System.out.println("Implement 4: ");
