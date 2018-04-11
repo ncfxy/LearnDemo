@@ -50,3 +50,8 @@ static final int TERMINATED = 3;
 - Executors.newCachedThreadPool();
 - Executors.newScheduledThreadPool();
 
+## 一般设置线程池的大小
+N为CPU的总核心数
+- CPU密集型: N + 1
+- IO密集型: 2N + 1
+
