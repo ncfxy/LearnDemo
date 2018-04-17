@@ -14,3 +14,9 @@
     <version>3.4.10</version>
 </dependency>
    ```
+
+## 常见序列化框架
+- Apache Avro
+- Apache Thrift
+- Google Protobuf
+
