@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outFile": "dist.js"
+    },
+    "files": [
+        "selfVue/observer.ts",
+        "selfVue/watcher.ts",
+        "selfVue/compile.ts",
+        "selfVue/index.ts"
+    ]
+}
