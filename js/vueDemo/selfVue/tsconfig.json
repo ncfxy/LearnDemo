@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outFile": "dist.js"
+    },
+    "files": [
+        "observer.ts",
+        "watcher.ts",
+        "compile.ts",
+        "index.ts"
+    ]
+}
