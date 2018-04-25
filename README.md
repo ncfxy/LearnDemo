@@ -14,6 +14,6 @@
 
 1. [Java线程池](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/multiThread/threadPool/ThreadPool.md)
 
-## [数据库](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/multiThread/threadPool/ThreadPool.md)
+## [数据库](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/database/database.md)
 
 ACID、脏读、不可重复读、幻读、四种隔离级别
