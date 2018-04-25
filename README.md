@@ -7,3 +7,7 @@
 1. [gcCmd](/java/LearnJavaDemo/src/main/java/com/ncfxy/jvm/gc/gcCmd.md)
 
 1. [Java中的锁](/java/LearnJavaDemo/src/main/java/com/ncfxy/multiThread/lock/lock.md)
+
+1. [Kafka](/java/LearnJavaDemo/src/main/java/com/ncfxy/distributed/kafka/kafka.md)
+
+1. [Java线程池](/java/LearnJavaDemo/src/main/java/com/ncfxy/multiThread/threadPool/ThreadPool.md)
