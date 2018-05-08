@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sample</title>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!-- 因为 AJAX 库和通用工具的生态已经相当丰富，Vue 核心代码没有重复 -->
+    <!-- 提供这些功能以保持精简。这也可以让你自由选择自己更熟悉的工具。 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
 </head>
 
 <body>
@@ -59,6 +63,77 @@
             </todo-item>
         </ol>
     </div>
+
+    <h3>计算属性</h3>
+    <div id="app-8">
+        <p>Original message: "{{ message }}"</p>
+        <p>Computed reversed message: "{{ reversedMessage }}"</p>
+    </div>
+
+    <h3>侦听器</h3>
+    <div id="app-9">
+        <p>
+            Ask a yes/no question:
+            <input v-model="question">
+        </p>
+        <p>{{answer}}</p>
+    </div>
+
+    <h3>Css与Style绑定</h3>
+    <div id="app-10">
+        <div class="static" v-bind:class="classObject">
+            css
+        </div>
+    </div>
+
+    <h3>条件渲染</h3>
+    <div id="app-11">
+        <div v-if="type === 'A'">
+            A
+        </div>
+        <div v-else-if="type === 'B'">
+            B
+        </div>
+        <div v-else-if="type === 'C'">
+            C
+        </div>
+        <div v-else>
+            Not A/B/C
+        </div>
+        <template v-if="loginType === 'username'">
+            <label>Username</label>
+            <input placeholder="Enter your username">
+        </template>
+        <template v-else>
+            <label>Email</label>
+            <input placeholder="Enter your email address">
+        </template>
+        <br/>
+        <button @click="toggleLoginType">Toggle login type</button>
+    </div>
+
+    <h3>列表渲染</h3>
+    <div>
+        <ul id="app-12">
+            <li v-for="(item, index) in items">
+                {{ parentMessage }} - {{ index }} - {{ item.message }}
+            </li>
+            <p>遍历object</p>
+            <div v-for="(value, key, index) in object">
+                {{ index }}. {{ key }}: {{ value }}
+            </div>
+        </ul>
+    </div>
+
+    <h3>v-for使用例子</h3>
+    <div id="todo-list-example">
+        <input v-model="newTodoText" v-on:keyup.enter="addNewTodo" placeholder="Add a todo">
+        <ul>
+            <li is="todo-item2" v-for="(todo, index) in todos" v-bind:key="todo.id" v-bind:title="todo.title" 
+                v-on:remove="todos.splice(index, 1)"></li>
+        </ul>
+    </div>
+
 
 </body>
 
