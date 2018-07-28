@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "G:/programming/codeblocks/CodeBlocks/MinGW/include/*",
+                "G:/programming/codeblocks/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/*",
+                "G:/programming/codeblocks/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/*",
+                "G:/programming/codeblocks/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/mingw32/*",
+                "G:/programming/codeblocks/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++/backward/*"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE"
+            ],
+            "intelliSenseMode": "clang-x64",
+
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "G:/programming/codeblocks/CodeBlocks/MinGW/include",
+                    "G:/programming/codeblocks/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include",
+                    "G:/programming/codeblocks/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include/c++",
+                    "G:/programming/codeblocks/CodeBlocks/MinGW/include",
+                    "G:/programming/codeblocks/CodeBlocks/MinGW/lib/gcc/mingw32/4.9.2/include",
+                    "G:/programming/codeblocks/CodeBlocks/MinGW/mingw32/4.9.2/include/c++",
+                    "G:/programming/codeblocks/CodeBlocks/MinGW/mingw32/4.9.2/include/c++/mingw32",
+                    "G:/programming/codeblocks/CodeBlocks/MinGW/mingw32/4.9.2/include/c++/backward"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 3
+}
