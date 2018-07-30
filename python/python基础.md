@@ -154,3 +154,12 @@ import json                     # json模块
 import re                       # 正则表达式模块
 
 ```
+
+## 常用第三方包安装
+
+```python
+pip install ipython
+pip install jupyter
+pip install numpy
+pip install matplotlib
+```
