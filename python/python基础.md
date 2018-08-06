@@ -162,4 +162,5 @@ pip install ipython
 pip install jupyter
 pip install numpy
 pip install matplotlib
+python -m pip install --upgrade pip     # pip 升级
 ```
