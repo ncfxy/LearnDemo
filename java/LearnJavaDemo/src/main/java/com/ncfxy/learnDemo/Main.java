@@ -1,4 +1,4 @@
-package com.ncfxy;
+package com.ncfxy.learnDemo;
 
 public class Main {
 

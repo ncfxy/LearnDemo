@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.singleton;
+package com.ncfxy.learnDemo.designPattern.singleton;
 
 /**
  * 线程不安全

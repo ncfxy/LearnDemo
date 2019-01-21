@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factoryAbstract;
+package com.ncfxy.learnDemo.designPattern.factoryAbstract;
 
 //Summer皮肤工厂：具体工厂
 class SummerSkinFactory implements SkinFactory {

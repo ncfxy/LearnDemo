@@ -1,4 +1,4 @@
-package com.ncfxy.multiThread.lock;
+package com.ncfxy.learnDemo.multiThread.lock;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;

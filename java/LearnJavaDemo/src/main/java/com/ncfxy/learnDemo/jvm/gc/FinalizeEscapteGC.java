@@ -1,4 +1,4 @@
-package com.ncfxy.jvm.gc;
+package com.ncfxy.learnDemo.jvm.gc;
 
 /**
  * 此代码演示了两点：

@@ -1,4 +1,4 @@
-package com.ncfxy.json.gson;
+package com.ncfxy.learnDemo.json.gson;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.FieldNamingStrategy;

@@ -1,4 +1,4 @@
-package com.ncfxy.distributed.kafka.serializer;
+package com.ncfxy.learnDemo.distributed.kafka.serializer;
 
 import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Serializer;

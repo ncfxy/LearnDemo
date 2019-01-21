@@ -1,4 +1,4 @@
-package com.ncfxy.distributed.kafka;
+package com.ncfxy.learnDemo.distributed.kafka;
 
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.TopicPartition;

@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.singleton;
+package com.ncfxy.learnDemo.designPattern.singleton;
 
 public enum Singleton6 implements SingletonInterface {
     INSTANCE;
