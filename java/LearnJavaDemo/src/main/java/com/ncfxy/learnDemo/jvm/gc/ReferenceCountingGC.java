@@ -1,4 +1,4 @@
-package com.ncfxy.jvm.gc;
+package com.ncfxy.learnDemo.jvm.gc;
 
 /**
  * 参数中加入 -XX:+PrintGCDetails 打印gc日志

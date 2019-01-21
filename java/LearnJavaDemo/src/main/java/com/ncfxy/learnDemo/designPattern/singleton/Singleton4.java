@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.singleton;
+package com.ncfxy.learnDemo.designPattern.singleton;
 
 /**
  * 线程安全，双重校验

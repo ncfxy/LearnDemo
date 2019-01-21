@@ -1,4 +1,4 @@
-package com.ncfxy.json.gson;
+package com.ncfxy.learnDemo.json.gson;
 
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;

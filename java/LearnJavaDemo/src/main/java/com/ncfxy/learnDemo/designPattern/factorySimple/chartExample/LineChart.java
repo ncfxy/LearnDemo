@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factorySimple.chartExample;
+package com.ncfxy.learnDemo.designPattern.factorySimple.chartExample;
 
 //折线图类：具体产品类
 class LineChart implements Chart {

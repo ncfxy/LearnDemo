@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factorySimple.chartExample;
+package com.ncfxy.learnDemo.designPattern.factorySimple.chartExample;
 
 //图表工厂类：工厂类
 class ChartFactory {

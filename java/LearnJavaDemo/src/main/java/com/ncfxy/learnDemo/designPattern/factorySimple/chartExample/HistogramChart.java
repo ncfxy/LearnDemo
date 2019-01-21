@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factorySimple.chartExample;
+package com.ncfxy.learnDemo.designPattern.factorySimple.chartExample;
 
 //柱状图类：具体产品类
 class HistogramChart implements Chart {

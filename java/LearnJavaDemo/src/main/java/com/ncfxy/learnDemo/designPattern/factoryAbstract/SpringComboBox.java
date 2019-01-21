@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factoryAbstract;
+package com.ncfxy.learnDemo.designPattern.factoryAbstract;
 
 //Spring组合框类：具体产品
 class SpringComboBox implements ComboBox {
