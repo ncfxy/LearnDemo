@@ -1,4 +1,4 @@
-package com.ncfxy.distributed.kafka.partitioner;
+package com.ncfxy.learnDemo.distributed.kafka.partitioner;
 
 import org.apache.kafka.clients.producer.Partitioner;
 import org.apache.kafka.common.Cluster;

@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.singleton;
+package com.ncfxy.learnDemo.designPattern.singleton;
 
 import java.util.ArrayList;
 import java.util.List;

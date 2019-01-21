@@ -1,4 +1,4 @@
-package com.ncfxy.distributed.kafka.serializer;
+package com.ncfxy.learnDemo.distributed.kafka.serializer;
 
 public class Customer {
     private int customerID;

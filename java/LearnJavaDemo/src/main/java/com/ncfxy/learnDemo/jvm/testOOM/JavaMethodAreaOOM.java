@@ -1,4 +1,4 @@
-package com.ncfxy.jvm.testOOM;
+package com.ncfxy.learnDemo.jvm.testOOM;
 
 /**
  * VM Args: -XX:PermSize=10M -XX:MaxPermSize=10M   注：在Java8 中PermGen取消

@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factorySimple;
+package com.ncfxy.learnDemo.designPattern.factorySimple;
 
 public class Client {
     public static void main(String[] args) {

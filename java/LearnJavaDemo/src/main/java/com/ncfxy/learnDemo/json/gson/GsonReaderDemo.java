@@ -1,4 +1,4 @@
-package com.ncfxy.json.gson;
+package com.ncfxy.learnDemo.json.gson;
 
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;

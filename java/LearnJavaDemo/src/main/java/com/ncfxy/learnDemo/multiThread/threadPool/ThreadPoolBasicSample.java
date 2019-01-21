@@ -1,4 +1,4 @@
-package com.ncfxy.multiThread.threadPool;
+package com.ncfxy.learnDemo.multiThread.threadPool;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.Executors;

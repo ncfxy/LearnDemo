@@ -1,4 +1,4 @@
-package com.ncfxy.multiThread.lock;
+package com.ncfxy.learnDemo.multiThread.lock;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
