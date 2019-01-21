@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factoryAbstract;
+package com.ncfxy.learnDemo.designPattern.factoryAbstract;
 
 //Spring皮肤工厂：具体工厂
 class SpringSkinFactory implements SkinFactory {

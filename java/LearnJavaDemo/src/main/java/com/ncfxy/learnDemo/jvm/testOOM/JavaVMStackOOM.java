@@ -1,4 +1,4 @@
-package com.ncfxy.jvm.testOOM;
+package com.ncfxy.learnDemo.jvm.testOOM;
 
 /**
  * 建立多线程导致内存溢出

@@ -1,4 +1,4 @@
-package com.ncfxy.jvm.testOOM;
+package com.ncfxy.learnDemo.jvm.testOOM;
 
 import sun.misc.Unsafe;
 

@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factoryMethod;
+package com.ncfxy.learnDemo.designPattern.factoryMethod;
 
 public class FileLogger implements Logger {
     public void writeLog() {

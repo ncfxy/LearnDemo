@@ -1,4 +1,4 @@
-package com.ncfxy.json.gson;
+package com.ncfxy.learnDemo.json.gson;
 
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonWriter;

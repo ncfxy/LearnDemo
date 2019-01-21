@@ -1,4 +1,4 @@
-package com.ncfxy.designPattern.factoryMethod;
+package com.ncfxy.learnDemo.designPattern.factoryMethod;
 
 //数据库日志记录器工厂类：具体工厂
 public class DatabaseLoggerFactory implements LoggerFactory {
