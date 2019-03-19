@@ -2,7 +2,7 @@
 
 ## Useful Link
 
-[Github Pages 官网](https://pages.github.com/])
+[Github Pages 官网](https://pages.github.com/)
 
 
 ## Github 官方Markdown语法
