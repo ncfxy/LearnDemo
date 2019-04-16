@@ -7,3 +7,5 @@
     代理工具: shadowsocks
     电脑全局搜索: Everything
     Windows下的包管理工具: chocolatey
+
+    录制gif: gifcam
