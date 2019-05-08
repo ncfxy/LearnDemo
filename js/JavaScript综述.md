@@ -10,3 +10,4 @@
 | RxJs       |                      | https://rxjs-dev.firebaseapp.com/ |      |
 | lodash     | JavaScript工具函数库 | https://lodash.com/               |      |
 | TypeScript |                      | https://www.typescriptlang.org/   |      |
+| Axios      | Http Client          | https://github.com/axios/axios    |      |
