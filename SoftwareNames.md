@@ -11,3 +11,4 @@
 | GIMP        | 开源图像处理软件  | https://www.gimp.org/                       |      |
 | Chocolatey  | Windows下包管理工具| https://chocolatey.org/                     |      |
 | XMind       | 思维导图软件       | https://www.xmind.net/                     |      |
+| Memory Analyzer | Java内存分析工具 | https://www.eclipse.org/mat/             |      |
