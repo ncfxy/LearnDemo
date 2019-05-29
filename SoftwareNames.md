@@ -9,3 +9,5 @@
 | shadowsocks | 代理工具          | https://shadowsocks.org/en/index.html       |      |
 | gifcam      | 录制gif工具       |                                             |      |
 | GIMP        | 开源图像处理软件  | https://www.gimp.org/                       |      |
+| Chocolatey  | Windows下包管理工具| https://chocolatey.org/                     |      |
+
