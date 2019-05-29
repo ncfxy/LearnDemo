@@ -12,3 +12,13 @@
 | Chocolatey  | Windows下包管理工具| https://chocolatey.org/                     |      |
 | XMind       | 思维导图软件       | https://www.xmind.net/                     |      |
 | Memory Analyzer | Java内存分析工具 | https://www.eclipse.org/mat/             |      |
+
+
+# 常用开发软件
+
+| 名字        | 作用              | 官网                                        | 备注 |
+|-------------|-------------------|---------------------------------------------|------|
+| VS Code     | 文本编辑器         | https://code.visualstudio.com/                 |      |
+| Sublime     | 文本编辑器         | https://www.sublimetext.com/                 |      |
+| Atom        | 文本编辑器         | https://atom.io/                             |      |
+| Code Blocks | C++ 开发工具       | http://www.codeblocks.org/                  |        |
