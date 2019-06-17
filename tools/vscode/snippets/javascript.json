@@ -10,10 +10,8 @@
 	"Declare new promise": {
 		"prefix": "ncfxypromise",
 		"body": [
-			"new Promise((resolve) => {",
+			"new Promise((resolve, reject) => {",
 				"\t$1",
-			"}, (reject) => {",
-				"\t$2",
 			"});"
 		]
 	},
@@ -26,5 +24,12 @@
 				"\t$5",
 			"});"
 		]
+	},
+	"arrow function": {
+		"prefix": "arrow",
+		"body": [
+			"(${1:value}) => {$2}"
+		],
+		"description": "generate an arrow function"
 	}
 }
