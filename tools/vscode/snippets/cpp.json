@@ -1,0 +1,26 @@
+{
+	"include iostream": {
+		"prefix": "iostream",
+		"body": [
+			"#include <iostream>"
+		]
+	},
+	"include cstdio": {
+		"prefix": "cstdio",
+		"body": [
+			"#include <cstdio>"
+		]
+	},
+	"include cstdlib": {
+		"prefix": "cstdlib",
+		"body": [
+			"#include <cstdlib>"
+		]
+	},
+	"using namespace std": {
+		"prefix": "using",
+		"body": [
+			"using namespace std;"
+		]
+	}
+}
