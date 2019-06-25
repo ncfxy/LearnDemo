@@ -1,7 +1,13 @@
 {
 	"name": "ncfxy-develop-pack",
 	"displayName": "ncfxy-develop-pack",
+	"publisher": "ncfxy",
 	"description": "",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ncfxy/LearnDemo/tree/master/tools/vscode/ncfxy-extension/ncfxy-develop-pack"
+	},
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.35.0"
