@@ -17,7 +17,17 @@
 		"commands": [{
 			"command": "extension.helloWorld",
 			"title": "Hello World"
-		}]
+		}],
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./snippets/cpp.json"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
