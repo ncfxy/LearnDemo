@@ -1,0 +1,35 @@
+{
+	"Print to console": {
+		"prefix": "ncfxylog",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"Declare new promise": {
+		"prefix": "ncfxypromise",
+		"body": [
+			"new Promise((resolve, reject) => {",
+				"\t$1",
+			"});"
+		]
+	},
+	"Promise then with two functions": {
+		"prefix": "ncfxypromisethen",
+		"body": [
+			"${1:promise}.then((${2:value}) => {",
+				"\t$3",
+			"}, (${4:reason}) => {",
+				"\t$5",
+			"});"
+		]
+	},
+	"arrow function": {
+		"prefix": "arrow",
+		"body": [
+			"(${1:value}) => {$2}"
+		],
+		"description": "generate an arrow function"
+	}
+}
