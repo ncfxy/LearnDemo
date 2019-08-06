@@ -13,6 +13,8 @@
 | XMind       | 思维导图软件       | https://www.xmind.net/                     |      |
 | Memory Analyzer | Java内存分析工具 | https://www.eclipse.org/mat/             |      |
 | Console 2 | 加强版的window console | https://sourceforge.net/projects/console/|      |
+| Postman    | API测试工具            | https://www.getpostman.com/              |      |
+| Insomnia   | API测试工具支持GraphQL | https://insomnia.rest/                   |      |
 
 
 # 常用开发软件
