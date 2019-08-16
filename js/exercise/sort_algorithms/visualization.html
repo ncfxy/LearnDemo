@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>
+
+<style>
+    .line{
+        height: 2px;
+        width: 2px;
+        background-color: black;
+        margin-right: 1px;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+</style>
+
+<script type="text/babel">
+    const length = 100;
+    const array = new Array(length);
+    for(var i = 0;i < length;i++){
+        const value = Math.floor((Math.random() * 500) + 1);
+        array[i] = value;
+    }
+    const buffer = [];
+    buffer.push(array.slice(0));
+    // 选择排序
+    // for(var i = 0;i < length; i++){
+    //     for(var j = i+1;j < length;j++) {
+    //         if(array[i] > array[j]) {
+    //             const tmp = array[i];
+    //             array[i] = array[j];
+    //             array[j] = tmp;
+    //             buffer.push(array.slice(0));
+    //         }
+    //     }
+    // }
+    // 冒泡排序
+    for(var i = 0;i < length; i++) {
+        for(var j = length - 1;j > i;j--) {
+            if(array[j-1] > array[j]) {
+                const tmp = array[j-1];
+                array[j-1] = array[j];
+                array[j] = tmp;
+                buffer.push(array.slice(0));
+            }
+        }
+    }
+    
+    const Hello = function() {
+        const [myArray, updateArray] = React.useState(buffer.shift());
+        setTimeout(() => {
+            console.log('compare');
+            if(buffer.length > 0) {
+                updateArray(buffer.shift());
+            }
+        }, 10);
+        return (<div className="container">
+                {myArray.map((value) => {
+                    var inlineStyle = {
+                        height: value + 'px',
+                    }
+                    return <div className="line" style={inlineStyle}></div>;
+                })}
+                </div>);
+                
+    }
+
+    ReactDOM.render(
+        <Hello></Hello>,
+        document.getElementById('root'));
+</script>
