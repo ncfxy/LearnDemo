@@ -32,7 +32,7 @@
 </style>
 
 <script type="text/babel">
-    const length = 100;
+    const length = 200;
     const array = new Array(length);
     for(var i = 0;i < length;i++){
         const value = Math.floor((Math.random() * 500) + 1);
@@ -41,27 +41,88 @@
     const buffer = [];
     buffer.push(array.slice(0));
     // 选择排序
-    // for(var i = 0;i < length; i++){
-    //     for(var j = i+1;j < length;j++) {
-    //         if(array[i] > array[j]) {
-    //             const tmp = array[i];
-    //             array[i] = array[j];
-    //             array[j] = tmp;
-    //             buffer.push(array.slice(0));
-    //         }
-    //     }
-    // }
-    // 冒泡排序
-    for(var i = 0;i < length; i++) {
-        for(var j = length - 1;j > i;j--) {
-            if(array[j-1] > array[j]) {
-                const tmp = array[j-1];
-                array[j-1] = array[j];
-                array[j] = tmp;
-                buffer.push(array.slice(0));
+    function selectSort(items) {
+        for(var i = 0;i < length; i++){
+            for(var j = i+1;j < length;j++) {
+                if(array[i] > array[j]) {
+                    const tmp = array[i];
+                    array[i] = array[j];
+                    array[j] = tmp;
+                    buffer.push(array.slice(0));
+                }
             }
         }
     }
+    // 冒泡排序
+    function bubbleSort(items){
+        for(var i = 0;i < length; i++) {
+            for(var j = length - 1;j > i;j--) {
+                if(items[j-1] > items[j]) {
+                    const tmp = items[j-1];
+                    items[j-1] = items[j];
+                    items[j] = tmp;
+                    buffer.push(items.slice(0));
+                }
+            }
+        }
+    }
+
+    // 归并排序递归版本
+    function merge(left, right) {
+        var result = [];
+        while(left.length > 0 && right.length > 0) {
+            left[0] < right[0] ? result.push(left.shift()) : result.push(right.shift());
+        }
+        return result.concat(left).concat(right);
+    }
+    function mergeSort(items) {
+        if(items.length === 1) {
+            return items;
+        }
+        var middle = Math.floor(items.length / 2);
+        var left = items.slice(0, middle);
+        var right = items.slice(middle);
+        return merge(mergeSort(left), mergeSort(right));
+    }
+
+    // 归并排序递归，在原数组操作
+    function merge2(items, start, end, middle){
+        var result = [];
+        var left = start, right = middle;
+        while(left < middle && right < end) {
+            if(items[left] < items[right]){
+                result.push(items[left]);
+                left++;
+            } else {
+                result.push(items[right]);
+                right++;
+            }
+        }
+        while(left < middle){
+            result.push(items[left]);
+            left++;
+        }
+        while(right < end) {
+            result.push(items[right]);
+            right++;
+        }
+        left = start;
+        while(left < end){
+            items[left] = result.shift();
+            left++;
+        }
+        buffer.push(items.slice(0));
+    }
+    function mergeSort2(items, start, end) {
+        if(end - start === 1){
+            return;
+        }
+        var middle = Math.floor((start + end)/2);
+        mergeSort2(items, start, middle);
+        mergeSort2(items, middle, end);
+        merge2(items, start, end, middle);
+    }
+    // mergeSort2(array, 0, array.length);
     
     const Hello = function() {
         const [myArray, updateArray] = React.useState(buffer.shift());
@@ -70,7 +131,7 @@
             if(buffer.length > 0) {
                 updateArray(buffer.shift());
             }
-        }, 10);
+        }, 100);
         return (<div className="container">
                 {myArray.map((value) => {
                     var inlineStyle = {
