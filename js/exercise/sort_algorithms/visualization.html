@@ -110,8 +110,8 @@
         while(left < end){
             items[left] = result.shift();
             left++;
+            buffer.push(items.slice(0));
         }
-        buffer.push(items.slice(0));
     }
     function mergeSort2(items, start, end) {
         if(end - start === 1){
@@ -123,6 +123,40 @@
         merge2(items, start, end, middle);
     }
     // mergeSort2(array, 0, array.length);
+
+    // 快速排序
+    var quickSort = function (array) {
+        var newArr = array.concat();
+        sort(newArr);
+        return newArr;
+        function sort(arr, left, right) {
+            if (left === void 0) { left = 0; }
+            if (right === void 0) { right = arr.length - 1; }
+            if (left >= right) {
+                return;
+            }
+            var i = left;
+            var j = right;
+            var baseVal = arr[j];
+            while (i < j) {
+                while (i < j && arr[i] <= baseVal) {
+                    i++;
+                }
+                arr[j] = arr[i];
+                buffer.push(newArr.slice(0));
+                while (j > i && arr[j] >= baseVal) {
+                    j--;
+                }
+                arr[i] = arr[j];
+                buffer.push(newArr.slice(0));
+            }
+            arr[j] = baseVal;
+            sort(arr, left, j - 1);
+            sort(arr, j + 1, right);
+        };
+    };
+
+    quickSort(array);
     
     const Hello = function() {
         const [myArray, updateArray] = React.useState(buffer.shift());
