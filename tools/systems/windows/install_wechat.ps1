@@ -7,16 +7,15 @@ if (![System.IO.Directory]::Exists($ncfxyDownLoadDir)) {[void][System.IO.Directo
 if (![System.IO.Directory]::Exists($ncfxyInstallDir)) {[void][System.IO.Directory]::CreateDirectory($ncfxyInstallDir)}
 
 # $downloader = New-Object System.Net.WebClient
-$url = 'https://www.voidtools.com/Everything-1.4.1.935.x64-Setup.exe'
-$downloadFilePath = $ncfxyDownLoadDir + 'everything.exe'
+$url = 'https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe'
+$downloadFilePath = $ncfxyDownLoadDir + 'WeChatSetup.exe'
 # $downloader.DownloadFile($url, $downloadFilePath)
 downloadFile $url $downloadFilePath
-$installDir = $ncfxyInstallDir + 'everything'
+$installDir = $ncfxyInstallDir + 'wechat'
 $installArgument = '/D=' + $installDir
-"Start installing everything 1.4.1.935" 
-$process = Start-Process $downloadFilePath -ArgumentList '/S',$installArgument -PassThru
-$process.WaitForExit()
-"Finish installing everything 1.4.1.935" 
+"Start installing wechat" 
+Start-Process $downloadFilePath -ArgumentList '/S',$installArgument
+"Finish installing wechat" 
 
 # $process = New-Object System.Diagnostics.Process
 # $psi = New-Object System.Diagnostics.ProcessStartInfo

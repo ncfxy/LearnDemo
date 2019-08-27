@@ -1,5 +1,4 @@
 
-"Run me"
 function downloadFile($url, $targetFile)
 { 
     "Downloading $url" 
