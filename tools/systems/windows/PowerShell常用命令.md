@@ -20,6 +20,8 @@
     [Environment]::SetEnvironmentVariable('ncfxy','ncfxy', 'Machine')
     # 删除环境变量
     [Environment]::SetEnvironmentVariable("[variable name]",$null,"User")
+    # 读取变量
+    [Environment]::GetEnvironmentVariable('ProgramFiles')
 ```
 
 ## 下载文件
@@ -43,5 +45,26 @@
 ```
 
 ```PowerShell
-    Start-Process 
+    Start-Process $FileName
+```
+
+## 注册表
+
+```PowerShell
+    # HKEY_LOCAL_MACHINE
+    cd HKLM:
+    # HKEY_CURRENT_USER
+    cd HKCU:
+    Get-ItemProperty    #读取键的值
+    Set-ItemProperty    #设置键的值
+    New-ItemProperty    #给键创建一个新值
+    Clear-ItemProperty  #删除键的值内容
+    Remove-ItemProperty #删除键的值
+    New-Item, md        #创建一个新键
+    Remove-Item, Del    #删除一个键
+    Test-Path           #验证键是否存在
+
+    Get-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion -Name "ProgramFilesDir"
+    Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramFilesDir" -Value "D:\ncfxy\software"
+    Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramFilesDir (x86)" -Value "D:\ncfxy\software"
 ```
