@@ -1,6 +1,10 @@
 
 function downloadFile($url, $targetFile)
 { 
+    if(Test-Path $targetFile) {
+        $targetFile + ' has already exist.'
+        return;
+    }
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Ssl3 -bor [Net.SecurityProtocolType]::Tls -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls12
     "Downloading $url" 
     $uri = New-Object "System.Uri" "$url" 

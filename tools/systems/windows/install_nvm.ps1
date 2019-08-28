@@ -32,7 +32,9 @@ if($currentUserPath.IndexOf('%NVM_HOME%') -eq -1){
 $settingString = 'root: ' + $targetPath + "`n"
 $settingString += 'path: ' + $targetNodejsPath + "`n"
 $settingString += 'arch: 64' + "`n"
-$settingString += 'proxy: none'
+$settingString += 'proxy: none' + "`n"
+$settingString += 'node_mirror: https://npm.taobao.org/mirrors/node/' + "`n"
+$settingString += 'npm_mirror: https://npm.taobao.org/mirrors/npm/' + "`n"
 $settingString | Set-Content -Path $settingFile
 "Finish config nvm"
 
