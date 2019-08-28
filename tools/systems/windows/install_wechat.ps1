@@ -14,7 +14,8 @@ downloadFile $url $downloadFilePath
 $installDir = $ncfxyInstallDir + 'wechat'
 $installArgument = '/D=' + $installDir
 "Start installing wechat" 
-Start-Process $downloadFilePath -ArgumentList '/S',$installArgument
+$process = Start-Process $downloadFilePath -ArgumentList '/S',$installArgument -PassThru
+$process.WaitForExit()
 "Finish installing wechat" 
 
 # $process = New-Object System.Diagnostics.Process
