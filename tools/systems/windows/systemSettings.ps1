@@ -10,7 +10,8 @@ Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "
 [Environment]::SetEnvironmentVariable('ProgramFiles(x86)', 'D:\ncfxy\software\', 'User')
 
 # 还原为默认
-# Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramFilesDir" -Value "C:\Program Files"
-# Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramFilesDir (x86)" -Value "C:\Program Files (x86)"
-# Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramW6432Dir" -Value "C:\Program Files"
-
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramFilesDir" -Value "C:\Program Files"
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramFilesDir (x86)" -Value "C:\Program Files (x86)"
+Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramW6432Dir" -Value "C:\Program Files"
+[Environment]::SetEnvironmentVariable('ProgramFiles', $null, 'User')
+[Environment]::SetEnvironmentVariable('ProgramFiles(x86)', $null, 'User')
