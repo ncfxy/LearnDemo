@@ -3,12 +3,23 @@
 ## Git 常用命令
     
     git clone xxxxx
-    git branch branchName
-    git branch -d branchName
+    git branch [branchName]
+    git branch -d [branchName]
     git commit -m "message"
     git commit --amend          修改最后一个commit
-    git add filePath/fileName
+    git add [filePath/fileName]
     git status
+    git stash
+    git stash pop
+    git pull/fetch [remoteBranchName]
+    git rebase [branchName]
+    git cherry-pick [commitCode]
+    git push origin [sourceBranch]:[targetBranch]
+    git checkout [branch-name]
+    git chekcout -b [new-branch-name]
+    git reset
+    git log
+    
 
 ## 一些技巧
     type null > .gitkeep     生成.gitkeep文件
