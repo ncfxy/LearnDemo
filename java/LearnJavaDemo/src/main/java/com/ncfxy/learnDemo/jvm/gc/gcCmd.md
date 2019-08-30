@@ -17,3 +17,16 @@
 ## 判断对象是否存活
 - 引用记数法，简单，但是无法判断循环引用  
 - 可达性分析，主流商用
+
+## 内存分析
+
+### JVM自带内存分析工具
+- jps
+- jstat
+- jmap
+- jhat
+- jstack
+- jinfo
+- Related URLs:
+  - [java高分局之jstat命令使用](https://blog.csdn.net/maosijunzi/article/details/46049117)
+  - [JVM自带内存分析工具详解](https://blog.csdn.net/wangxiaotongfan/article/details/82560739)
