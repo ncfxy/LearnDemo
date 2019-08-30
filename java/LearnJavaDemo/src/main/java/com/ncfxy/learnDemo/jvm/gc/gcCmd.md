@@ -27,6 +27,9 @@
 - jhat
 - jstack
 - jinfo
+- 可视化
+  - jconsole
+  - jvisualvm
 - Related URLs:
   - [java高分局之jstat命令使用](https://blog.csdn.net/maosijunzi/article/details/46049117)
   - [JVM自带内存分析工具详解](https://blog.csdn.net/wangxiaotongfan/article/details/82560739)
