@@ -20,3 +20,15 @@ downloadFile $url7za $path7za
 $process = Start-Process $path7za -ArgumentList 'x',$downloadFilePath,$targetArgument,'-y' -PassThru
 $process.WaitForExit()
 "Finish installing vscode" 
+
+"Config Regedit"
+$regeditPath = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{771FD6B0-FA20-440A-A002-3B3BAC16DC50}_is1'
+if(-Not (Test-Path $regeditPath)) {
+    New-Item $regeditPath
+    Set-ItemProperty -Path $regeditPath -Name "DisplayIcon" -Value ($ncfxyInstallDir+"vscode\Code.exe")
+    Set-ItemProperty -Path $regeditPath -Name "DisplayName" -Value "Microsoft Visual Studio Code"
+    Set-ItemProperty -Path $regeditPath -Name "InstallLocation" -Value ($ncfxyInstallDir+"vscode")
+    Set-ItemProperty -Path $regeditPath -Name "Publisher" -Value "Microsoft Corporation"
+}
+# HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\{771FD6B0-FA20-440A-A002-3B3BAC16DC50}_is1
+"Finish Config Regedit"
