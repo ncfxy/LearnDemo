@@ -15,7 +15,7 @@
 | Console 2 | 加强版的window console | https://sourceforge.net/projects/console/|      |
 | Postman    | API测试工具            | https://www.getpostman.com/              |      |
 | Insomnia   | API测试工具支持GraphQL | https://insomnia.rest/                   |      |
-
+| puppeteer  | Chrome headless 模式Node lib | https://github.com/GoogleChrome/puppeteer                   |      |
 
 # 常用开发软件
 
