@@ -1,21 +1,13 @@
 # 目录
 
-## Java
+## [Java](/java/Java)
 
-1. [面向对象设计原则](/java/设计原则.md)
+**关键词**：面向对象、多线程、线程池、锁、分布式
 
-1. [Java中的JSON](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/json/Java中的JSON.md)
+## [数据库](/database/database)
 
-1. [gcCmd](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/jvm/gc/gcCmd.md)
+**关键词**：ACID、脏读、不可重复读、幻读、四种隔离级别
 
-1. [Java中的锁](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/multiThread/lock/lock.md)
+## [C&C++](/c_plus_plus/CPlusPlus)
 
-1. [Kafka](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/distributed/kafka/kafka.md)
-
-1. [Java线程池](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/multiThread/threadPool/ThreadPool.md)
-
-## [数据库](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/database/database.md)
-
-ACID、脏读、不可重复读、幻读、四种隔离级别
-
-## [C&C++](/c_plus_plus/CPlusPlus.md)
+**关键词**:  gcc
