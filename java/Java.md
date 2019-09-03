@@ -1,6 +1,6 @@
 # Java
 
-1. [面向对象设计原则](/java/设计原则.md)
+1. [面向对象设计原则](./设计原则.md)
 
 1. [Java中的JSON](/java/LearnJavaDemo/src/main/java/com/ncfxy/learnDemo/json/Java中的JSON.md)
 
