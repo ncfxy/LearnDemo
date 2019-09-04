@@ -20,3 +20,12 @@ downloadFile $url7za $path7za
 $process = Start-Process $path7za -ArgumentList 'x',$downloadFilePath,$targetArgument,'-y' -PassThru
 $process.WaitForExit()
 "Finish installing openjdk-12.0.1_windows-x64" 
+
+"Start config Java Path"
+$javaHome = $targetPath + 'jdk-12.0.1'
+[Environment]::SetEnvironmentVariable('JAVA_HOME', $javaHome, 'User')
+$currentUserPath = [Environment]::GetEnvironmentVariable('PATH','User')
+if($currentUserPath.IndexOf('%JAVA_HOME%') -eq -1){
+    [Environment]::SetEnvironmentVariable('PATH', $currentUserPath + ';%JAVA_HOME%\bin' , 'User')
+}
+"Finish config Java Path"
