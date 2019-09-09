@@ -32,36 +32,36 @@ graph TD;
 
 <https://jekyllrb.com/>
 
-* 常用命令
+### 常用命令
 
-  ```cmd
-    gem install jekyll bundler
-    jekyll new
-    jekyll clean
-    jekyll build
-    jekyll serve
-  ```
+```cmd
+  gem install jekyll bundler
+  jekyll new
+  jekyll clean
+  jekyll build
+  jekyll serve
+```
 
-* Liquid Template
+### Liquid Template
 
-  ```html
-    Objects:  {{ page.title }}
-    Tags:     {% if page.show_sidebar %}
-                <div class="sidebar">sidebar content</div>
-              {% endif %}
-    Filters:  {{ "hi" | capitalize }}
-  ```
+```html
+  Objects:  {{ page.title }}
+  Tags:     {% if page.show_sidebar %}
+              <div class="sidebar">sidebar content</div>
+            {% endif %}
+  Filters:  {{ "hi" | capitalize }}
+```
 
-* Front Matter
+### Front Matter
 
-  ```markdown
-    ---
-    my_number: 5
-    title: Home
-    ---
-  ```
+```markdown
+  ---
+  my_number: 5
+  title: Home
+  ---
+```
 
-* 常用文件夹及文件
+### 常用文件夹及文件
 
 | 文件夹或文件 | 作用                                     |
 |--------------|----------------------------------------|
