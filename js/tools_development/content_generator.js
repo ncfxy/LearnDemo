@@ -69,4 +69,5 @@
         travelDomTree(document.body);
         return nodeList;
     }
+    main();
 }());
