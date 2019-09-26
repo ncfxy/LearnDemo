@@ -51,7 +51,14 @@
 * <https://blog.csdn.net/lijing198997/article/details/9378047>
 * <https://www.cnblogs.com/xiaochaohuashengmi/archive/2010/06/13/1757658.html>
 
+## 重排和重绘
+
+* <https://www.imooc.com/article/45936>
+* <https://juejin.im/entry/582f16fca22b9d006b7afd89>
+
+## DOMContentLoaded vs onload vs document.readyState
+
 ## Useful Links
 
 JavaScript 练习题:
-* <https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md>
+    * <https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md>
