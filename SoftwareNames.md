@@ -26,3 +26,4 @@
 | Sublime     | 文本编辑器   | https://www.sublimetext.com/   |      |
 | Atom        | 文本编辑器   | https://atom.io/               |      |
 | Code Blocks | C++ 开发工具 | http://www.codeblocks.org/     |      |
+| VS Codium   | VSCode 的剔除Tracker版|https://vscodium.com/     |      |
