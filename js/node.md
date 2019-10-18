@@ -5,8 +5,8 @@
 ### 1. npm 和 yarn 在windows下install非常慢
 
 - 原因： windows的LSASS.EXE进程的Encrypting File System (EFS)功能占用大量CPU。
-
-    <https://support.microsoft.com/en-ca/help/2550044/how-to-troubleshoot-high-lsass-exe-cpu-utilization-on-an-active-direct>
+  - <https://support.microsoft.com/en-ca/help/2550044/how-to-troubleshoot-high-lsass-exe-cpu-utilization-on-an-active-direct>
+  - <https://docs.microsoft.com/en-us/windows/win32/fileio/file-encryption>
 
 - 方案： 关闭EFS功能
 
@@ -16,3 +16,5 @@
         fsutil behavior set disableencryption 1
         fsutil behavior set disableencryption 0
     ```
+
+    更好的方案：关闭对应文件夹上的加密选项
