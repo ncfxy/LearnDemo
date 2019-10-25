@@ -17,8 +17,8 @@
 | TSLint              |                             |                                                                                 |
 | View In Browser     | 使用默认浏览器打开html文件  |                                                                                 |
 | Typescript UML      | 根据typescript代码创建UML图 |                                                                                 |
-| Quokka              | 编写时实时监测变量          |    https://quokkajs.com/                                                         |
-
+| Quokka              | 编写时实时监测变量          | https://quokkajs.com/                                                           |
+| hexdump for VSCode  | 查看文件的二进制            | https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-hexdump    |
 
 
 ## VS Code Online
