@@ -16,6 +16,27 @@ import 'module-name';
 var promise = import(module-name);
 ```
 
+## Node package.json参数
+
+### dependencies + devDependencies + peerDependencies
+
+- dependencies: 项目中用到的依赖
+- devDependencies: 项目开发时使用到的依赖
+- peerDependencies: 前置依赖，推荐依赖本项目的项目安装这些依赖
+
+## 常用依赖列表
+
+### 开发提高效率工具
+
+| 依赖名             | 功能                          | 链接                                            |
+|--------------------|-----------------------------|-------------------------------------------------|
+| npm-run-all        | 顺序或者并行的运行多条npm命令 | https://github.com/mysticatea/npm-run-all       |
+| webpack-dev-server | webpack的开发server           | https://webpack.js.org/configuration/dev-server |
+| cross-env          | 跨系统设置并使用环境变量      | https://github.com/kentcdodds/cross-env         |
+| rollup             | Js代码打包器                  | https://rollupjs.org/guide/zh/                  |
+| babel              | 代码打包工具                  | https://babeljs.io/                             |
+| webpack            | 代码打包工具                  | https://webpack.js.org/                         |
+
 ## FAQ
 
 ### 1. npm 和 yarn 在windows下install非常慢
