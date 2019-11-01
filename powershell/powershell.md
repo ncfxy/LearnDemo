@@ -2,6 +2,8 @@
 
 ## 常用命令
 
+- 复制文件夹： `Copy-Item -Path 'D:/abc' -Destination 'D:/abc' -Recurse`
+
 ## Tips
 
 | key          | value         |
