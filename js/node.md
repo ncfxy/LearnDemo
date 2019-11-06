@@ -24,6 +24,24 @@ var promise = import(module-name);
 - devDependencies: 项目开发时使用到的依赖
 - peerDependencies: 前置依赖，推荐依赖本项目的项目安装这些依赖
 
+## 依赖管理工具
+
+### npm
+
+| 命令                                                         | 作用                         |
+|--------------------------------------------------------------|----------------------------|
+| npm init                                                     | 初始化一个node项目           |
+| npm install                                                  | 根据package.json安装依赖     |
+| npm install xxx -save --registory=http://registory.npmjs.org | 安装某个依赖到dependencies   |
+| npm adduser                                                  | 添加可以登录到当前仓库的用户 |
+| npm login                                                    | 登录到当前仓库               |
+| npm publish                                                  | 发布项目到仓库               |
+| npm config set registry <http://registry.npmjs.org>          | 设置属性(所在文件.npmrc)     |
+| npm config get registry                                      | 获取属性                     |
+
+- 发布node包到nexus的私有仓库
+  - <https://levelup.gitconnected.com/deploying-private-npm-packages-to-nexus-a16722cc8166>
+
 ## 常用依赖列表
 
 ### 开发提高效率工具
@@ -36,6 +54,7 @@ var promise = import(module-name);
 | rollup             | Js代码打包器                  | https://rollupjs.org/guide/zh/                  |
 | babel              | 代码打包工具                  | https://babeljs.io/                             |
 | webpack            | 代码打包工具                  | https://webpack.js.org/                         |
+| nrm                | npm的镜像管理工具             | https://github.com/Pana/nrm                     |
 
 ## FAQ
 
