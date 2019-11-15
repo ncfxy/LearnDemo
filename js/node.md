@@ -42,6 +42,36 @@ var promise = import(module-name);
 - 发布node包到nexus的私有仓库
   - <https://levelup.gitconnected.com/deploying-private-npm-packages-to-nexus-a16722cc8166>
 
+### 常用npm源
+
+| 名字      | 地址                               |
+|-----------|------------------------------------|
+| npm       | https://registry.npmjs.org/        |
+| yarn      | https://registry.yarnpkg.com/      |
+| cnpm      | http://r.cnpmjs.org/               |
+| taobao    | https://registry.npm.taobao.org/   |
+| nj        | https://registry.nodejitsu.com/    |
+| npmMirror | https://skimdb.npmjs.com/registry/ |
+| edunpm    | http://registry.enpmjs.org/        |
+
+## babel
+
+### preset和plugin的理解
+
+babel通过plugin来转化代码，presets是一系列plugin的集合
+
+### 常用依赖
+
+| 依赖名            | 作用                  |
+|-------------------|---------------------|
+| @babel/core       | babel核心API,必须引入 |
+| @babel/cli        | babel的命令行工具     |
+| @babel/preset-env | 指定babel装换的环境   |
+| @babel/ployfill   | 支持更多高级转换      |
+
+
+
+
 ## 常用依赖列表
 
 ### 开发提高效率工具
