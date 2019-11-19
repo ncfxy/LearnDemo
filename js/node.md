@@ -85,6 +85,7 @@ babel通过plugin来转化代码，presets是一系列plugin的集合
 | babel              | 代码打包工具                  | https://babeljs.io/                             |
 | webpack            | 代码打包工具                  | https://webpack.js.org/                         |
 | nrm                | npm的镜像管理工具             | https://github.com/Pana/nrm                     |
+| yrm                | yarn对应的镜像管理工具        | https://github.com/i5ting/yrm                   |
 
 ## FAQ
 
