@@ -24,6 +24,10 @@
 ## 一些技巧
     type null > .gitkeep     生成.gitkeep文件
 
+## git commit提交辅助工具
+
+commitizen: <https://github.com/commitizen/cz-cli>
+
 ## 混迹Github
 
 | URL                                              | 用途                                          |
