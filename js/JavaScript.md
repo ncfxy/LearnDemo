@@ -14,6 +14,7 @@
 | Axios               | Http Client          | <https://github.com/axios/axios>    |      |
 | Yarn                | 依赖管理工具         | <https://yarnpkg.com/zh-Hans/>      |      |
 | Yeoman              | 生成WebApp项目框架   | <https://yeoman.io/generators/>     |      |
+| popper.js           | 管理页面上弹出tip    | <https://popper.js.org/>            |      |
 
 ## 防抖(Debounce)和节流(Throttle)
 
