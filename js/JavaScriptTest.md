@@ -11,3 +11,4 @@
 | Webdriver Manager | 前端e2e测试管理selenium和浏览器driver            | <https://github.com/angular/webdriver-manager> |
 | PhantomJS         | 已停止开发-使用chrome headless/ firefox headless | <https://github.com/ariya/phantomjs/>          |
 | Puppeteer         | Headless Chrome Node.js API                      | <https://pptr.dev/>                            |
+| Jest              | React推荐测试运行器                              | <https://jestjs.io/>                           |
