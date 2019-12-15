@@ -17,6 +17,7 @@
 | Insomnia        | API测试工具支持GraphQL       | https://insomnia.rest/                    |      |
 | puppeteer       | Chrome headless 模式Node lib | https://github.com/GoogleChrome/puppeteer |      |
 | LightShot       | 好用的桌面截图工具           | https://app.prntscr.com                   |      |
+| ngrok           | 内网穿透工具                 | https://github.com/mamboer/ngrok          |      |
 
 ## 常用开发软件
 
