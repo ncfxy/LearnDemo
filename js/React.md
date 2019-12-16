@@ -8,18 +8,29 @@
 |---------------------------|------------------------------------|-----------------|-------------------|
 | getDefaultProps           | null                               | 1(全局调用一次) | 否                 |
 | getInitialState           | null                               | 1               | 否                 |
-| componentWillMount        | null                               | 1               | 是                 |
+| ~~componentWillMount~~        | null                               | 1               | 是                 |
 | render                    | null                               | >= 1            | 否                 |
 | componentDidMount         | null                               | 1               | 是                 |
-| componentWillReceiveProps | object nextProps                   | >= 0            | 是                 |
+| ~~componentWillReceiveProps~~ | object nextProps                   | >= 0            | 是                 |
 | shouldComponentUpdate     | object nextProps, object nextState | >= 0            | 否                 |
-| componentWillUpdate       | object nextProps, object nextState | >= 0            | 否                 |
+| ~~componentWillUpdate~~       | object nextProps, object nextState | >= 0            | 否                 |
 | componentDidUpdate        | object prevProps, object prevState | >= 0            | 否                 |
 | componentWillUnmound      | null                               | 1               | 否                 |
+
+React生命周期图16+: <http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/>
+![React生命周期图16+](React生命周期图16+.webp)
 
 ## Useful Links
 
 - React 高频面试题 <https://mp.weixin.qq.com/s/3jmJgZFktP2NMT8XLvdIKQ>
+
+## 知识点
+
+### Component类型选择
+
+- Class Component: 需要使用state，及完整的生命周期
+- Function Component: 只使用props的简易实现
+- Hooks: 用来支持Function Component使用state
 
 ## 常用React工具
 
