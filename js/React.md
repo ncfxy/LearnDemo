@@ -17,8 +17,8 @@
 | componentDidUpdate        | object prevProps, object prevState | >= 0            | 否                 |
 | componentWillUnmound      | null                               | 1               | 否                 |
 
-React生命周期图16+: <http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/>
-![React生命周期图16+](React生命周期图16+.webp)
+React生命周期图16.4+: <http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/>
+![React生命周期图16.4+](React生命周期图16.4+.webp)
 
 ## Useful Links
 
