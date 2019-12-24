@@ -24,3 +24,16 @@ refs: <http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html>
 - 调试CSS Key frame <https://www.w3ctech.com/topic/1472>
 - CSS Animation性能优化 <https://github.com/amfe/article/issues/47>
 - 调试frame网站 <https://cubic-bezier.com>
+
+## 常用设置
+
+### 文本超出后省略
+
+```CSS
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+```
+
