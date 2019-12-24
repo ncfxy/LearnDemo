@@ -23,7 +23,17 @@
 
 ### Google Webp (更小的图片格式)
 
-`Webp`是Google强推的新一代网络图片格式，特点就是：高质量压缩。
+`Webp`是 Google 强推的新一代网络图片格式，特点就是：高质量压缩。
 
 - 官网: <https://developers.google.com/speed/webp/>
 - 官方工具: <https://developers.google.com/speed/webp/docs/using>
+
+## CheckList
+
+| 项目                                  | 备注                                                                                  |
+| ------------------------------------- | ------------------------------------------------------------------------------------- |
+| 页面元素上的鼠标手势是否合理          |                                                                                       |
+| 不可逆修改是否弹窗提醒                |                                                                                       |
+| 文档页面刷新提醒                      | <https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onbeforeunload> |
+| 是否使用文本 id，以支持多语言环境     |                                                                                       |
+| 发送 ajax 请求时，是否有 loading 效果 |                                                                                       |
