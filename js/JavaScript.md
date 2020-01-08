@@ -100,3 +100,12 @@ var Example = /** @class */ (function() {
   return Example;
 })();
 ```
+
+## 编码、加密
+
+### Base64
+
+- 二进制编码，三字节变四字节
+- 不够末尾补=
+- URL安全的需要将 '+/' 处理成'-_'并去掉'='
+- btoa, atob
