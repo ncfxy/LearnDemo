@@ -7,6 +7,9 @@
 
 ## call, apply和bind的实现
 
+bind: 使用apply实现
+apply&call: 需要使用eval模拟
+
 - <https://github.com/mqyqingfeng/Blog/issues/11>
 - <https://github.com/mqyqingfeng/Blog/issues/12>
 - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind>
