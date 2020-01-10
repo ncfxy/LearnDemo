@@ -34,6 +34,12 @@
     <https://github.com/lodash/lodash/blob/master/debounce.js>
     <https://github.com/lodash/lodash/blob/master/throttle.js>
 
+## 浏览器异步任务运行机制、Tasks, microtasks, queues and schedules
+
+- <https://juejin.im/entry/58d4df3b5c497d0057eb99ff>
+- <http://www.ruanyifeng.com/blog/2014/10/event-loop.html>
+- 
+
 ## 浏览器 cookie
 
 `Set-Cookie:value [ ;expires=date][ ;domain=domain][ ;path=path][ ;secure]`
