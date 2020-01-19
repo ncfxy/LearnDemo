@@ -10,6 +10,8 @@
 
 [AWS Command Line Interface - CLI](https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-chap-welcome.html)
 
+[文档kindle版本](https://www.amazon.com/-/zh/Amazon-Web-Services/e/B007R6MVQ6/ref=ntt_dp_epwbk_0)
+
 ### Serverless Framework
 
 * [官网首页](https://serverless.com/)
