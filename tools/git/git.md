@@ -20,6 +20,11 @@
     git reset
     git log
 
+## 设置代理服务器
+
+    git config --global http.proxy http://127.0.0.1:8088
+    git config --global https.proxy https://127.0.0.1:8088
+
 ## 一些技巧
 
     type null > .gitkeep     生成.gitkeep文件
