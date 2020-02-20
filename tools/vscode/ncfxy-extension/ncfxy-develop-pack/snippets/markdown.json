@@ -1,0 +1,59 @@
+{
+	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Tomato Work" : {
+		"prefix": "tomato",
+		"body": [
+			"# $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+			"",
+			"## 番茄工作法 待办事项清单",
+			"",
+			"* [x] 计划今日任务，处理邮件、公司事务",
+			"",
+			"## 番茄工作法 每日番茄时间记录表",
+			"",
+			"| 状态 | 事件                           | 预计番茄数 | 番茄记录 | 实际番茄数 |",
+			"|----|------------------------------|------------|----------|------------|",
+			"| 完成 | 计划今日任务，处理邮件、公司事务 | 1          | √        | 1          |",
+			"",
+			"## 计划外紧急事项",
+			"",
+			"* [ ] 无",
+			"",
+			"## 今日总结",
+			"",
+    		"    番茄数分类：",
+        	"        * 计划：1",
+        	"        * 学习：0",
+        	"        * 工作：0",
+        	"        * 杂项：0",
+        	"        * 番茄利用率: 1/16",
+			"    总结：",
+			""
+		]
+	},
+	"Todo Item": {
+		"prefix": "todo",
+		"body": [
+			"* [x] ${1}"
+		]
+	},
+	"TomatoTableLine": {
+		"prefix": "tomatoline",
+		"body":[
+			"| 进行 | ${1} | ${2}          | √   | 0          |"
+		]
+	}
+}
