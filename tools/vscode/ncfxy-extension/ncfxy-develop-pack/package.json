@@ -8,7 +8,7 @@
 		"type": "git",
 		"url": "https://github.com/ncfxy/LearnDemo/tree/master/tools/vscode/ncfxy-extension/ncfxy-develop-pack"
 	},
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.35.0"
 	},
@@ -32,6 +32,10 @@
 			{
 				"language": "cpp",
 				"path": "./snippets/cpp.json"
+			},
+			{
+				"language": "markdown",
+				"path": "./snippets/markdown.json"
 			}
 		]
 	},
