@@ -38,7 +38,22 @@
 
 - <https://juejin.im/entry/58d4df3b5c497d0057eb99ff>
 - <http://www.ruanyifeng.com/blog/2014/10/event-loop.html>
-- 
+
+## var的作用域(Scoping)和变量提升(Hoisting)
+
+- 使用var在函数或全局内任何地方声明变量相当于在其内部最顶上声明它
+- 使用var声明，其变量的作用域就相当于整个函数或全局
+- <https://www.cnblogs.com/polk6/p/js-var.html>
+
+## JS事件的捕获和冒泡(addEventListener第3个参数控制)
+
+- 先捕获，后冒泡，捕获从上到下，冒泡从下到上
+- stopPropagation 停止事件传播
+- preventDefault 阻止默认事件的处理
+- 事件委托(event delegattion)
+  - 一个事件本来是要绑定到某个元素上，然而却绑定到了该元素的父（或祖先）元素上，利用事件冒泡原理，触发执行效果
+  - 提高网页性能
+  - 通过事件委托添加的事件，对后期生成的元素依然有效
 
 ## 浏览器 cookie
 
