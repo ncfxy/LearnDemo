@@ -69,5 +69,18 @@ aws <command> <subcommand> help
 
 ### AWS Lambda
 
-管理函数：环境变量、并发、版本、别名、Layers、Network、Database、标签
+<https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/lambda-invocation.html>
 
+- 管理函数：环境变量、并发、版本、别名、Layers、Network、Database、标签
+  - 并发：
+    - 非预留并发： 默认共享的并发池
+    - 预留并发：独享、其他函数无法阻止该函数扩展、函数不能无节制地扩展
+    - 预置并发： 初始化完成后才会分配请求
+- 函数调用: 同步、异步、事件源映射、状态监控、扩展、错误处理
+  - 异步调用:
+    - 错误处理：最长保留时间、重试次数
+    - 配置调用目标：SQS、SNS、Lambda、EventBridge
+    - 使用死信队列：为失败时的目标的替代，以保存丢弃的事件供进一步处理
+- Lambda运行时：
+  - 支持NodeJs, Ruby, Python, Java, Go, .Net
+  - 可以自定义运行时：有点复杂
