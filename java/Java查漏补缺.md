@@ -1,0 +1,169 @@
+# Java查漏补缺
+
+## 单体架构（Monoliths）
+
+- MyBatis
+  - 原理深度剖析和四大神器讲解
+  - 源码深度剖析
+  - 三大典型类型设计模式深度剖析
+  - 手写MyBatis框架
+  - MyBatis在企业应用实践
+- Spring
+  - Spring最新架构深度剖析和Ioc、AOP核心概念
+  - 源码深度分析
+  - 三大典型设计模式
+  - 手写Ioc初始化和bean创建流程
+  - Spring在企业应用实践
+- Spring MVC
+  - 执行流程分析和六大组件深度剖析
+  - 源码深度分析
+  - 手写框架
+  - SpringMVC在企业应用实践
+
+## 面向服务框架（SOA）
+
+- Nginx
+  - Nginx功能以及应用场景
+  - Nginx架构分析与环境安装
+  - Nginx核心功能深度剖析
+  - Nginx在企业应用实践
+- ZooKeeper
+  - ZooKeeper简介
+  - ZooKeeper应用场景
+  - 从0开始搭建ZooKeeper集群
+  - ZooKeeper源码深度解析
+  - ZooKeeper在企业应用实践
+- Dubbo
+  - Dubbo入门
+  - Dubbo高可用
+  - Dubbo高级应用
+  - Dubbo在企业应用实践
+- 消息中间件
+  - 消息中间件总体结构
+  - Kafka
+  - rocketMQ
+  - ActiveMQ
+  - RabbitMQ
+
+## 微服务框架（Microservices）
+
+- Spring Boot
+  - Spring Boot入门
+  - Actuator监控器
+  - 原理部分
+  - 手写Stater
+  - Spring Boot在企业应用实践
+- Spring Cloud
+  - Spring Cloud入门与介绍
+  - Spring Cloud组件
+    - 微服务中心 Eureka
+    - 声明式REST客户端OpenFeign
+    - Hystrix熔断机制与服务降级
+    - 微服务网关ZUUL
+    - 分布式配置中心Spring Cloud Config
+    - 消息系统整合框架Spring Cloud Stream
+    - Spring Cloud Sleuth + zipkin链路追踪
+    - 监控中心SpringBootAdmin + Turbine
+    - 微服务权限SpringSecurity+OAuth2.0+JWT
+  - Spring Cloud在企业应用实践
+- 反应式Web开发框架WebFlux
+
+## 数据存储和缓存（Storage & Cache）
+
+- MySQL（RDBMS）
+  - MySQL总体架构深度剖析
+  - SQL语法顺序和解析顺序的理解
+  - MySQL架构分析和执行流程分析
+  - 索引
+    - 索引的存储结构
+    - 组合索引使用
+    - 如何查看执行计划
+    - 索引失效分析
+  - 锁和事务篇
+    - MySQL锁的介绍
+    - InnoDB架构分析
+    - InnoDB事务分析
+    - 行锁原理分析
+  - 性能分析篇
+    - 性能分析思路
+    - 慢查询日志分析
+    - 查询计划分析
+    - profile性能分析
+  - 性能优化篇
+    - 服务器层面优化
+    - SQL设计层面优化
+    - SQL语句优化
+  - 主从复制和读写分离集群
+  - 分库分表篇
+    - 分库分表介绍
+    - MyCat实战
+    - ShardingSphere实战
+  - MySQL在企业应用实践
+- Redis（NoSQL）
+  - Redis总体架构深度解析
+  - Redis五种数据类型及使用场景分析
+  - Redis事务分析
+  - Redis持久化原理及性能分析
+  - Redis主从复制
+  - Redis哨兵机制
+  - Redis Cluster集群
+  - Redis和Lua整合
+  - Redis消息整合
+  - 分布式锁
+  - 常见缓存问题
+  - Redis在企业应用实践
+- MongoDB（NoSQL）
+  - MongoDB总体架构深度解析
+  - 原理分析
+  - Spring-data-mongodb使用
+  - 主从集群搭建
+  - 副本集集群搭建
+  - 混合方式集群搭建
+  - MongoDB使用注意事项与案例
+  - MongoDB在企业应用实践
+- ElasticSearch（NoSQL）
+  - ElasticSearch总体架构深度解析
+  - 入门介绍
+  - 整体架构
+  - 工作原理
+  - 数据结构与算法
+  - 环境搭建与应用
+- FastDFS（OSS）
+  - 总体架构深度解析
+  - FastDFS整合Nginx模块原理分析
+  - 合并存储
+  - 图片压缩
+  - FastDFS在企业应用实践
+
+## 线上大规模高并发项目实战
+
+- 项目立项与需求分析
+- 根据需求考虑整体架构
+  - 静态资源处理
+  - 前后端分离
+  - 负载解决方案
+  - 网关层选型
+  - 同步架构VS异步架构
+  - 注册中心选型
+  - MQ选型
+  - rest VS RPC
+  - 数据传输选型
+  - 搜索引擎
+  - SSO实现方式
+  - 分布式锁与分布式事务
+  - NoSQL选型
+  - 关系型数据库选型
+- 项目实现
+  - 高并发处理
+  - 搜索引擎实战
+  - 分布式锁实战
+  - 分布式事务
+  - SSO单点登录
+  - 文件系统实战
+  - 秒杀系统
+- JVM知识图谱概述
+  - JVM基础知识
+  - JVM内存结构
+  - 垃圾回收
+  - JVM优化
+  - JMM与并发
