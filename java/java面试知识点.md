@@ -95,10 +95,10 @@
     继承Thread类，实现Runnable接口，实现callable接口
 15. Java数据结构
     ArrayList、Vector(线程安全的ArrayList)、LinkedList
-    Dequeue、ArrayDequeue、PriorityQueue、ConcurrentLinkedQueue
+    Deque、ArrayDeque、PriorityQueue、ConcurrentLinkedQueue
     BlockingQueue、ArrayBlockingQueue、LinkedBlockingQueue、PriorityBlockingQueue、DelayQueue、SynchronousQueue 
     Set、HashSet、LinkedHashSet、TreeSet
-    Map、HashMap、TreeMap、CurrentHashMap
+    Map、HashMap、TreeMap、CocurrentHashMap、LinkedHashMap
 16. Java 流
     字节流：InputStream、OutputStream
     字符流：Reader、Writer
