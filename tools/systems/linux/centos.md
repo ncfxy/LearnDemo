@@ -19,5 +19,33 @@ CentOS 安装后 network 无法工作
 
 ## 常用软件安装记录
 
-- `yum install epel-release` : 添加epel源，可以安装更多软件
+- `yum install epel-release` : 添加 epel 源，可以安装更多软件
 - `yum install chrony && systemctl enable chronyd.service`: 校准系统时间
+
+## 防火墙设置 firewalld
+
+- <https://www.cnblogs.com/leoxuan/p/8275343.html>
+
+## mysql 常用命令
+
+- 安装：yum install mysql
+- 安装：yum install mysql-server
+- 启动：systemctl start mysqld (stop, restart, status)
+- 连接：mysql -uroot -p -h127.0.0.1 -P3306
+- 常用操作指令：
+  - show databases;
+  - use `databaseName`;
+  - create database `databaseName` default character set utf8 collate utf8_general_ci
+  - drop database `databaseName`
+  - show tables;
+  - create table `tableName` (id int primary key not null auto_increment, name varchar(30));
+  - desc `tableName`;
+  - 删除表中所有数据: truncate table `tableName`
+  - drop table `tableName`;
+- 用户权限：<https://www.cnblogs.com/shangping/p/10889777.html>
+  - flush privileges;
+  - create user "用户名"@"IP地址" identified by "密码";
+  - drop user "用户名"@"IP地址"
+  - set password='new_password';
+  - 也可以直接修改mysql.user表
+  - grant 权限列表  on 库名.表名 to 用户名@'客户端主机'  [identified by '密码'  with参数];
