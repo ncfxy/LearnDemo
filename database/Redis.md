@@ -101,6 +101,7 @@ Amazon 文档<https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/red-ug/
   - RDB 冷备，周期性保存
   - AOF 热备，每条都写日志
   - 哨兵： 集群监控、消息通知、故障转移、配置中心
+    - 至少3个组成集群
   - 主从复制：读写分离、通过 RDB 第一次复制，随后增量复制
   - 内存淘汰：定期删除、惰性删除
 
@@ -138,5 +139,4 @@ Amazon 文档<https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/red-ug/
 - 恶意请求拦截：在网关层就进行拦截
 - 资源静态化：能放CDN的都放在CDN
 - 前后端限流：前端按钮，防止过快发送， 后端直接return false
-- 
 - 限流、降级、熔断、隔离
