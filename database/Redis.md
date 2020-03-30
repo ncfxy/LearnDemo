@@ -4,6 +4,7 @@
 
 ## Config 文件阅读
 
+- <http://download.redis.io/redis-stable/redis.conf>
 - RDB 持久化
 - 主从复制设置
 - Master 选取优先级
@@ -16,6 +17,7 @@
 
 - <https://redis.io/topics/data-types>
 - String, List, Hash, Set, SortedSet, HyperLogLog
+- 不支持嵌套
 
 ## 命令<https://redis.io/commands>
 
@@ -24,6 +26,7 @@
 | SET key value                                 | 存储数据                       | OK                       |
 | GET key                                       | 获取数据                       | value or nil             |
 | EXISTS key                                    | 是否存在某个 key               | 1 or 0                   |
+| TYPE key                                      | 当前 key 的数据类型            |                          |
 | INCR key                                      | increase one for value         | result                   |
 | INCRBY key number                             | increase number for value      | result                   |
 | DECR key                                      | decrease one for value         | result                   |
@@ -68,6 +71,7 @@ Amazon 文档<https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/red-ug/
 | 持久化   | 可以将数据保存到磁盘               |                                  |
 | 速度     | Redis 更快                         |                                  |
 | 线程数   | 单线程的 IO 复用模型               | 多线程，非阻塞 IO 复用的网络模型 |
+| 事务     | 支持                               | 不支持                           |
 
 ## Redis 文章阅读笔记
 
@@ -101,7 +105,7 @@ Amazon 文档<https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/red-ug/
   - RDB 冷备，周期性保存
   - AOF 热备，每条都写日志
   - 哨兵： 集群监控、消息通知、故障转移、配置中心
-    - 至少3个组成集群
+    - 至少 3 个组成集群
   - 主从复制：读写分离、通过 RDB 第一次复制，随后增量复制
   - 内存淘汰：定期删除、惰性删除
 
@@ -127,16 +131,16 @@ Amazon 文档<https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/red-ug/
 ### 布隆过滤器
 
 - 判断不在一定不在，判断在不一定在
-- 计算hash值之后，或到一个大的bitmap中去
+- 计算 hash 值之后，或到一个大的 bitmap 中去
 
 ### 秒杀系统设计
 
 - 考虑的点：高并发、超卖、恶意请求、前端链接暴露、数据库（降级限流熔断）
 - 服务单一职责：独立一套系统来支持
-- 链接动态化：使用加密支付串做URL
-- Redis集群、主从复制、读写分离、哨兵、持久化
-- 使用nginx做负载均衡
+- 链接动态化：使用加密支付串做 URL
+- Redis 集群、主从复制、读写分离、哨兵、持久化
+- 使用 nginx 做负载均衡
 - 恶意请求拦截：在网关层就进行拦截
-- 资源静态化：能放CDN的都放在CDN
-- 前后端限流：前端按钮，防止过快发送， 后端直接return false
+- 资源静态化：能放 CDN 的都放在 CDN
+- 前后端限流：前端按钮，防止过快发送， 后端直接 return false
 - 限流、降级、熔断、隔离
