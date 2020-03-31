@@ -71,3 +71,20 @@
     }
     main();
 }());
+(function(){
+    function loadMermaidIfNeeded() {
+        var mermaidElements = document.getElementsByClassName('mermaid');
+        if(mermaidElements.length > 0) {
+            mermaidScript = document.createElement('script');
+            mermaidScript.src = 'https://unpkg.com/mermaid@7.1.0/dist/mermaid.min.js';
+            mermaidScript.type = 'text/javascript';
+            mermaidScript.defer = true;
+            document.head.append(mermaidScript);
+            mermaidScript.onload = function() {
+                mermaid.initialize({startOnLoad: true, theme: 'forest'});
+                mermaid.init();
+            }
+        }
+    }
+    loadMermaidIfNeeded();
+}())
