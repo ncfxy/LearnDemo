@@ -73,3 +73,26 @@
   - Get 获取、Post 新建、Put 更新、Delete 删除
 - 客户端与服务端之间的交互在请求之间是无状态的
 - 客户端和服务器之间，传递这种资源的某种表现层
+
+### HTTP 2.0
+
+- HTTP 1.1回顾
+  - 一个客户端最多只能对同一主机建立有限个TCP连接
+  - 未能完全发挥TCP的所有性能
+  - 目前传输资源的大小和数量都在不断增长
+  - 对网络延迟很敏感：需要顺序处理
+  - 线头阻塞(Head-of-line blocking)：排队or新起队列，没有被广泛使用
+  - 以前的优化方案
+    - Spriting: 图片合并成一张
+    - 内联(Inlining): `background: url(data:image/png;base64,<data>) no-repeat;`
+    - 拼接(Concatenation): Js合并成一个
+    - 分片(Sharding): 服务分散到多台主机，可以建立更多TCP连接
+- HTTP 2.0特点
+  - 二进制传输：通过二进制分帧层，将信息分割为更小的消息和帧，跟便于TCP传输
+  - 多路复用的流：分帧之后的流数据包共用一个连接传输
+  - 优先级和依赖性：识别哪个流更重要，以及流之间的依赖性
+  - 头压缩：HPACK算法进行头部压缩
+  - 服务器推送：服务器主动推送客户端可能需要的资源
+- refs:
+  - <https://www.zhihu.com/question/34074946>
+  - <https://legacy.gitbook.com/book/ye11ow/http2-explained/details>
