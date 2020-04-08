@@ -66,13 +66,13 @@
 
 ### Restful
 
-<http://www.ruanyifeng.com/blog/2011/09/restful.html>
-
 - 每个 URI 代表一种资源
 - 客户端通过四个 HTTP 动词，对服务器端资源进行操作，实现"表现层状态转化"
   - Get 获取、Post 新建、Put 更新、Delete 删除
 - 客户端与服务端之间的交互在请求之间是无状态的
 - 客户端和服务器之间，传递这种资源的某种表现层
+- <http://www.ruanyifeng.com/blog/2011/09/restful.html>
+- <https://blog.csdn.net/kebi007/article/details/102927209>
 
 ### HTTP 2.0
 
