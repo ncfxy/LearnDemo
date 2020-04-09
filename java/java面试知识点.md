@@ -73,6 +73,9 @@
     扩展类加载器（Extension ClassLoader）
     应用程序类加载器（Application ClassLoader）
     自定义类加载器（User ClassLoader）
+    双亲委派模型：
+      除了顶层的启动类加载器外，其余的类加载器都应当有自己的父类加载器
+      先父加载器加载，再子加载器加载
 10. Java线程池 Executors （https://www.cnblogs.com/CarpenterLee/p/9558026.html）
     newFixedThreadPool(int nThreads)	创建固定大小的线程池
     newSingleThreadExecutor()	创建只有一个线程的线程池
@@ -108,7 +111,6 @@
     继承Serializable接口
     ObjectOutputStream writeObject readObject
     序列化成JSON： Gson、Jackson
-
-
+    
 
     
