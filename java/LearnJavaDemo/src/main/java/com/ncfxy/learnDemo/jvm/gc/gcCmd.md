@@ -1,6 +1,6 @@
 # GC相关命令
 
-##JVM的GC日志的主要参数包括如下几个：
+## JVM的GC日志的主要参数包括如下几个：
 
 -XX:+PrintGC 输出GC日志
 
@@ -15,18 +15,21 @@
 -Xloggc:../logs/gc.log 日志文件的输出路径
 
 ## 判断对象是否存活
+
 - 引用记数法，简单，但是无法判断循环引用  
 - 可达性分析，主流商用
 
 ## 内存分析
 
 ### JVM自带内存分析工具
-- jps
-- jstat
-- jmap
-- jhat
-- jstack
-- jinfo
+
+- jps: 列出正在运行的JVM进程
+- jstat: 虚拟机运行时状态信息
+- jmap: 用于生成heap dump文件
+- jhat: 与jmap搭配使用，用来分析jmap生成的dump
+- jstack: 用于生成java虚拟机当前时刻的线程快照
+- jinfo: 实时查看和调整虚拟机运行参数
+- jcmd: 1.7之后提供的一个多功能的命令行工具 <https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr006.html>
 - 可视化
   - jconsole
   - jvisualvm
