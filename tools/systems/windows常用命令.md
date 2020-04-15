@@ -72,4 +72,5 @@
         linkEle.style.display = 'block';
         parentNode.appendChild(linkEle);
     }
+    generateDownloadLinks();
 </script>
