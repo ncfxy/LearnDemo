@@ -6,7 +6,7 @@
 
 ## [数据库](/database/database.md)
 
-**关键词**：ACID、脏读、不可重复读、幻读、四种隔离级别
+**关键词**：ACID、脏读、不可重复读、幻读、四种隔离级别、MySQL、NoSQL
 
 ## [C&C++](/c_plus_plus/CPlusPlus.md)
 
@@ -27,3 +27,7 @@
 ## [前端技术](/front/front.md)
 
 **关键词**: HTML、 CSS
+
+## [工具](/tools/tools.md)
+
+**关键词**: git, maven, gradle, markdown, vscode, windows, linux
