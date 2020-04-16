@@ -1,15 +1,15 @@
 # Tools
 
-## [git](/tools/git/git.md)
+## [git](./git/git.md)
 
-## [maven](/tools/maven/maven.md)
+## [maven](./maven/maven.md)
 
-## [gradle](/tools/gradle/gradle.md)
+## [gradle](./gradle/gradle.md)
 
-## [markdown](/tools/markdown/markdown.md)
+## [markdown](./markdown/markdown.md)
 
-## [vscode](/tools/vscode/vscode.md)
+## [vscode](./vscode/vscode.md)
 
-## [windows](/tools/systems/windows常用命令.md)
+## [windows](./systems/windows常用命令.md)
 
-## [linux](/tools/systems/linux/linux.md)
+## [linux](./systems/linux/linux.md)
