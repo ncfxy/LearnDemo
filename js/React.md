@@ -40,8 +40,8 @@ React 生命周期图 16.4+: <http://projects.wojtekmaj.pl/react-lifecycle-metho
 
 | 工具               | 说明                         | 官网                                               |
 | ------------------ | ---------------------------- | -------------------------------------------------- |
-| React Styleguidist | React 独立开发及文档生成工具 | https://github.com/styleguidist/react-styleguidist |
-| Story Book         | React 独立开发及文档生成工具 | https://storybook.js.org/                          |
+| React Styleguidist | React 独立开发及文档生成工具 | <https://github.com/styleguidist/react-styleguidist> |
+| Story Book         | React 独立开发及文档生成工具 | <https://storybook.js.org/>                          |
 
 ## React 中实现 Memoize(记忆化)
 
