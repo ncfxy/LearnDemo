@@ -29,9 +29,20 @@
 
     type null > .gitkeep     生成.gitkeep文件
 
-## git commit 提交辅助工具
+## git commit 提交
+
+| 类型     | 作用                                              |
+| -------- | ------------------------------------------------- |
+| feat     | 新功能（feature）                                 |
+| fix      | 修补 bug                                          |
+| docs     | 文档（documentation）                             |
+| style    | 格式（不影响代码运行的变动）                      |
+| refactor | 重构（即不是新增功能，也不是修改 bug 的代码变动） |
+| test     | 增加测试                                          |
+| chore    | 构建过程或辅助工具的变动                          |
 
 commitizen: <https://github.com/commitizen/cz-cli>
+commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html>
 
 ## 混迹 Github
 
