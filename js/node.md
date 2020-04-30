@@ -23,6 +23,7 @@ var promise = import(module-name);
 - dependencies: 项目中用到的依赖
 - devDependencies: 项目开发时使用到的依赖
 - peerDependencies: 前置依赖，推荐依赖本项目的项目安装这些依赖
+- How npm3 works: <https://npm.github.io/how-npm-works-docs/npm3/how-npm3-works.html>
 
 ## 依赖管理工具
 
