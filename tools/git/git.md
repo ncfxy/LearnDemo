@@ -25,6 +25,17 @@
     git config --global http.proxy http://127.0.0.1:8088
     git config --global https.proxy https://127.0.0.1:8088
 
+## 设置账户和邮箱
+
+```shell
+// 全局设置
+git config --global user.name "yourname"
+git config --global user.email "mygitlab@mali.cn"
+// 为单个repository设置
+git config user.name "yougithubname"
+git config user.email "mygithubemail@mail.com"
+```
+
 ## 一些技巧
 
     type null > .gitkeep     生成.gitkeep文件
