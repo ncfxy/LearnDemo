@@ -104,6 +104,11 @@
     ```
   - sync.Mutex: 标准库中提供的互斥锁
 
+
+## Other Tips I Meet
+
+- struct中可以嵌套其他的struct，名字默认使用struct的名字
+
 * `fmt.Printf("Hello, %s\n", "World")`
 * `ftm.Stringer`
 * `io.Writer`
