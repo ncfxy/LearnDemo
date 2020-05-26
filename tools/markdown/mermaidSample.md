@@ -77,3 +77,5 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
+
+Live Editor: <https://mermaid-js.github.io/mermaid-live-editor>
