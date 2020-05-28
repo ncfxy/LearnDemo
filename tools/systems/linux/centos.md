@@ -49,3 +49,4 @@ CentOS 安装后 network 无法工作
   - set password='new_password';
   - 也可以直接修改mysql.user表
   - grant 权限列表  on 库名.表名 to 用户名@'客户端主机'  [identified by '密码'  with参数];
+  - grant ALL ON *.* to 用户名@'%' identified by ‘mima' 
