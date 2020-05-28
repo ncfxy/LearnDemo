@@ -17,3 +17,13 @@
 
 - 终端复用，用在在用ssh登陆远程计算机是保存会话
 - <https://www.ruanyifeng.com/blog/2019/10/tmux.html>
+- 常用命令
+  - 默认新建： `tmux`
+  - 列出会话： `tmux ls`
+  - 起名新建： `tmux new -s <session-name>`
+  - 离开会话： `tmux detach` or `ctrl+b d`
+  - 接入会话： `tmux attach -t <session-name>`
+  - 杀死会话： `tmux kill-session -t <session-name>`
+  - 切换会话： `tmux switch -t <session-name>`
+  - 重命名话： `tmux rename-session -t old new`
+  - 汇总：`ls new detach attach kill-session switch rename-session`
