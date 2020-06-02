@@ -23,3 +23,12 @@ FROM 表名称
 [ HAVING search_condition ] 
 [ ORDER BY order_expression [ ASC | DESC ] ]
 ```
+
+## 主从复制
+
+- 两种复制方式：基于binlog和基于GTID（全局事务标示符）
+- [深入解析 MySQL binlog](https://zhuanlan.zhihu.com/p/33504555)
+
+## Books
+
+- [高性能MySQL](../readingnotes/高性能MySQL.md)
