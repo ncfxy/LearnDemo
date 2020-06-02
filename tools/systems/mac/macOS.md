@@ -26,3 +26,24 @@
 - 中英文切换键 = CapsLock键
 - 永久切换大小写：长按CapsLock
 - 显示隐藏文件夹：Command + Shift + .
+
+### 快捷键记录
+
+- Command + Tab： 在app之间切换
+- Command + ~: 在app的多个实例间切换
+
+## 我的常用软件
+
+- 欧陆词典
+  - option + 空格： 快速搜素
+- 搜狗输入法
+  - Shift: 切换小写英文和中文
+  - Caps: 切换大写英文和中文
+- 网易云音乐
+- 飞书
+- Seal
+- Zoom
+- MySQLWorkbench
+- idea Toolbox
+- Chrome
+
