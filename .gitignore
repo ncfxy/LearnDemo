@@ -9,3 +9,6 @@ java/learnJavaDemo/target
 js/vueDemo/node_modules
 
 node_modules
+
+# hide file in macOS
+.DS_Store
