@@ -39,6 +39,7 @@ git config user.email "mygithubemail@mail.com"
 ## 一些技巧
 
     type null > .gitkeep     生成.gitkeep文件
+    git rebase -i --root     删除第一个commit
 
 ## git commit 提交
 
