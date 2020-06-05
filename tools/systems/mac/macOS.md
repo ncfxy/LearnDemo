@@ -12,6 +12,8 @@
   - 更新：brew install SoftwareName
   - 卸载：brew remove SoftwareName
   - 查看已安装软件列表：brew list
+- 活动管理器：查看CPU、内存、磁盘、网络
+- iStat：查看温度 `gem install iStats` `istats`
 
 ## Mac常用功能
 
