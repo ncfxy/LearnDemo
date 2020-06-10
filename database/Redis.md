@@ -27,6 +27,7 @@
 | SET key value                                 | 存储数据                       | OK                       |
 | GET key                                       | 获取数据                       | value or nil             |
 | EXISTS key                                    | 是否存在某个 key               | 1 or 0                   |
+| DEL key                                       | 删除某个 key                   | 1 or 0                   |
 | TYPE key                                      | 当前 key 的数据类型            |                          |
 | INCR key                                      | increase one for value         | result                   |
 | INCRBY key number                             | increase number for value      | result                   |
