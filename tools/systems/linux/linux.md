@@ -15,7 +15,7 @@
 
 ### Tmux
 
-- 终端复用，用在在用ssh登陆远程计算机是保存会话
+- 终端复用，用在在用 ssh 登陆远程计算机是保存会话
 - <https://www.ruanyifeng.com/blog/2019/10/tmux.html>
 - 常用命令
   - 默认新建： `tmux`
@@ -27,3 +27,12 @@
   - 切换会话： `tmux switch -t <session-name>`
   - 重命名话： `tmux rename-session -t old new`
   - 汇总：`ls new detach attach kill-session switch rename-session`
+
+## Linux & Mac 目录规范
+
+| 目录             | 作用               | Windows 对应          |
+| ---------------- | ------------------ | --------------------- |
+| `/usr`           | 系统级目录         | `C:/Windows/`         |
+| `/usr/lib`       | 系统依赖 library   | `C:/Windows/System32` |
+| `/usr/local`     | 用户级程序目录     | `C:/Program Files`    |
+| `/usr/local/opt` | 可选软件的安装目录 | `D:/Software`         |
