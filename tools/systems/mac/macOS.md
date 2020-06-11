@@ -12,6 +12,8 @@
   - 更新：brew install SoftwareName
   - 卸载：brew remove SoftwareName
   - 查看已安装软件列表：brew list
+  - 启动服务：brew services start SoftwareName
+  - 软件安装到/usr/local/Cellar下边，然后链接到/usr/local
 - 活动管理器：查看CPU、内存、磁盘、网络
 - iStat：查看温度 `gem install iStats` `istats`
 
