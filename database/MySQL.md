@@ -24,6 +24,21 @@ FROM 表名称
 [ ORDER BY order_expression [ ASC | DESC ] ]
 ```
 
+## 配置
+
+- `mysql --help | grep 'my.cnf'` 看mysql会从哪些位置读取my.cnf
+```yaml
+[mysqld]
+# Only allow connections from localhost
+#bind-address = 127.0.0.1
+bind-address = 0.0.0.0
+
+#log_bin
+log-bin = mysql-bin # 开启binlog
+binlog-format = ROW # 选择row模式
+server_id = 1 # 配置mysql replication需要定义，主从之间的不能相同
+```
+
 ## 主从复制
 
 - 两种复制方式：基于binlog和基于GTID（全局事务标示符）
@@ -53,3 +68,8 @@ FROM 表名称
   - 也可以直接修改mysql.user表
   - grant 权限列表  on 库名.表名 to 用户名@'客户端主机'  [identified by '密码'  with参数];
   - grant ALL ON *.* to 用户名@'%' identified by ‘mima' 
+- MySQL设置相关
+  - show variables [like %xxx%];
+  - show binary logs; # 查看binlog文件列表
+  - show master status; # 查看当前日志文件状态
+  - reset master; # 清空binlog日志文件
