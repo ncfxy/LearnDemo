@@ -19,3 +19,5 @@
 
 - <https://www.docker.com/>
 - <https://hub.docker.com/>
+
+- 设置国内镜像: <https://blog.csdn.net/u012081441/article/details/104553145/>
