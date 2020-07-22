@@ -20,6 +20,10 @@
     git reset
     git log
 
+## Git其他好用的命令
+
+- `git grep`
+
 ## 设置代理服务器
 
     git config --global http.proxy http://127.0.0.1:8088
