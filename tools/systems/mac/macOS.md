@@ -51,3 +51,6 @@
 - idea Toolbox
 - Chrome
 
+## MacCli 设置
+
+- MacOS终端CLI添加颜色：<https://zhuanlan.zhihu.com/p/60880207>
