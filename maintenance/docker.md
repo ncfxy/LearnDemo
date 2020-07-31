@@ -15,6 +15,11 @@
 | `docker stop [OPTIONS] CONTAINER [CONTAINER...]`  | 停止一个 container       |
 | `docker start [OPTIONS] CONTAINER [CONTAINER...]` | 启动一个 container       |
 
+### Examples
+
+- <https://www.runoob.com/docker/docker-container-usage.html>
+- `docker run -it centos /bin/bash`: 启动并已命令号默认进入容器
+
 ## docker 官网
 
 - <https://www.docker.com/>
