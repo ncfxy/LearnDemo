@@ -7,6 +7,7 @@
 | git desktop     | git 管理软件                  | <https://desktop.github.com/>               |      |
 | source tree     | git 管理软件                  | <https://www.sourcetreeapp.com/>            |      |
 | fiddler         | 网站开发 debug 工具           | <https://www.telerik.com/fiddler>           |      |
+| Charles         | 流行的抓包调试(全平台支持)    | <https://www.charlesproxy.com/>             |      |
 | shadowsocks     | 代理工具                      | <https://shadowsocks.org/en/index.html>     |      |
 | gifcam          | 录制 gif 工具                 |                                             |      |
 | GIMP            | 开源图像处理软件              | <https://www.gimp.org/>                     |      |
