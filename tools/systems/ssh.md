@@ -5,6 +5,8 @@
 
 ## 服务端配置
 
+- `~/.ssh/authorized_keys`
+
 
 ## 客户端配置
 
