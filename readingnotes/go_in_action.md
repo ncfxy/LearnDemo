@@ -69,7 +69,7 @@
   - `slice := make([]int, 3, 5)`
   - `slice := []int{10,20,30}`
   - `slice := []string{99:""}`
-  - `var slice []int (nil)`
+  - `var slice []int` (nil)
   - `slice := make([]int, 0)`, `slice := []int{}`  (空切片)
   - 不同切片可以共享同一数组
   - 使用append扩展切片
@@ -158,7 +158,7 @@
 - 管理可复用的资源池
 - 创建可以处理任务的goroutine池
 - runner:
-  - 程序可以再分配的时间内完成工作，正常终止
+  - 程序可以在分配的时间内完成工作，正常终止
   - 程序没有在规定时间完成工作，自杀
   - 接收到操作系统的中断事件，程序立刻试图清理状态并停止工作
 - pool:
@@ -174,11 +174,11 @@
   - log.Logger定制日志记录器
   - ioutil.Discard, os.Stdout, os.Stderr, io.MultiWriter
 - 编码/解码
-  - json结构体的定义 `json:"url"`
+  - json结构体的定义: \`json:"url"\`
   - `json.NewDecoder(reader).Decode(&obj)`
   - 字符串直接解码: `json.Unmarshal([]byte(JSON), &obj)`
   - 无法定义结构时，可以解码到map中
-  - 编码： json.Marshal(), json.MarshalIndent()
+  - 编码： `json.Marshal()`, `json.MarshalIndent()`
 - 输入和输出
   - io.Write接口和io.Reader接口
   - io.Write规则
@@ -193,4 +193,18 @@
 
 ## 9. 测试和性能
 
+- 基础测试
+  - 文件以_test结尾 | 函数以Test开头 | 接收 `(t *testing.T)`参数
+  - `go test -v`
+- 表组测试
+  - 接受一组不同输入并产生不同输出
+  - httptest模拟网络调用
+  - httptest模拟请求测试服务节点
+  - `go test -v -run=....`支持用正则表达式匹配特定的函数
+  - Example+已有函数 -> 在文档中生成代码示例
+- 基准测试
+  - 测试代码性能
+  - 文件以_test结尾 | 函数以Benchmark开头 | 接收 `(b *testing.B)`参数
+  - `go test -v -run="none" -bench="BenchmarkSprintf"`
+  - benchtime & benchmem 参数
 
