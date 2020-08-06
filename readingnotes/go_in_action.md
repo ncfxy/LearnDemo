@@ -61,7 +61,7 @@
   - `array := [...]int{10,20,30,40,50}`
   - `array := [5]int{1: 10, 2:20}`
   - `var array [4][2]int`
-  - `array := [4][2]int{{10,11}, {20,21}, {30,31},{40,41}}`
+  - `array := [4][2]int{ {10,11}, {20,21}, {30,31},{40,41} }`
   - `array := [4][2]int{1:{20,21}, 3:{40,41}}`
 - 切片
   - 长度(len)、容量(cap)
@@ -144,6 +144,53 @@
     - atomic.LoadInt64, atomic.StoreInt64
     - var mutex sync.Mutex, Lock, Unlock
   - 通道：
-    - 无缓冲: unbuffered := make(chan int)
-    - 有缓冲: buffered := make(chan string, 10)
+    - 无缓冲(保证同时): unbuffered := make(chan int)
+    - 有缓冲(不保证同时): buffered := make(chan string, 10)
+    - 发送: buffered <- "abc"
+    - 接收: name := <- buffered
+    - 无缓冲通道例子: 模拟网球，模拟接力赛
+    - 有缓冲通道例子: 
+      - 通道关闭后依然可以接收数据，但是不能发送数据
+
+## 7. 并发模式
+
+- 控制程序的生命周期
+- 管理可复用的资源池
+- 创建可以处理任务的goroutine池
+- runner:
+  - 程序可以再分配的时间内完成工作，正常终止
+  - 程序没有在规定时间完成工作，自杀
+  - 接收到操作系统的中断事件，程序立刻试图清理状态并停止工作
+- pool:
+  - 有缓冲通道管理一组可复用的资源
+- work:
+  - 无缓冲通道来创建一个goroutine池
+
+## 8. 标准库
+
+- Go 标准库列表: <https://golang.org/pkg/>
+- log包：
+  - Ldata | Ltime | Llongfile 等使用iota的声明方法， 使用在SetFlags
+  - log.Logger定制日志记录器
+  - ioutil.Discard, os.Stdout, os.Stderr, io.MultiWriter
+- 编码/解码
+  - json结构体的定义 `json:"url"`
+  - `json.NewDecoder(reader).Decode(&obj)`
+  - 字符串直接解码: `json.Unmarshal([]byte(JSON), &obj)`
+  - 无法定义结构时，可以解码到map中
+  - 编码： json.Marshal(), json.MarshalIndent()
+- 输入和输出
+  - io.Write接口和io.Reader接口
+  - io.Write规则
+    - 写入的字节数 n < len(p)时必须要返回非nil的err
+    - Write绝不能修改切片里的数据
+  - io.Read规则
+    - 允许读入的字节数 n < len(p) 出现
+    - 处理EOF: 可以在本次返回(n, err=EOF)， 或者下次读取时返回(0, err=EOF)
+    - 调用者总是应该先处理读入的数据，在处理err
+    - 不要返回(0, nil)，如果是0的话要返回非nil的err
+
+
+## 9. 测试和性能
+
 
