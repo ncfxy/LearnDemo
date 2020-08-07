@@ -73,3 +73,10 @@ server_id = 1 # 配置mysql replication需要定义，主从之间的不能相�
   - show binary logs; # 查看binlog文件列表
   - show master status; # 查看当前日志文件状态
   - reset master; # 清空binlog日志文件
+  - show slave status;
+  - start slave;  # 启动复制
+
+## Data Source Name
+
+- dsn: `<driver>://<username>:<password>@<host>:<port>/<database>`
+- 附加参数: `?charset=utf8mb4&parseTime=true`
