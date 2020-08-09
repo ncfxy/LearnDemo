@@ -109,13 +109,19 @@
 
 - struct中可以嵌套其他的struct，名字默认使用struct的名字
 
-* `fmt.Printf("Hello, %s\n", "World")`
-* `ftm.Stringer`
-* `io.Writer`
-* `io.MultiWriter`
-* `hex.Dumper`
-* `json.Marshal()`
-* `json.MarshalIndent()`
+- `fmt.Printf("Hello, %s\n", "World")`
+- `ftm.Stringer`
+- `io.Writer`
+- `io.MultiWriter`
+- `hex.Dumper`
+- `json.Marshal()`
+- `json.MarshalIndent()`
+
+## Go 代理配置
+
+- `go env -w GO111MODULE=on`
+- `go env -w GOPROXY=https://goproxy.cn,direct`
+- `go env -w GOPROXY=https://proxy.golang.org,direct`
 
 <details>
 <summary>Code Snippets</summary>
