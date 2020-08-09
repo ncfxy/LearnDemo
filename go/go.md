@@ -123,4 +123,4 @@
 - `go env -w GOPROXY=https://goproxy.cn,direct`
 - `go env -w GOPROXY=https://proxy.golang.org,direct`
 
-
+## [Go常用代码段](/go/go_snippets.md)
