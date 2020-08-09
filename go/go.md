@@ -123,12 +123,4 @@
 - `go env -w GOPROXY=https://goproxy.cn,direct`
 - `go env -w GOPROXY=https://proxy.golang.org,direct`
 
-<details>
-<summary>Code Snippets</summary>
 
-# QQQ
-
-- abc
-- def
-
-</details>
