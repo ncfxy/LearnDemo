@@ -51,6 +51,10 @@
   - 复制一个单词: yw
   - set hlsearch 和 incsearch
   - 查找忽略大小写: set ic
+- 第七讲
+  - 帮助: `:help w`
+  - 配置: edit ~/.vimrc, :help vimrc-intro 
+	- 命令自动补全: Tab 或者 CTRL-D
 
 ## 其他用的命令
 
@@ -59,15 +63,15 @@
 ## 常用配置
 
 - vim ~/.vimrc
-- set nu          "显示行号 
-- set tabstop=4   "设定tab长度为4
-- syntax on       "自动语法高亮
-- set ruler       "打开状态栏标尺
-- set cursorline  "突出显示当前行
-- set incsearch   "输入时高亮显示被找到的文本
-- set hlsearch    "搜索时高亮
-- set autoindent  "继承上一行缩进
-- set shiftwidth  "行之间交错使用4个空格
-- set syntax=cpp  "设置使用的语法高亮形式
+- set nu          	"显示行号 
+- set tabstop=4   	"设定tab长度为4
+- syntax on       	"自动语法高亮
+- set ruler       	"打开状态栏标尺
+- set cursorline  	"突出显示当前行
+- set incsearch   	"输入时高亮显示被找到的文本
+- set hlsearch    	"搜索时高亮
+- set autoindent  	"继承上一行缩进
+- set shiftwidth=4  "行之间交错使用4个空格
+- set syntax=cpp 		"设置使用的语法高亮形式
 
 
