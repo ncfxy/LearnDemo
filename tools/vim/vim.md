@@ -52,7 +52,9 @@
   - set hlsearch 和 incsearch
   - 查找忽略大小写: set ic
 
+## 其他用的命令
 
+- 缩进行: `:10,20>`
 
 ## 常用配置
 
