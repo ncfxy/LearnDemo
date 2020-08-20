@@ -73,6 +73,7 @@ set incsearch   	  "输入时高亮显示被找到的文本
 set hlsearch    	  "搜索时高亮
 set autoindent  	  "继承上一行缩进
 set shiftwidth=4    "行之间交错使用4个空格
+set expandtab       "使用空格代替tab
 set syntax=cpp 		  "设置使用的语法高亮形式
 ```
 
