@@ -18,6 +18,7 @@
 | Quokka              | 编写时实时监测变量              | <https://quokkajs.com/>                                                           |
 | hexdump for VSCode  | 查看文件的二进制                | <https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-hexdump>    |
 | Prettier            | 代码格式化工具                  | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>      |
+| Code Runner         | 直接运行代码段                  | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>   |
 
 ## VS Code Online
 
