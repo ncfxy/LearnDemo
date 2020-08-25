@@ -95,8 +95,10 @@ hasattr(s, 'init')                      # True
 callable(getattr(s, 'init', None))            # True
 
 # 特殊函数
-__init__()                              # 构造函数
-__del()                                 # 析构函数
+__init__()                 # 对象初始化方法
+__del__()                  # 析构函数
+__new__()                  # 创建对象时候执行的方法，单列模式会用到
+__str__()                  # 当使用print输出对象的时候调用
 
 # 元素集合
 __len__(self)
