@@ -75,7 +75,7 @@
   - 使用append扩展切片
     - 如果底层数组有空间使用底层数组
     - 底层数组没有足够容量，创建新的底层数组
-  - `slice[i,j,k]` 长度j-i, 容量k-i
+  - `slice[i:j:k]` 长度j-i, 容量k-i
   - range的用法: `for index, value := range slice{}`
     - 创建了每个元素的副本，而不是对该元素的引用
   - 多维切片: `slice := [][]int{ {10}, {100,200} }`
