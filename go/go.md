@@ -124,3 +124,8 @@
 - `go env -w GOPROXY=https://proxy.golang.org,direct`
 
 ## [Go常用代码段](./go_snippets.md)
+
+## 其他
+
+- Golang中JSON的使用小技巧: <http://jsoniter.com/go-tips.cn.html>
+
