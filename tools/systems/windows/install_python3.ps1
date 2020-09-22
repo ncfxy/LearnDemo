@@ -7,12 +7,12 @@ $ncfxyInstallDir = [Environment]::GetEnvironmentVariable('ncfxyInstallDir','User
 if (![System.IO.Directory]::Exists($ncfxyDownLoadDir)) {[void][System.IO.Directory]::CreateDirectory($ncfxyDownLoadDir)}
 if (![System.IO.Directory]::Exists($ncfxyInstallDir)) {[void][System.IO.Directory]::CreateDirectory($ncfxyInstallDir)}
 
-$url = 'https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe'
-$downloadFilePath = $ncfxyDownLoadDir + 'python-3.7.4-amd64.exe'
+$url = 'https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe'
+$downloadFilePath = $ncfxyDownLoadDir + 'python-3.8.5-amd64.exe'
 downloadFile $url $downloadFilePath
-$installDir = $ncfxyInstallDir + 'python3.7.4'
+$installDir = $ncfxyInstallDir + 'python3.8.5'
 $installArgument = 'TargetDir=' + $installDir
-"Start installing python-3.7.4-amd64.exe" 
+"Start installing python-3.8.5-amd64.exe" 
 $process = Start-Process $downloadFilePath -ArgumentList '/S',$installArgument -PassThru
 $process.WaitForExit()
-"Finish installing python-3.7.4-amd64.exe" 
+"Finish installing python-3.8.5-amd64.exe" 
