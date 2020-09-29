@@ -129,3 +129,6 @@
 
 - Golang中JSON的使用小技巧: <http://jsoniter.com/go-tips.cn.html>
 
+## 编码规范
+
+- Uber Go 语言编码规范: <https://github.com/xxjwxc/uber_go_guide_cn>
