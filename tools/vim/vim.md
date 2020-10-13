@@ -77,4 +77,6 @@ set expandtab       "使用空格代替tab
 set syntax=cpp 		  "设置使用的语法高亮形式
 ```
 
+# Vim其他学习资料
 
+- vim 从入门到精通: <https://github.com/wsdjeg/vim-galore-zh_cn>
