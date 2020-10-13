@@ -48,13 +48,30 @@
         var style = document.createElement('style');
         document.head.append(style);
         style.appendChild(document.createTextNode(css));
+        document.onscroll = function(){
+           refs = document.getElementsByClassName('ncfxy-content-generator')
+           for (var i = 0;i < refs.length;i++){
+               refs[i].style.backgroundColor = 'transparent'
+           }
+           var nodeList = getNodeList();
+           var i = 0;
+           for (i = 0;i < nodeList.length;i++) {
+               if (nodeList[i].offsetTop + 10 > window.scrollY) {
+                   break;
+               }
+           }
+           if (i >= nodeList.length)i = nodeList.length - 1;
+           var refId = nodeList[i].id + '-ref'
+           var view = document.getElementById(refId)
+           view.style.backgroundColor = 'beige'
+        }
     }
 
     function generateContentHTMLStr() {
         var nodeList = getNodeList();
         var result = '';
         nodeList.forEach(function (ele) {
-            result += '<div class="ncfxy-content-generator-' + ele.tagName + '"><a href="#' + ele.id + '">'
+            result += '<div class="ncfxy-content-generator ncfxy-content-generator-' + ele.tagName + '" id="' + ele.id + '-ref"><a href="#' + ele.id + '">'
                 + ele.innerText + '</a></div>';
         });
         return result;
