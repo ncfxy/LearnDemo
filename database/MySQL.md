@@ -24,6 +24,14 @@ FROM 表名称
 [ ORDER BY order_expression [ ASC | DESC ] ]
 ```
 
+## 其他高级SQL
+
+- 测试函数的执行时间: `set @input := "hello world"; select benchmark(100000000, MD5(@input));`
+- 日志输出: `SELECT 'LOADING departments' as 'INFO';`
+- 载入备份文件: `source xxx.dump `
+- 创建一个相似的表: `CREATE TABLE new_table LIKE old_table`
+- 把Select结果插入另一张表: `insert into new_table (select * from old_table)`
+
 ## 配置
 
 - `mysql --help | grep 'my.cnf'` 看mysql会从哪些位置读取my.cnf
