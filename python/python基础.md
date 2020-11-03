@@ -1,4 +1,4 @@
-# Python基础
+# Python 基础
 
 ## 常用语句
 
@@ -86,6 +86,10 @@ class Filter:
         pass
 class SubFilter(Filter):
     def init(self):
+        # 传入self表示实例本身
+        pass
+    def staticMethod(cls):
+        # 传入cls为静态方法，cls为类本身
         pass
 issubclass(SubFilter, Filter)           # True
 s = SubFilter()
@@ -99,10 +103,13 @@ __init__()                 # 对象初始化方法
 __del__()                  # 析构函数
 __new__()                  # 创建对象时候执行的方法，单列模式会用到
 __str__()                  # 当使用print输出对象的时候调用
+__repr__()                 # 自定义输出某个实例化对象
+__eq__()                   # 判断两个实例是否相等
+__hash__()                 # 类似Java中的hash函数
 
 # 元素集合
 __len__(self)
-__getitem__(self, key)
+__getitem__(self, key)                  # 支持实例使用 instance[key] 取值
 __setitem__(self, key, value)
 __delitem__(self, key)
 
@@ -166,10 +173,13 @@ import re                       # 正则表达式模块
 
 ## 常用第三方包安装
 
-```python
-pip install ipython
-pip install jupyter
-pip install numpy
-pip install matplotlib
-python -m pip install --upgrade pip     # pip 升级
-```
+- `python -m pip install --upgrade pip     # pip 升级`
+
+| 命令                   | 作用                                                | 官方地址                                        |
+| ---------------------- | --------------------------------------------------- | ----------------------------------------------- |
+| pip install ipython    | 交互式 python 命令行，支持 jupyter 的 python 的内核 | <https://ipython.org/>                          |
+| pip install jupyter    | 交互式开发                                          | <https://jupyter.org/>                          |
+| pip install numpy      | python 科学计算包                                   | <https://numpy.org/>                            |
+| pip install matplotlib | python 作图                                         | <https://matplotlib.org/>                       |
+| pip install attrs      | 辅助进行 python 类的构建                            | <https://www.attrs.org/en/stable/overview.html> |
+
