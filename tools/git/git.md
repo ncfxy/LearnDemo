@@ -20,7 +20,7 @@
     git reset
     git log
 
-## Git其他好用的命令
+## Git 其他好用的命令
 
 - `git grep`
 
@@ -71,6 +71,7 @@ commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_ch
 | <https://github.com/naptha/tesseract.js>                       | 识别图片中文本的 js 库                        |
 | <https://github.com/zhaoolee/ChromeAppHeroes>                  | Chrome 插件英雄榜，介绍优秀的 Chrome 插件     |
 | <https://github.com/chinese-poetry/chinese-poetry>             | 最全中文诗歌数据库                            |
+| <https://github.com/PaddlePaddle/PaddleOCR>                    | 轻量级中英文 OCR 识别库                       |
 
 ### github 徽章添加
 
