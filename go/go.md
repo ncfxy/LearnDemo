@@ -132,3 +132,7 @@
 ## 编码规范
 
 - Uber Go 语言编码规范: <https://github.com/xxjwxc/uber_go_guide_cn>
+
+## OtherCheatSheet
+
+- LearnGoInMinites: <https://learnxinyminutes.com/docs/go/>
