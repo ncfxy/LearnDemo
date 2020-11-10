@@ -1,5 +1,9 @@
 # Python 基础
 
+## CheatSheet
+
+- LearnPythonInMinites: <https://learnxinyminutes.com/docs/python/>
+
 ## 常用语句
 
 ```python
