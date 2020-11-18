@@ -136,3 +136,8 @@
 ## OtherCheatSheet
 
 - LearnGoInMinites: <https://learnxinyminutes.com/docs/go/>
+
+## 代码格式化
+
+- `gofmt -l -w .` 对代码进行格式化
+- `goimports -l -w .` 对代码进行格式化的同时，整理imports
