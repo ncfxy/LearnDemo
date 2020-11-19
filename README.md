@@ -1,24 +1,10 @@
 # LearnDemo
 
-## [Java](/java/Java.md)
-
-**关键词**：面向对象、多线程、线程池、锁、分布式
+## [编程语言](/language.md)
 
 ## [数据库](/database/database.md)
 
 **关键词**：ACID、脏读、不可重复读、幻读、四种隔离级别、MySQL、NoSQL
-
-## [C&C++](/c_plus_plus/CPlusPlus.md)
-
-**关键词**:  gcc
-
-## [JavaScript](/js/JavaScript.md)
-
-**关键词**: React、Vue、Angular
-
-## [Go语言](/go/go.md)
-
-**关键词**： routine
 
 ## [云服务](/cloud/cloud.md)
 
