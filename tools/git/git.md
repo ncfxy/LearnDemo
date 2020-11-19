@@ -78,3 +78,7 @@ commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_ch
 - 博客：GitHub 项目徽章的添加和设置：<https://www.eyrefree.org/2017/05/01/GitHub-Badge-Introduction/>
 - 官方:<https://shields.io/>
 - Sample: <https://img.shields.io/badge/react-v16.8.6-blue.svg>
+
+## git hooks
+
+- pre-commit中检查goimports: <https://gist.github.com/TheHippo/4823bba5aea614306803d8e062d8318e>
