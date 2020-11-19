@@ -141,3 +141,9 @@
 
 - `gofmt -l -w .` 对代码进行格式化
 - `goimports -l -w .` 对代码进行格式化的同时，整理imports
+
+## 其他页面跳转
+
+- [Go常用library](./go_libraries.md)
+- [Go常用代码段](./go_snippets.md)
+- [Go笔记](./go_note.md)
