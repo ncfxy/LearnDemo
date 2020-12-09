@@ -140,6 +140,10 @@
 - `gofmt -l -w .` 对代码进行格式化
 - `goimports -l -w .` 对代码进行格式化的同时，整理imports
 
+## Go Debug
+
+- VsCode Debugging: <https://code.visualstudio.com/docs/languages/go#_debugging>
+
 ## 其他页面跳转
 
 - [Go常用library](./go_libraries.md)
