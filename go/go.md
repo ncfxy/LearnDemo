@@ -144,6 +144,11 @@
 
 - VsCode Debugging: <https://code.visualstudio.com/docs/languages/go#_debugging>
 
+## Go Test
+
+- go test 后边跟package
+- go test -test.run=Testxxxxx(运行某个具体的函数) -v(输入日志) -count=1(关闭自动cache)
+
 ## 其他页面跳转
 
 - [Go常用library](./go_libraries.md)
