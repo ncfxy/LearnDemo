@@ -20,6 +20,12 @@
 | Prettier            | 代码格式化工具                  | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>      |
 | Code Runner         | 直接运行代码段                  | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>   |
 
+## 非开发使用的插件
+
+- 小霸王
+- 韭菜盒子
+- cloud music
+
 ## VS Code Online
 
 - <https://github.com/codercom/code-server>
