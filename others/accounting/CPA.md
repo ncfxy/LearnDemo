@@ -106,3 +106,6 @@
   - 短期经营决策、全面预算、责任会计、业绩评价、管理会计报告
 
 
+## 其他链接
+
+- 小白CPA（注册会计师）学习考证指南: <https://github.com/WangRongsheng/for-CPA>
