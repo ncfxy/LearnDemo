@@ -35,6 +35,7 @@ FROM 表名称
 ## 配置
 
 - `mysql --help | grep 'my.cnf'` 看mysql会从哪些位置读取my.cnf
+
 ```yaml
 [mysqld]
 # Only allow connections from localhost
