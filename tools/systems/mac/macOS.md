@@ -16,6 +16,7 @@
   - 软件安装到/usr/local/Cellar下边，然后链接到/usr/local
 - 活动管理器：查看CPU、内存、磁盘、网络
 - iStat：查看温度 `gem install iStats` `istats`
+- 屏幕放大缩小: `option & command & +/-`
 
 ## Mac常用功能
 
