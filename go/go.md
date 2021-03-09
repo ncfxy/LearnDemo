@@ -148,6 +148,12 @@
 
 - go test 后边跟package
 - go test -test.run=Testxxxxx(运行某个具体的函数) -v(输入日志) -count=1(关闭自动cache)
+- `-cover -covermode=atomic -coverpkg=代码所在package/... -test.coverprofile=cov.out` 生成代码覆盖信息到cov.out中
+- `go tool cover` 可用于生成html版本的报告
+
+## Go并发
+
+- sync.Map揭秘: <https://colobu.com/2017/07/11/dive-into-sync-Map/>
 
 ## 其他页面跳转
 
