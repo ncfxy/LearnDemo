@@ -26,6 +26,7 @@
 - 2020考试大纲: <http://hkoffice.cicpa.org.cn/web/showart/cpaexam/344.html>
 - 报名时间: 4月1-30
 - 考试时间: 9-10月
+- 2021年注册会计师全国统一考试报名简章: <http://www.cicpa.org.cn/news/202102/t20210223_53405.html>
 
 
 
