@@ -27,6 +27,7 @@
 - 报名时间: 4月1-30
 - 考试时间: 9-10月
 - 2021年注册会计师全国统一考试报名简章: <http://www.cicpa.org.cn/news/202102/t20210223_53405.html>
+- 网上报名系统: <https://cpaexam.cicpa.org.cn>
 
 
 
