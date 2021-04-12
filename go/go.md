@@ -160,3 +160,13 @@
 - [Go常用library](./go_libraries.md)
 - [Go常用代码段](./go_snippets.md)
 - [Go笔记](./go_note.md)
+
+## Go语言常见问题集合
+
+- goroutine 调度时机有哪些? <https://www.bookstack.cn/read/qcrao-Go-Questions/goroutine%20%E8%B0%83%E5%BA%A6%E5%99%A8-goroutine%20%E8%B0%83%E5%BA%A6%E6%97%B6%E6%9C%BA%E6%9C%89%E5%93%AA%E4%BA%9B.md>
+- 同步原语与锁 <https://draveness.me/golang/docs/part3-runtime/ch06-concurrency/golang-sync-primitives/>
+- Go语言设计与实现 <https://draveness.me/golang/>
+- Go中锁的一些使用注意事项 <https://mozillazg.com/2019/04/notes-about-go-lock-mutex.html>
+- Golang Scheduler的那些事儿
+- Go如何打开GC日志： 环境变量GODEBUG=gctrace=1
+- Go提供的性能分析API： runtime/pprof, net/http/pprof, runtime/trace
