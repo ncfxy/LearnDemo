@@ -42,6 +42,7 @@
 | hset, hgetall, hmset, hget, hdel, hkeys, hlen | hash 操作命令(string-> string) |                          |
 | hincr, hincrby, hdecr, hdecrby                | hash 数值操作命令              |                          |
 | keys pattern                                  | 返回符合 pattern 的 key        | key 的 list              |
+| SCAN cursor [MATCH pattern] [COUNT count]     | 正常情况下会禁用keys命令         | 根据游标返回数据库中的key   |
 
 ## HyperLogLog
 
