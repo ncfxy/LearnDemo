@@ -37,6 +37,10 @@
 - 构建go的cli程序
   - <https://github.com/spf13/cobra>
 
+## go代码检查工具
+
+- golangci-lint: <https://golangci-lint.run/>
+
 
 ## Go语言学习文章
 
