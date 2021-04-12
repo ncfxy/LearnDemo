@@ -72,6 +72,7 @@ commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_ch
 | <https://github.com/zhaoolee/ChromeAppHeroes>                  | Chrome 插件英雄榜，介绍优秀的 Chrome 插件     |
 | <https://github.com/chinese-poetry/chinese-poetry>             | 最全中文诗歌数据库                            |
 | <https://github.com/PaddlePaddle/PaddleOCR>                    | 轻量级中英文 OCR 识别库                       |
+| <https://github.com/unbug/codelf>                              | CODELF(变量命名神器)                          |
 
 ### github 徽章添加
 
@@ -81,4 +82,4 @@ commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_ch
 
 ## git hooks
 
-- pre-commit中检查goimports: <https://gist.github.com/TheHippo/4823bba5aea614306803d8e062d8318e>
+- pre-commit 中检查 goimports: <https://gist.github.com/TheHippo/4823bba5aea614306803d8e062d8318e>
