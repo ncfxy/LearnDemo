@@ -55,3 +55,12 @@
 ## MacCli 设置
 
 - MacOS终端CLI添加颜色：<https://zhuanlan.zhihu.com/p/60880207>
+- .bash_profile文件、.profile文件，启动bash时执行，详细还是不是很清楚
+
+
+## 常用操作命令
+
+- 打开网页命令: `open -a Safari http://stackoverflow.com`
+- 打开网页命令: `open -a "Google Chrome" http://stackoverflow.com`
+- 获取时间戳: `date +%s`
+- 时间戳转当地时间: `date -r 1624972940`
