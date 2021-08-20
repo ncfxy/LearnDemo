@@ -15,6 +15,8 @@
 | `docker stop [OPTIONS] CONTAINER [CONTAINER...]`  | 停止一个 container       |
 | `docker start [OPTIONS] CONTAINER [CONTAINER...]` | 启动一个 container       |
 | `docker search xxx`                               | 查看可用版本             |
+| `docker rm containerID`                           | 删除container           |
+| `docker rmi imageID`                              | 删除image               |
 
 ### Examples
 
