@@ -1,5 +1,9 @@
 # Go
 
+## 官方网站
+- 官网首页: <https://golang.org/>
+- Play页面: <https://play.golang.org>
+
 ## A Tour of Go
 
 - Packages
