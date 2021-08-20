@@ -12,6 +12,10 @@
 | free    | 内存使用情况查看                     |
 | date +%s | 获取当前时间戳                      |
 
+### 管道命令
+
+- 查询日志、切分、排序、统计数量: `cat log.txt | cut -d ' ' -f 10 | sort | uniq -c`
+
 ## Linux 常用软件
 
 ### Tmux
