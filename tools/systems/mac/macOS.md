@@ -14,6 +14,7 @@
   - 查看已安装软件列表：brew list
   - 启动服务：brew services start SoftwareName
   - 软件安装到/usr/local/Cellar下边，然后链接到/usr/local
+  - 升级go版本：`brew update`, `brew upgrade`, `brew upgrade go`
 - 活动管理器：查看CPU、内存、磁盘、网络
 - iStat：查看温度 `gem install iStats` `istats`
 - 屏幕放大缩小: `option & command & +/-`
@@ -64,3 +65,4 @@
 - 打开网页命令: `open -a "Google Chrome" http://stackoverflow.com`
 - 获取时间戳: `date +%s`
 - 时间戳转当地时间: `date -r 1624972940`
+
