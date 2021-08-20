@@ -21,6 +21,7 @@ CentOS 安装后 network 无法工作
 
 - `yum install epel-release` : 添加 epel 源，可以安装更多软件
 - `yum install chrony && systemctl enable chronyd.service`: 校准系统时间
+- `yum install -y net-tools`: 安装网络工具ifconfig等
 
 ## 防火墙设置 firewalld
 
