@@ -83,3 +83,6 @@
 - Go语言: <https://olivere.github.io/elastic/>
 - 官方Clients: <https://www.elastic.co/guide/en/elasticsearch/client/index.html>
 
+### 其他博客
+
+- 全文搜索引擎 Elasticsearch 入门教程: <http://www.ruanyifeng.com/blog/2017/08/elasticsearch.html>
