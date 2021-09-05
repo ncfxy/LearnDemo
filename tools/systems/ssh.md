@@ -20,3 +20,7 @@
 
 - 生成新的秘钥对: `ssh-keygen -t rsa`
 - 上传到服务器免登陆: `ssh-copy-id -i ~/.ssh/mykey user@host`
+
+## ssh命令速记
+
+- `ssh root@123.123.123.123`
