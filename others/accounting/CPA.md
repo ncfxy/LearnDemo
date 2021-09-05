@@ -40,6 +40,9 @@
  财务成本管理 	8月28日    8:30-11:00 或 8月28日 13:00-15:30
  公司战略与风险管理 	8月28日  17:00-19:00
 
+- 机考练习：<https://cpaexam.cicpa.org.cn/files/articlehtml/statichtml/01/0000017A84AA77735702E840D5686135.html>
+  - <http://cpademo.cicpa.org.cn>
+
 
 
 ## 培训机构
