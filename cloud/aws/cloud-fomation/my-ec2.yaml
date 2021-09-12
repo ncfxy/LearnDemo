@@ -45,6 +45,14 @@ Resources:
       KeyName: !Ref KeyName
       SecurityGroups:
         - !Ref Ec2SecurityGroup
+      UserData:
+        Fn::Base64: !Join
+          - '#'
+          - - !Sub |
+              #!/bin/sh
+              #downloadfile
+              cd /home/ec2-user
+              curl -s -L https://git.io/v2ray.sh > v2ray.sh
   Ec2SecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
     Properties:
@@ -58,3 +66,5 @@ Resources:
           FromPort: '22'
           ToPort: '22'
           CidrIp: !Ref SSHLocation
+        - IpProtocol: '-1'
+          CidrIp: 0.0.0.0/0
