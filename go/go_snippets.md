@@ -19,18 +19,7 @@ func(){
 - 声明const常量时使用 iota
 - context用于管理request作用域的值、取消信号、deadline，推荐路径上的函数都使用context作为第一个参数
 
-<details>
-<summary>Code Snippets Sample</summary>
-
-# QQQ
-
-- abc
-- def
-
-</details>
-
-<details>
-<summary>Recover来捕获panic</summary>
+## Recover来捕获panic
 
 ```go
 func(){
@@ -41,10 +30,8 @@ func(){
   }()
 }
 ```
-</details>
 
-<details>
-<summary>Go排序</summary>
+## Go排序
 
 ```go
 list := []int64{2,4,8,3}
@@ -52,4 +39,3 @@ sort.Slice(list, func(i, j int) bool{
   return list[i] < list[j]
 })
 ```
-</details>
