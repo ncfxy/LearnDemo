@@ -55,3 +55,8 @@ go get golang.org/x/lint/golint
 - <https://github.com/goproxy/goproxy.cn>
 - go env -w GO111MODULE=on
 - go env -w GOPROXY=https://goproxy.cn,direct
+
+## GoLand Debug启动慢
+
+问题在于GoLand会在每次调试调用时强制进行重建。因此，如果您有很多依赖关系，它将非常缓慢。
+解决方法是进入Settings > Build, Execution, Deployment > Debugger并禁用Rebuild transitive packages。这样可以将调试启动速度提高20倍（90秒和5秒）
