@@ -40,6 +40,12 @@ git config user.name "yougithubname"
 git config user.email "mygithubemail@mail.com"
 ```
 
+```
+[user]
+    name = xxx
+    email = xxx
+```
+
 ## 一些技巧
 
     type null > .gitkeep     生成.gitkeep文件
