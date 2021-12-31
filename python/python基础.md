@@ -178,6 +178,7 @@ import re                       # 正则表达式模块
 ## 常用第三方包安装
 
 - `python -m pip install --upgrade pip     # pip 升级`
+- `python -m virtualenv --version`         # 查看对应依赖的版本
 
 | 命令                   | 作用                                                | 官方地址                                        |
 | ---------------------- | --------------------------------------------------- | ----------------------------------------------- |
@@ -186,4 +187,8 @@ import re                       # 正则表达式模块
 | pip install numpy      | python 科学计算包                                   | <https://numpy.org/>                            |
 | pip install matplotlib | python 作图                                         | <https://matplotlib.org/>                       |
 | pip install attrs      | 辅助进行 python 类的构建                            | <https://www.attrs.org/en/stable/overview.html> |
+
+
+- webargs 转化和验证HTTP请求参数的library
+  - <https://webargs.readthedocs.io/en/latest/index.html#>
 
