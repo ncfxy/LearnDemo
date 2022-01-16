@@ -23,6 +23,10 @@
 
 参考： [Windows 10 快捷键汇总表格](https://blog.csdn.net/lindexi_gd/article/details/75905104)
 
+## Windows常用配置总结
+
+- host文件位置: `C:\Windows\System32\drivers\etc\hosts`
+
 ## 脚本下载地址
 
 <div id="scriptDownloadList"></div>
