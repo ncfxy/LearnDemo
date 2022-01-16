@@ -7,6 +7,8 @@
 index-url=地址
 ```
 
+- 安装时带上镜像地址: `pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple/`
+
 ## venv/virtualenv/pipenv/poetry/virtualenvwrapper
 
 - 创建独立的python执行环境，下载的包安装到当前目录，不会污染全局
