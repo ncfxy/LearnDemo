@@ -15,3 +15,9 @@ a = getClipboardData()
 b = str(a, 'utf-8')
 c = bytes(b, 'utf-8)
 ```
+
+## 打印调用栈
+```python
+import traceback
+traceback.print_stack()
+```
