@@ -27,6 +27,10 @@
 5 基于分布式事务数据一致性解决方式
 6 分布式事务业界常有解决方案( 2PC /TCC／基于 MQ)以及我们如何设计（同步场景，异步场景）
 
+## 博客
+
+- JavaGuide: <https://github.com/Snailclimb/JavaGuide>, <https://javaguide.cn/>
+
 ## 自检 2020.01.04
 
 1. overload和override的区别
