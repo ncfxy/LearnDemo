@@ -8,7 +8,7 @@
 
 **关键词**: React、Vue、Angular
 
-## [Go语言](/go/go.md)
+## [Go语言](./go/go.md)
 
 **关键词**： routine
 
