@@ -1,6 +1,6 @@
 # 编程语言篇
 
-## [C&C++](/c_plus_plus/CPlusPlus.md)
+## [C&C++](./c_plus_plus/CPlusPlus.md)
 
 **关键词**:  gcc
 
