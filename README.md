@@ -2,7 +2,7 @@
 
 ## [编程语言](./language/language.md)
 
-## [数据库](/database/database.md)
+## [数据库](./computer/database/database.md)
 
 **关键词**：ACID、脏读、不可重复读、幻读、四种隔离级别、MySQL、NoSQL
 
@@ -10,7 +10,7 @@
 
 **关键词**: AWS、阿里云、Azure
 
-## [分布式](/distributed/分布式.md)
+## [分布式](./computer/distributed/分布式.md)
 
 **关键词**: CAP理论、BASE理论
 
