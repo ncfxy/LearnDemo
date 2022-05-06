@@ -1,6 +1,6 @@
 # LearnDemo
 
-## [编程语言](/language/language.md)
+## [编程语言](./language/language.md)
 
 ## [数据库](/database/database.md)
 
