@@ -18,6 +18,6 @@
 
 **关键词**: HTML、 CSS
 
-## [工具](/tools/tools.md)
+## [工具](./tools/tools.md)
 
 **关键词**: git, maven, gradle, markdown, vscode, windows, linux
