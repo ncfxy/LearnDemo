@@ -6,7 +6,7 @@
 
 **关键词**：ACID、脏读、不可重复读、幻读、四种隔离级别、MySQL、NoSQL
 
-## [云服务](/cloud/cloud.md)
+## [云服务](./computer/cloud/cloud.md)
 
 **关键词**: AWS、阿里云、Azure
 
