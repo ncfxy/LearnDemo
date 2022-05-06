@@ -14,7 +14,7 @@
 
 **关键词**: CAP理论、BASE理论
 
-## [前端技术](/front/front.md)
+## [前端技术](./computer/front/front.md)
 
 **关键词**: HTML、 CSS
 
