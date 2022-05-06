@@ -4,7 +4,7 @@
 
 **关键词**:  gcc
 
-## [JavaScript](/js/JavaScript.md)
+## [JavaScript](./js/JavaScript.md)
 
 **关键词**: React、Vue、Angular
 
@@ -12,10 +12,10 @@
 
 **关键词**： routine
 
-## [Java](/java/Java.md)
+## [Java](./java/Java.md)
 
 **关键词**：面向对象、多线程、线程池、锁、分布式
 
-## [Python](/python/python.md)
+## [Python](./python/python.md)
 
 **关键词**: 
