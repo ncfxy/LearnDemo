@@ -153,3 +153,9 @@
 ## 文章
 
 - 知乎魔兽争霸3都有哪些操作？: <https://www.zhihu.com/question/52767914>
+
+## 其他工具
+
+- RepKing: 旧版录像分析工具
+  - WC3 Replay tool 新的分析工具http://replaytool.warcraft3.org/zh:home
+  - C:\Users\xxxx\Documents\LadyRisa_ReplayTool\Partial\RM1675
