@@ -86,6 +86,20 @@ commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_ch
 - 官方:<https://shields.io/>
 - Sample: <https://img.shields.io/badge/react-v16.8.6-blue.svg>
 
+### github在国内访问慢的解决方案
+
+- 修改 Hosts 解决 Github 访问失败: <https://zhuanlan.zhihu.com/p/107334179>
+  - ping检测: <http://ping.chinaz.com/>
+
+```powershell
+$ipList = "20.205.243.166","15.164.81.167","140.82.113.4","140.82.112.4","13.114.40.48","140.82.113.3","192.30.255.113","52.69.186.44","140.82.114.3","52.78.231.108","192.30.255.112","140.82.121.3","140.82.121.4"
+for($i=0; $i -lt $ipList.Length; $i++){
+    $ipList[$i]
+    ping $ipList[$i]
+}
+# 15.164.81.167 97ms, 15.164.81.167 46ms, 52.69.186.44 53ms, 52.78.231.108 73ms
+```
+
 ## git hooks
 
 - pre-commit 中检查 goimports: <https://gist.github.com/TheHippo/4823bba5aea614306803d8e062d8318e>
