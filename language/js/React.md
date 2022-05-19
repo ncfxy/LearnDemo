@@ -104,3 +104,11 @@ refs: <https://medium.com/@rossbulat/how-to-memoize-in-react-3d20cbcd2b6e>
 | react-custom-scrollbars                | 自定义的 Scroll-bar 实现       | <https://malte-wessel.com/react-custom-scrollbars/> |
 | react-use                              | 必不可少的 React Hooks 集合    | <https://github.com/streamich/react-use>            |
 | notistack                              | 自定义的 notification snackbar | <https://github.com/iamhosseindhv/notistack>        |
+
+
+## 常用命令
+
+- 创建react项目: `npx create-react-app my-app --template typescript`
+- 修改启动port: 
+  - windows: `set port=4000 && react-scripts start`
+  - linux&mac: `export port=4000 && react-scripts start`
