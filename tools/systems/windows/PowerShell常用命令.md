@@ -72,6 +72,7 @@
 ## 常用命令
 
 - 复制文件夹： `Copy-Item -Path 'D:/abc' -Destination 'D:/abc' -Recurse`
+- 执行exe文件: 在前边需要添加调用运算符 (&)
 
 ## Tips
 
