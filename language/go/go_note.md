@@ -18,6 +18,8 @@ gocode-gomod
 godef
 goreturns
 golint
+staticcheck
+gopls
 
 go get github.com/mdempsky/gocode
 go get github.com/ramya-rao-a/go-outline
