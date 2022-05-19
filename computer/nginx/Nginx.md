@@ -24,3 +24,13 @@
         }
     }
 ```
+
+### root 和 alias的区别
+location /img/ {
+	alias /var/www/image/;
+}
+#若按照上述配置的话，则访问/img/目录里面的文件时，ningx会自动去/var/www/image/目录找文件
+location /img/ {
+	root /var/www/image;
+}
+#若按照这种配置的话，则访问/img/目录下的文件时，nginx会去/var/www/image/img/目录下找文件
