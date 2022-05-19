@@ -33,13 +33,14 @@
 
 ## Windows 下管理软件
 
-| 名字             | 作用                 | 官网                                                    | 备注 |
-| ---------------- | -------------------- | ------------------------------------------------------- | ---- |
-| TreeSize         | 磁盘清理工具         | <https://www.jam-software.com/treesize_free/>           |      |
-| Chocolatey       | Windows 下包管理工具 | <https://chocolatey.org/>                               |      |
-| CrystalDiskInfo  | 固态硬盘检测软件     | <https://crystalmark.info/en/software/crystaldiskinfo/> |      |
-| AS SSD Benchmark | SSD 硬盘读写速度检测 | <https://as-ssd-benchmark.en.softonic.com/>             |      |
-| AIDA64           | 内存检测工具         | <https://www.aida64.com/downloads>                      |      |
+| 名字             | 作用                 | 官网                                                               | 备注 |
+| ---------------- | -------------------- | ------------------------------------------------------------------ | ---- |
+| TreeSize         | 磁盘清理工具         | <https://www.jam-software.com/treesize_free/>                      |      |
+| Chocolatey       | Windows 下包管理工具 | <https://chocolatey.org/>                                          |      |
+| winget           | 官方出的包管理工具   | <https://docs.microsoft.com/zh-cn/windows/package-manager/winget/> |      |
+| CrystalDiskInfo  | 固态硬盘检测软件     | <https://crystalmark.info/en/software/crystaldiskinfo/>            |      |
+| AS SSD Benchmark | SSD 硬盘读写速度检测 | <https://as-ssd-benchmark.en.softonic.com/>                        |      |
+| AIDA64           | 内存检测工具         | <https://www.aida64.com/downloads>                                 |      |
 
 ## 视频音频软件
 
