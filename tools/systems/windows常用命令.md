@@ -27,6 +27,20 @@
 
 - host文件位置: `C:\Windows\System32\drivers\etc\hosts`
 
+## winget软件安装命令
+
+- 测试了一下，慢的有点没法使用
+- <https://docs.microsoft.com/zh-cn/windows/package-manager/winget/>
+- 清华大学开源软件镜像站: <https://mirrors.tuna.tsinghua.edu.cn/>
+- 默认的source
+    - msstore https://storeedgefd.dsx.mp.microsoft.com/v9.0
+    - winget  https://winget.azureedge.net/cache
+
+```
+winget search <appname>
+winget install <appname>
+```
+
 ## 脚本下载地址
 
 <div id="scriptDownloadList"></div>
