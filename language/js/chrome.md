@@ -27,3 +27,9 @@
 ## Chrome 技巧
 
 - 开启多线程下载: <chrome://flags/#enable-parallel-downloading>
+
+## 以app形式启动chrome浏览器
+
+```PowerShell
+    & "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --app=http://www.baidu.com  
+```
