@@ -147,3 +147,8 @@ Amazon 文档<https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/red-ug/
 - 资源静态化：能放 CDN 的都放在 CDN
 - 前后端限流：前端按钮，防止过快发送， 后端直接 return false
 - 限流、降级、熔断、隔离
+
+### 博客阅读
+
+- 分布式锁中的王者方案 - Redisson: <https://xie.infoq.cn/article/d8e897f768eb1a358a0fd6300>
+- Redis 分布式锁｜从青铜到钻石的五种演进方案: <https://my.oschina.net/u/4499317/blog/5039486>
