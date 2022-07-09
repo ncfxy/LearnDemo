@@ -175,5 +175,14 @@
 - Go如何打开GC日志： 环境变量GODEBUG=gctrace=1
 - Go提供的性能分析API： runtime/pprof, net/http/pprof, runtime/trace
 - Go 的 GC 如何调优: <https://www.bookstack.cn/read/qcrao-Go-Questions/spilt.14.GC-GC.md>
-
 - Go语言问题集: <https://www.bookstack.cn/read/qcrao-Go-Questions/README.md>
+
+
+## Go语言泛型学习
+
+- Go 1.18 泛型全面讲解：一篇讲清泛型的全部: <https://segmentfault.com/a/1190000041634906>
+- When To Use Generics: <https://go.dev/blog/when-generics>
+- An Introduction To Generics: <https://go.dev/blog/intro-generics>
+- 简单易懂的 Go 泛型使用和实现原理介绍: <https://mp.weixin.qq.com/s/5a0_Gl0LeLfs32UnE0T1Pw>
+
+
