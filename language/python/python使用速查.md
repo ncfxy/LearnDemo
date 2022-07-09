@@ -24,3 +24,5 @@ xxx?        # 输出命令的介绍文档
 %load_ext autoreload  # 下边两个magic命令用来开启自动重新import module,否则更新代码后用的还时旧的
 %autoreload 2
 ```
+
+- 最前边添加!，可以用来执行command命令
