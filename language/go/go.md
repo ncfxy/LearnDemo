@@ -175,3 +175,5 @@
 - Go如何打开GC日志： 环境变量GODEBUG=gctrace=1
 - Go提供的性能分析API： runtime/pprof, net/http/pprof, runtime/trace
 - Go 的 GC 如何调优: <https://www.bookstack.cn/read/qcrao-Go-Questions/spilt.14.GC-GC.md>
+
+- Go语言问题集: <https://www.bookstack.cn/read/qcrao-Go-Questions/README.md>
