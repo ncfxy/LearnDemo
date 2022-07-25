@@ -177,6 +177,10 @@
 - Go 的 GC 如何调优: <https://www.bookstack.cn/read/qcrao-Go-Questions/spilt.14.GC-GC.md>
 - Go语言问题集: <https://www.bookstack.cn/read/qcrao-Go-Questions/README.md>
 
+## GMP模型学习
+
+- GMP原理与调度: <https://www.topgoer.com/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/GMP%E5%8E%9F%E7%90%86%E4%B8%8E%E8%B0%83%E5%BA%A6.html>
+
 
 ## Go语言泛型学习
 
@@ -185,4 +189,9 @@
 - An Introduction To Generics: <https://go.dev/blog/intro-generics>
 - 简单易懂的 Go 泛型使用和实现原理介绍: <https://mp.weixin.qq.com/s/5a0_Gl0LeLfs32UnE0T1Pw>
 
+## Go的AST包学习(抽象语法树)
+
+- Go的AST(抽象语法树): <https://zhuanlan.zhihu.com/p/28516587>
+- Go语法树可视化: <https://github.com/yuroyoro/goast-viewer>
+- ast package官方介绍: <https://pkg.go.dev/go/ast>
 
