@@ -72,3 +72,44 @@ if err := g.Wait(); err != nil {
 }
 fmt.Println("success")
 ```
+
+## 将一个interface转成String输出
+```go
+func MustToString(k interface{}) string {
+	s, _ := json.Marshal(k)
+	return *(*string)(unsafe.Pointer(&s))
+}
+```
+
+## Go启动Server方式对比
+```go
+import (
+	"github.com/gin-gonic/gin"
+	"net/http"
+)
+
+func main() {
+	// 1. 创建路由
+	r := gin.Default()
+	// 2. 绑定路由规则，执行的函数
+	r.GET("/", func(ctx *gin.Context) {
+		ctx.String(http.StatusOK, "hello world!")
+	})
+	// 3. 监听端口，默认在8080
+	r.Run(":8000")
+}
+```
+```go
+import (
+	"fmt"
+	"net/http"
+)
+
+func main() {
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "Hello world!")
+	})
+	http.ListenAndServe(":8000", nil)
+}
+```
+
