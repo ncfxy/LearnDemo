@@ -14,7 +14,7 @@
     - `v.CanSet()` 判断一个对象是否可被设置
     - `v.Elem()` 当value是一个指针时，使用该函数可以获取它指向的对象value 
     - 传入指针，并通过Elem拿到的Value才可以被修改
-
+- go反射介绍: <https://juejin.cn/post/7026140790380298270>
 
 ### runtime
 
@@ -40,6 +40,11 @@
 ## go代码检查工具
 
 - golangci-lint: <https://golangci-lint.run/>
+
+## GoWeb框架
+
+- Gin框架
+  - <https://www.topgoer.com/gin%E6%A1%86%E6%9E%B6/> <https://github.com/gin-gonic/gin>
 
 
 ## Go语言学习文章
