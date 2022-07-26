@@ -44,7 +44,15 @@
 
 ## 视频音频软件
 
-| 名字       | 作用                 | 官网                                                                           | 备注 |
-| ---------- | -------------------- | ------------------------------------------------------------------------------ | ---- |
-| MKVToolNix | mkv 视频合并拆分工具 | http://priede.bf.lu.lv/ftp/pub/MultiVide/video/mkvtoolnix/apraksti/source.html |      |
-| Aegisub    | 专业的字幕编辑软件   | http://www.aegisub.org/                                                        |      |
+| 名字       | 作用                   | 官网                                                                           | 备注 |
+| ---------- | ---------------------- | ------------------------------------------------------------------------------ | ---- |
+| MKVToolNix | mkv 视频合并拆分工具   | http://priede.bf.lu.lv/ftp/pub/MultiVide/video/mkvtoolnix/apraksti/source.html |      |
+| Aegisub    | 专业的字幕编辑软件     | http://www.aegisub.org/                                                        |      |
+| 央视影音   | 中央电视台的 PC 客户端 | <https://app.cctv.com/index.shtml#page5>                                       |      |
+| BillFish   | 设计师素材管理软件     | <https://www.billfish.cn/>                                                     |      |
+
+## 学习软件
+
+| 名字     | 作用               | 官网                      | 备注 |
+| -------- | ------------------ | ------------------------- | ---- |
+| 欧陆词典 | 查询单词，英语学习 | <https://dict.eudic.net/> |      |
