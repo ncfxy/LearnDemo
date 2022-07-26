@@ -33,3 +33,15 @@
 ```PowerShell
     & "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --app=http://www.baidu.com  
 ```
+
+## 使用Chrome开发者的开发模式
+
+- 将DevTool打开成独立面板，再用Ctrl+shift+i可以打开Devtool的Devtool
+- <https://www.zhihu.com/question/524012130>
+
+- 获取network里所有的url
+```javascript
+var URLs = UI.panels.network.networkLogView.dataGrid.rootNode().flatNodes.map(function(n){
+    return {'url':n.request().url(), 'type': n.displayType()}
+})
+```
