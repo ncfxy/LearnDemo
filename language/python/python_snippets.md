@@ -36,3 +36,36 @@ def inner_func(a,b):
     print('cal res: %s'%(a*b))
 inner_func(2, 5)
 ```
+
+## 下载文件
+
+```python
+def download_file(url, filePath):
+    from urllib.request import urlopen, Request, urlretrieve
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+    ret = Request(url, headers={})
+    res = urlopen(ret)
+    print(res)
+    with open(filePath, 'wb') as outputFile:
+        outputFile.write(res.read())
+    # urlretrieve(url, filePath)
+```
+
+## python多进程实例(使用了进程池)
+```python
+def multiprocessing_sample():
+    import multiprocessing
+    pool = multiprocessing.Pool(processes=4)
+    for idx in range (1, 10):
+        pool.apply_async(sample_func, (idx,))
+    pool.close()
+    pool.join()
+
+def sample_func(idx):
+    import time
+    print(idx)
+    time.sleep(5)
+
+if __name__ == '__main__':
+    multiprocessing_sample()
+```
