@@ -195,3 +195,6 @@
 - Go语法树可视化: <https://github.com/yuroyoro/goast-viewer>
 - ast package官方介绍: <https://pkg.go.dev/go/ast>
 
+## 其他
+
+- 《Go学习路线图》<https://juejin.cn/post/7119123646471208968>
