@@ -58,6 +58,12 @@
 - MacOS终端CLI添加颜色：<https://zhuanlan.zhihu.com/p/60880207>
 - .bash_profile文件、.profile文件，启动bash时执行，详细还是不是很清楚
 
+## Mac与Windows文件互传
+- 使用SMB
+- 如何设置Mac与windows共享实现快速传输:<https://www.xiaohongshu.com/discovery/item/613341380000000021035ed8>
+- 与 Windows 用户共享 Mac 文件: <https://support.apple.com/zh-cn/guide/mac-help/mchlp1657/10.14/mac/10.14>
+- 从Mac连接到Windows: <https://support.apple.com/zh-cn/guide/mac-help/mchlp1660/10.14/mac/10.14>
+
 
 ## 常用操作命令
 
