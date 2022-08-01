@@ -2,18 +2,17 @@
 
 ## 获取剪切板内容(Mac)
 ```python
-import webbrowser
 import subprocess
 
-def getClipboardData():
+def get_clipboard_data():
   p = subprocess.Popen(['pbpaste'], stdout=subprocess.PIPE)
-  retcode = p.wait()
+  ret_code = p.wait()
   data = p.stdout.read()
   return data
 
-a = getClipboardData()
+a = get_clipboard_data()
 b = str(a, 'utf-8')
-c = bytes(b, 'utf-8)
+c = bytes(b, 'utf-8')
 ```
 
 ## 打印调用栈
@@ -41,14 +40,18 @@ inner_func(2, 5)
 
 ```python
 def download_file(url, filePath):
-    from urllib.request import urlopen, Request, urlretrieve
+    import requests
+
+    cookies = {'abc':'abc'}
+
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-    ret = Request(url, headers={})
-    res = urlopen(ret)
-    print(res)
-    with open(filePath, 'wb') as outputFile:
-        outputFile.write(res.read())
-    # urlretrieve(url, filePath)
+    params = {}
+
+    file_name = 'abc.jpg'
+    url = 'http://abc.abc.com/%s' % file_name
+    response = requests.get(url, params=params, cookies=cookies, headers=headers)
+    with open(file_name, 'wb') as output_file:
+        output_file.write(response.content)
 ```
 
 ## python多进程实例(使用了进程池)
