@@ -54,6 +54,25 @@ def download_file(url, filePath):
         output_file.write(response.content)
 ```
 
+## 将python的Class转成json输出
+
+```python
+def default_func(obj):
+    if hasattr(obj, '__dict__'):
+        return obj.__dict__
+    else:
+        return "this obj not has __dict__"
+
+def class_obj_to_json(obj):
+    try:
+        res = json.dumps(obj, default=default_func, sort_keys=True, indent=4)
+        return res
+    except Exception as ex:
+        print(ex)
+        res = str(obj)
+        return res
+```
+
 ## python多进程实例(使用了进程池)
 ```python
 def multiprocessing_sample():
