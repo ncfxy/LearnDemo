@@ -2,6 +2,7 @@
 
 Website: <https://www.euclidea.xyz/en/>
 Online Version: <https://www.euclidea.xyz/en/game/packs>
+- Euclidea几何构建全关卡通关攻略大全 <https://m.yoyou.com/game/euclidea/151204.html>
 
 ## 单词
 
