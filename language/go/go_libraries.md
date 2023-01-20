@@ -41,6 +41,13 @@
 
 - golangci-lint: <https://golangci-lint.run/>
 
+## go Ast
+
+- 两个常用的package
+  - go/ast
+  - golang.org/x/tools/go/ast/astutil
+- Golang AST语法树使用教程及示例： <https://juejin.cn/post/6844903982683389960>
+
 ## GoWeb框架
 
 - Gin框架
