@@ -198,3 +198,4 @@
 ## 其他
 
 - 《Go学习路线图》<https://juejin.cn/post/7119123646471208968>
+- Go学习书籍: <https://github.com/dariubs/GoBooks>
