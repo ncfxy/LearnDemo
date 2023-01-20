@@ -57,6 +57,7 @@
 
 - MacOS终端CLI添加颜色：<https://zhuanlan.zhihu.com/p/60880207>
 - .bash_profile文件、.profile文件，启动bash时执行，详细还是不是很清楚
+- 新版本的配置文件: ~/.zshrc
 
 ## Mac与Windows文件互传
 - 使用SMB
