@@ -92,12 +92,16 @@ commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_ch
   - ping检测: <http://ping.chinaz.com/>
 
 ```powershell
-$ipList = "20.205.243.166","15.164.81.167","140.82.113.4","140.82.112.4","13.114.40.48","140.82.113.3","192.30.255.113","52.69.186.44","140.82.114.3","52.78.231.108","192.30.255.112","140.82.121.3","140.82.121.4"
+$str = '<div class="Cont" id="ipliststr"><a href="javascript:">20.205.243.166</a><a href="javascript:">140.82.121.3</a><a href="javascript:">20.27.177.113</a><a href="javascript:">140.82.121.4</a><a href="javascript:">140.82.113.3</a><a href="javascript:">140.82.114.4</a><a href="javascript:">140.82.113.4</a><a href="javascript:">140.82.114.3</a><a href="javascript:">192.30.255.113</a><a href="javascript:">140.82.112.3</a><a href="javascript:">192.30.255.112</a></div>'
+
+# 从string中提取ip地址，去重，ping测试
+$ipListMatches =  $str | Select-String -Pattern "(\d{1,3}\.){3}\d{1,3}" -AllMatches
+$ipList = $ipListMatches.Matches.Value | Select-Object -Unique
+
 for($i=0; $i -lt $ipList.Length; $i++){
     $ipList[$i]
     ping $ipList[$i]
 }
-# 15.164.81.167 97ms, 15.164.81.167 46ms, 52.69.186.44 53ms, 52.78.231.108 73ms
 ```
 
 ## git hooks
