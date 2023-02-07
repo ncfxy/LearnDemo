@@ -26,6 +26,7 @@
 ## Windows常用配置总结
 
 - host文件位置: `C:\Windows\System32\drivers\etc\hosts`
+- 最近使用项目文件夹位置: `C:\Users\XXX\AppData\Roaming\Microsoft\Windows\Recent`
 
 ## winget软件安装命令
 
@@ -40,6 +41,11 @@
 winget search <appname>
 winget install <appname>
 ```
+
+## ipconfig
+
+- 查看本机的ip: ipconfig
+- 更新host配置之后刷新dns: `ipconfig /flushdns`
 
 ## 脚本下载地址
 
