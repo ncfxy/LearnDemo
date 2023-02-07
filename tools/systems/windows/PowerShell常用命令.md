@@ -69,32 +69,32 @@
     Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion" -Name "ProgramFilesDir (x86)" -Value "D:\ncfxy\software"
 ```
 
-## Hyper-v常用命令
+## Hyper-v 常用命令
 
 - 官方介绍: <https://docs.microsoft.com/zh-cn/virtualization/hyper-v-on-windows/quick-start/try-hyper-v-powershell>
-- 搜索所有hyper-v命令: `Get-Command -Module hyper-v | Out-GridView`
+- 搜索所有 hyper-v 命令: `Get-Command -Module hyper-v | Out-GridView`
 - 返回虚拟机列表: `Get-VM`
 - 启动虚拟机: `Start-VM -Name <virtual machine name>`
 - 保存虚拟机: `Save-VM -Name <virtual machine name>`
 - 获取虚拟机的地址: `$ip = get-vm -name centos-server-1 | get-VMNetworkAdapter | select ipaddresses`
-   - `$ip.IPAddresses`
-
+  - `$ip.IPAddresses`
 
 ## 常用命令
 
 - 复制文件夹： `Copy-Item -Path 'D:/abc' -Destination 'D:/abc' -Recurse`
-- 执行exe文件: 在前边需要添加调用运算符 (&)
+- 执行 exe 文件: 在前边需要添加调用运算符 (&)
 - 获取文件内容: `Get-Content <file path>`
 - 将结果在新的页面展示: `ls | Out-GridView`
 
 ## Tips
 
 | key          | value         |
-|--------------|---------------|
+| ------------ | ------------- |
 | 执行多条命令 | 直接使用;分割 |
 
 ## URL
 
 | 名称     | URL                                                                              |
-|--------|----------------------------------------------------------------------------------|
+| -------- | -------------------------------------------------------------------------------- |
 | 官方文档 | https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6 |
+| 官方文档 | <https://learn.microsoft.com/zh-cn/powershell/?view=powershell-7.3>              |
