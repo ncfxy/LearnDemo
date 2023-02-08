@@ -148,6 +148,11 @@ Amazon 文档<https://docs.aws.amazon.com/zh_cn/AmazonElastiCache/latest/red-ug/
 - 前后端限流：前端按钮，防止过快发送， 后端直接 return false
 - 限流、降级、熔断、隔离
 
+### 大key问题&如何解决
+
+- 解决了Redis大key问题，同事们都夸他牛皮: <https://www.51cto.com/article/701990.html>
+- 阿里云(发现并处理Redis的大key和热key): <https://help.aliyun.com/document_detail/353223.html>
+
 ### 博客阅读
 
 - 分布式锁中的王者方案 - Redisson: <https://xie.infoq.cn/article/d8e897f768eb1a358a0fd6300>
