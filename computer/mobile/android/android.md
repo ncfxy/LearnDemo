@@ -15,3 +15,8 @@
 
 - <https://developer.android.com/>
 - <https://developer.android.google.cn/>
+
+## SDK管理
+
+- 全国SDK管理服务平台: <https://sdk.caict.ac.cn/official/#/home>
+- 高德开放平台: <https://lbs.amap.com/>
