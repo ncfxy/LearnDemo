@@ -20,6 +20,7 @@
 | Prettier            | 代码格式化工具                  | <https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode>      |
 | Code Runner         | 直接运行代码段                  | <https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner>   |
 | tabnine             | 代码自动补全                    |  <https://www.tabnine.com/>                                                      |
+| copilot             | AI代码自动补全工具               | <https://github.com/features/copilot>                                            |
 
 ## 非开发使用的插件
 
