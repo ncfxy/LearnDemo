@@ -72,4 +72,4 @@
 - 打开网页命令: `open -a "Google Chrome" http://stackoverflow.com`
 - 获取时间戳: `date +%s`
 - 时间戳转当地时间: `date -r 1624972940`
-
+- 查看端口占用: `lsof -i tcp:8081`
