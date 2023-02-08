@@ -41,6 +41,10 @@
 
 - golangci-lint: <https://golangci-lint.run/>
 
+## 并发
+
+- singleflight:  来源于准官方库golang.org/x/sync/singleflight，能够在抑制对下游的多次重复请求
+
 ## go Ast
 
 - 两个常用的package
