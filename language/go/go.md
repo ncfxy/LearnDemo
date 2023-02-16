@@ -159,6 +159,9 @@
 
 - sync.Map揭秘: <https://colobu.com/2017/07/11/dive-into-sync-Map/>
 
+## Go诊断工具
+- 官方诊断工具集合: <https://go.dev/doc/diagnostics>
+
 ## 其他页面跳转
 
 - [Go常用library](./go_libraries.md)
