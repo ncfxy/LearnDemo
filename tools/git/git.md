@@ -103,6 +103,15 @@ for($i=0; $i -lt $ipList.Length; $i++){
     ping $ipList[$i]
 }
 ```
+```shell
+str='<div class="Cont" id="ipliststr"><a href="javascript:">20.205.243.166</a><a href="javascript:">140.82.121.3</a><a href="javascript:">20.27.177.113</a><a href="javascript:">140.82.121.4</a><a href="javascript:">140.82.113.3</a><a href="javascript:">140.82.114.4</a><a href="javascript:">140.82.113.4</a><a href="javascript:">140.82.114.3</a><a href="javascript:">192.30.255.113</a><a href="javascript:">140.82.112.3</a><a href="javascript:">192.30.255.112</a></div>'
+ipList=$(echo $str | grep -Eo '([0-9]{1,3}\.){3}[0-9]{1,3}')
+echo $ipList | while read line
+do
+echo "value is $line"
+ping $line -c 4
+done
+```
 
 ## git hooks
 
