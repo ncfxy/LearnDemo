@@ -4,8 +4,8 @@
 
 ## [计算机相关](./computer/computer.md)
 
-## [工具](./tools/tools.md)
+## [百科知识](./knowledge/knowledge)
 
-**关键词**: git, maven, gradle, markdown, vscode, windows, linux
+## [工具](./tools/tools.md)
 
 ## [技术社区](./技术社区.md)
