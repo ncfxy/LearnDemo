@@ -11,3 +11,8 @@
 
 ## [育儿](./child/child.md)
 
+## [投资](./investment/investment.md)
+
+## 其他
+- [化学](./others/化学.md)
+- 
