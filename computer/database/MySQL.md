@@ -15,7 +15,7 @@ InnoDB
 
 ## SQL
 
-```
+```sql
 SELECT 列名
 FROM 表名称
 [ WHERE search_condition ] 
@@ -24,7 +24,51 @@ FROM 表名称
 [ ORDER BY order_expression [ ASC | DESC ] ]
 ```
 
-## 其他高级SQL
+### SQL常用转化函数&技巧
+```sql
+-- 使用CAST把数字转换为字符串，并使用CONCAT拼接
+SELECT name, CONCAT(url, ', ', alexa, ', ', CAST(country as varchar)) AS site_info
+FROM Websites;
+```
+
+### SQL示例
+```sql
+-- 创建表
+CREATE TABLE `test`.`user`
+(                                                                                                                      -- 数据库名.表名
+    `id`                INT         NOT NULL AUTO_INCREMENT COMMENT '这是一个主键',                                    -- 自增, 主键, 不能为null, 注释
+    `name`              VARCHAR(45) NOT NULL DEFAULT '',                                                               -- 长度45, 不能为null, 默认值为空
+    `sample_tinyint`    tinyint,                                                                                       -- tinyint类型, 可以为null, -128~127
+    `sample_smallint`   smallint unsigned,                                                                             -- smallint类型, 可以为null, 0~65535
+    `sample_mediumint`  mediumint,                                                                                     -- mediumint类型, 可以为null, -8388608~8388607
+    `sample_int`        int,                                                                                           -- int类型, 可以为null, -2147483648~2147483647
+    `sample_bigint`     bigint,                                                                                        -- bigint类型, 可以为null, -9223372036854775808~9223372036854775807
+    `sample_float`      float,                                                                                         -- float类型, 可以为null, 1.175494351e-38~3.402823466e+38
+    `sample_double`     double,                                                                                        -- double类型, 可以为null, 2.2250738585072014e-308~1.7976931348623157e+308
+    `sample_decimal`    decimal(10, 2),                                                                                -- decimal类型, 可以为null, 10位数字, 2位小数
+    `sample_date`       date,                                                                                          -- date类型, 可以为null, 日期
+    `sample_time`       time,                                                                                          -- time类型, 可以为null, 时间
+    `sample_datetime`   datetime,                                                                                      -- datetime类型, 可以为null, 日期时间
+    `sample_timestamp`  timestamp,                                                                                     -- timestamp类型, 可以为null, 时间戳
+    `sample_tinytext`   tinytext,                                                                                      -- tinytext类型, 可以为null, 长度255
+    `sample_text`       text,                                                                                          -- text类型, 可以为null, 长度65535
+    `sample_mediumtext` mediumtext,                                                                                    -- mediumtext类型, 可以为null, 长度16777215
+    `sample_longtext`   longtext,                                                                                      -- longtext类型, 可以为null, 长度4294967295
+    `sample_tinyblob`   tinyblob,                                                                                      -- tinyblob类型, 可以为null, 长度255
+    `sample_blob`       blob,                                                                                          -- blob类型, 可以为null, 长度65535
+    `sample_mediumblob` mediumblob,                                                                                    -- mediumblob类型, 可以为null, 长度16777215
+    `sample_longblob`   longblob,                                                                                      -- longblob类型, 可以为null, 长度4294967295
+    `create_time`       timestamp   NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',                             -- 创建时间, 不能为null, 默认值为当前时间
+    `modify_time`       timestamp   NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '更新时间', -- 更新时间, 不能为null, 默认值为当前时间, 更新时自动更新
+    PRIMARY KEY (`id`),                                                                                                -- 主键, 正式设置
+    UNIQUE KEY `uniq_idx` (`id`, `name`),                                                                              -- 唯一索引, 可以有多个, 但是不能有重复的, 一般用于唯一性校验, 例如手机号, 邮箱等
+    KEY `idx_name` (`name`)                                                                                            -- 普通索引, 可以有多个, 但是不能有重复的, 一般用于查询, 例如姓名, 地址等
+) ENGINE = InnoDB
+  DEFAULT CHARSET = utf8mb4
+  COLLATE = utf8mb4_general_ci; -- InnoDB存储引擎 默认字符集 utf8mb4, 排序规则utf8mb4_general_ci
+```
+
+### 其他高级SQL
 
 - 测试函数的执行时间: `set @input := "hello world"; select benchmark(100000000, MD5(@input));`
 - 日志输出: `SELECT 'LOADING departments' as 'INFO';`
