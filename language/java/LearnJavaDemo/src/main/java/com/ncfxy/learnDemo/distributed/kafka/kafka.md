@@ -16,7 +16,9 @@
    ```
 
 ## 常见序列化框架
-- Apache Avro
-- Apache Thrift
-- Google Protobuf
+- JDK原生序列化
+- JSON序列化
+- Apache Avro: <https://avro.apache.org/>
+- Apache Thrift: <https://thrift.apache.org/>
+- Google Protobuf: <https://protobuf.dev/overview/>
 
