@@ -16,3 +16,9 @@
   - 腾讯翻译: <https://fanyi.qq.com>
   - 有道翻译: <http://fanyi.youdao.com>
   - DeepL 翻译: <https://www.deepl.com/translator>
+
+
+## 写作助手
+
+- 微软爱写作: <https://aimwriting.mtutor.engkoo.com/>
+- 批改网: <https://www.pigai.org/>
