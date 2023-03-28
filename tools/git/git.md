@@ -112,6 +112,9 @@ echo "value is $line"
 ping $line -c 4
 done
 ```
+```shell
+grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" input.txt | while read ip; do ping -c 1 $ip; done
+```
 
 ## git hooks
 
