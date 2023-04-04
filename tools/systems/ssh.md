@@ -24,3 +24,12 @@
 ## ssh命令速记
 
 - `ssh root@123.123.123.123`
+
+## `~/.ssh/config`配置示例
+
+```
+Host <别名>
+  HostName 127.0.0.1
+  User root
+  StrictHostKeyChecking no
+```
