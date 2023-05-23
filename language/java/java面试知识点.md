@@ -31,6 +31,7 @@
 
 - JavaGuide: <https://github.com/Snailclimb/JavaGuide>, <https://javaguide.cn/>
 - <https://github.com/AobingJava/JavaFamily>
+- 技术文章摘抄: <https://learn.lianglianglee.com/>
 
 ## 自检 2020.01.04
 
