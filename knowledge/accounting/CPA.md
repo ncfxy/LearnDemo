@@ -27,6 +27,7 @@
 - 报名时间: 4月1-30
 - 考试时间: 9-10月
 - 2021年注册会计师全国统一考试报名简章: <http://www.cicpa.org.cn/news/202102/t20210223_53405.html>
+- 2023年注册会计师全国统一考试上海考区报名简章: <https://cpaexam.cicpa.org.cn/files/articlehtml/statichtml/03/0000018744FCAF23FCF2CED89284DAED.html>
 - 网上报名系统: <https://cpaexam.cicpa.org.cn>
 
 ## 2021考试时间
@@ -61,6 +62,8 @@
 - 全国会计资格评价网：<http://kzp.mof.gov.cn/index.jsp>
 - 初级会计实务、经济法基础
 - 初级资格考试于2022年5月7日至11日，5月14日至15日，分两个时间段进行，共14个批次。
+- 关于2023年度全国会计专业技术资格考试考务日程安排及有关事项的通知
+  - <http://kjs.mof.gov.cn/gongzuodongtai/202211/t20221122_3852893.htm>
 
 
 ## 培训机构
