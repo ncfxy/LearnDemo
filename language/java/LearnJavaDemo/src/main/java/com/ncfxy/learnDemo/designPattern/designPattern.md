@@ -1,4 +1,5 @@
 # 创建型模式
+- 抽象了创建对象的过程,隐藏了对象的创建细节
 简单工厂模式（Simple Factory）
 工厂方法模式（Factory Method）
 抽象工厂模式（Abstract Factory）
@@ -6,6 +7,7 @@
 原型模式（Prototype）
 单例模式（Singleton）
 # 结构型模式
+- 关注类和对象的组合,使它们能够以某种方式构成更大的结构
 外观模式（Facade）
 适配器模式（Adapter）
 代理模式（Proxy）
@@ -14,6 +16,7 @@
 装饰模式（Decorator）
 桥模式（Bridge）
 # 行为型模式
+- 关注对象之间的通信机制和算法
 中介者模式（Mediator）
 观察者模式（Observer）
 命令模式（Command）
