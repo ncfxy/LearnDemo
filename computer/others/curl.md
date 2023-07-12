@@ -20,3 +20,5 @@
 
 - 将CURL转换成代码: <https://curlconverter.com>
 
+## 使用CURL下载文件
+- `curl -O https://xxxx.com/abc`
