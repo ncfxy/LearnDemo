@@ -60,3 +60,7 @@ docker run -d \
 - <https://hub.docker.com/>
 
 - 设置国内镜像: <https://blog.csdn.net/u012081441/article/details/104553145/>
+
+## Kubernetes
+- K8s官方网站: <https://kubernetes.io/>
+- K8s中文社区: <https://www.kubernetes.org.cn/>
