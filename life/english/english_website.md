@@ -22,3 +22,4 @@
 
 - 微软爱写作: <https://aimwriting.mtutor.engkoo.com/>
 - 批改网: <https://www.pigai.org/>
+- DeepL协作助手: <https://www.deepl.com/write>
