@@ -3,6 +3,9 @@
 ## React 官方文档
 
 <https://reactjs.org/>
+<https://react.dev/>
+<https://react.docschina.org/>
+<https://create-react-app.bootcss.com/>
 
 ## React 生命周期
 
