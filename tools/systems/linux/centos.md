@@ -52,3 +52,7 @@ CentOS 安装后 network 无法工作
 - 9200: elasticsearch的Http访问接口
 - 9300: elasticsearch的TCP通信接口
 
+## 镜像站
+
+- 阿里云镜像站: <https://mirrors.aliyun.com/centos>
+
