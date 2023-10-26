@@ -12,6 +12,7 @@
 
 #### 其他学习资源分享
 - 动手学深度学习: <https://zh.d2l.ai/index.html>
+- 开源大模型GPTGLM: <https://github.com/THUDM/GLM>
 
 # 博客&课程
 
