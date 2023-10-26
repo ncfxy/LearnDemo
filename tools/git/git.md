@@ -119,3 +119,14 @@ grep -oE "\b([0-9]{1,3}\.){3}[0-9]{1,3}\b" input.txt | while read ip; do ping -c
 ## git hooks
 
 - pre-commit 中检查 goimports: <https://gist.github.com/TheHippo/4823bba5aea614306803d8e062d8318e>
+
+
+## Github Copilot
+
+- 官方地址: <https://github.com/features/copilot>
+- 文档: <https://docs.github.com/zh/copilot/quickstart>
+
+- 请求时需要访问的三个域名
+    - github.com: HTTP 200 - 
+    - copilot-proxy.githubusercontent.com: HTTP 200 - 
+    - default.exp-tas.com: HTTP 200 -
