@@ -23,6 +23,10 @@
 - D3js数据可视化: <https://d3js.org/>
 - K线图制作TradingView: <https://www.tradingview.com/>
 
+### 前端编辑器
+
+- 微软开源代码编辑器Monaco: <https://microsoft.github.io/monaco-editor/>
+
 
 ## 其他技术
 
