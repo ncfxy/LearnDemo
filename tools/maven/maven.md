@@ -4,9 +4,9 @@
 
 | 命令                | 作用                 |
 | ------------------- | -------------------- |
-| mvn install         |                      |
+| mvn install         | 模块安装             |
 | mvn dependency:tree | 显示当前项目的依赖树 |
-|                     |                      |
+| mvn package         | 项目打包             |
 
 ## 常用参数
 
