@@ -15,6 +15,12 @@
 | -DskipTests            | 不执行测试用例，但编译测试用例类   |
 | -Dmaven.test.skip=true | 不执行测试用例，也不编译测试用例类 |
 
+## 常用命令速用
+
+```shell
+mvn clean install -DskipTests
+```
+
 ## 设置国内源
 
 <https://maven.aliyun.com/mvn/view>
