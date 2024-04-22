@@ -91,3 +91,11 @@ def sample_func(idx):
 if __name__ == '__main__':
     multiprocessing_sample()
 ```
+
+## python打开浏览器链接
+```python
+import webbrowser
+
+url='http://www.baidu.com'
+webbrowser.open(url)
+```
