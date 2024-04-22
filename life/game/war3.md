@@ -150,9 +150,16 @@
 
 ### 人族战术
 
+
+### 不死族
+
+
+
 ## 文章
 
 - 知乎魔兽争霸3都有哪些操作？: <https://www.zhihu.com/question/52767914>
+- 魔兽争霸资料站：<http://game.17173.com/zt/war3_new.shtml>
+- 微操作的详解：<http://game.17173.com/content/2006-08-15/20060815171246260,1.shtml>
 
 ## 其他工具
 
