@@ -13,6 +13,8 @@
 #### 其他学习资源分享
 - 动手学深度学习: <https://zh.d2l.ai/index.html>
 - 开源大模型GPTGLM: <https://github.com/THUDM/GLM>
+- 面向开发者的大模型手册: <https://github.com/datawhalechina/llm-cookbook>
+- Prompt Engineering Guide: <https://github.com/dair-ai/Prompt-Engineering-Guide>
 
 # 博客&课程
 
