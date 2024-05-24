@@ -12,11 +12,6 @@
 | free    | 内存使用情况查看                     |
 | date +%s | 获取当前时间戳                      |
 
-### 管道命令
-
-- 查询日志、切分、排序、统计数量: `cat log.txt | cut -d ' ' -f 10 | sort | uniq -c`
-- grep进行正则匹配: -E使用正则， -o 只显示匹配内容
-- tail -f filename 会把 filename 文件里的最尾部的内容显示在屏幕上，并且不断刷新 `tail -f abc.log | grep 'aaa'`
 
 ## Linux 常用软件
 
