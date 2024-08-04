@@ -28,3 +28,9 @@
 | Taro         | <https://taro.aotu.io/>               | 一体化解决方案                                       | 京东     |
 | uni=app      | <https://uniapp.dcloud.io/>           | 可发布到 iOS、Android、Web（响应式）、以及各种小程序 | dcloud   |
 | ApiCloud     | <https://www.apicloud.com/deepengine> | Deep Engine 加速 APP 发布，缩短成熟周期              | 用友     |
+
+## 手机云服务
+
+- 华为云服务： <https://cloud.huawei.com/>
+- 荣耀云服务： <https://cloud.honor.com/>
+- 小米云服务： <https://i.mi.com/>
