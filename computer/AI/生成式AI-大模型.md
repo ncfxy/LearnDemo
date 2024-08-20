@@ -20,3 +20,8 @@
 
 - July博客ChatGPT技术原理解析: <https://blog.csdn.net/v_JULY_v/article/details/128579457>
 - 吴恩达ChatGPT提示词教学课程: <https://www.bilibili.com/video/BV1Hm4y1C7WQ/>
+
+# 论文
+
+- 《人工智能的火花：GPT4的早期实验》: <https://ask.qcloudimg.com/draft/8642415/6enizylvh0.pdf>
+  - 英文版原文：<https://arxiv.org/pdf/2303.12712>
