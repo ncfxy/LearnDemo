@@ -8,6 +8,9 @@
 | mvn dependency:tree | 显示当前项目的依赖树 |
 | mvn package         | 项目打包             |
 
+### 详细使用
+- `mvn dependency:tree -Dincludes=xxxx` 可以过滤特定的依赖
+
 ## 常用参数
 
 | 参数                   | 作用                               |
