@@ -189,6 +189,7 @@ import re                       # 正则表达式模块
 | pip install matplotlib | python 作图                                         | <https://matplotlib.org/>                       |
 | pip install attrs      | 辅助进行 python 类的构建                            | <https://www.attrs.org/en/stable/overview.html> |
 | pip install pandas     | python数据分析，给予numpy                           | <https://pandas.pydata.org/>                    |
+| pip install scipy      | python 科学计算包                                   | <https://scipy.org>                            |
 
 
 - webargs 转化和验证HTTP请求参数的library
