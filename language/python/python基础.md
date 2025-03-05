@@ -175,8 +175,13 @@ import re                       # 正则表达式模块
 
 ```
 
-## 常用第三方包安装
+## 环境 & 常用第三方包安装
 
+- 使用Anaconda进行环境管理
+  - <https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html>
+  - conda create --name myenv python=3.8
+  - conda activate myenv
+  - conda deactivate
 - 第三方包搜索: <https://pypi.org/>
 - `python -m pip install --upgrade pip     # pip 升级`
 - `python -m virtualenv --version`         # 查看对应依赖的版本
@@ -195,3 +200,10 @@ import re                       # 正则表达式模块
 - webargs 转化和验证HTTP请求参数的library
   - <https://webargs.readthedocs.io/en/latest/index.html#>
 
+
+### 创建和使用虚拟环境来安装包
+```shell
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install xyz
+```
