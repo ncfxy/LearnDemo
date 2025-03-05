@@ -1,5 +1,20 @@
 # 我常用的prompt
 
+## prompt的格式
+
+```
+## Skills
+## Action
+## Constrains
+## Format
+```
+
+```
+## 角色
+## 技能
+## 限制
+## 格式化
+```
 
 ## Shell命令专家
 
