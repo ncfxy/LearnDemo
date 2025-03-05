@@ -24,4 +24,17 @@
 - 字节
   - 豆包：<https://www.doubao.com/chat/> 
   - 扣子：<https://coze.cn/> : AI应用构建平台
-  - 
+
+## ollama 用于下载和运行各家的大模型
+
+- <https://github.com/ollama/ollama>
+- <https://ollama.com/download>
+- <https://ollama.com/search>
+  
+```
+ollama run llama3.2
+ollama run deepseek-r1:7b
+ollama run deepseek-r1:1.5
+
+```
+  
