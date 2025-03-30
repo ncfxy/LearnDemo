@@ -180,6 +180,7 @@ import re                       # 正则表达式模块
 - 使用Anaconda进行环境管理
   - <https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html>
   - conda create --name myenv python=3.8
+  - conda create --prefix ./venv python=3.8
   - conda activate myenv
   - conda deactivate
 - 第三方包搜索: <https://pypi.org/>
