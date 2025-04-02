@@ -184,6 +184,7 @@ import re                       # 正则表达式模块
   - conda activate myenv
   - conda deactivate
 - 第三方包搜索: <https://pypi.org/>
+    - 快捷跳转：<https://pypi.org/search/?q=apache-airflow>
 - `python -m pip install --upgrade pip     # pip 升级`
 - `python -m virtualenv --version`         # 查看对应依赖的版本
 
