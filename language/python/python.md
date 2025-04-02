@@ -1,5 +1,10 @@
 # Python
 
+## Python官方网站
+
+- 官网：<https://www.python.org/>
+- 可用版本查询：<https://www.python.org/downloads/>
+
 ## 私有源设置 (~/.pip/pip.conf)
 
 ```
