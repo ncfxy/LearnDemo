@@ -80,6 +80,8 @@ commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_ch
 | <https://github.com/PaddlePaddle/PaddleOCR>                    | 轻量级中英文 OCR 识别库                       |
 | <https://github.com/unbug/codelf>                              | CODELF(变量命名神器)                          |
 
+- 开源协议选择器：<https://awesometop.cn/license/selector>
+
 ### github 徽章添加
 
 - 博客：GitHub 项目徽章的添加和设置：<https://www.eyrefree.org/2017/05/01/GitHub-Badge-Introduction/>
