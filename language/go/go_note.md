@@ -52,11 +52,28 @@ go get github.com/sqs/goreturns
 go get github.com/rogpeppe/godef
 go get golang.org/x/lint/golint
 
+
 ## Go 代理设置
 
 - <https://github.com/goproxy/goproxy.cn>
 - go env -w GO111MODULE=on
 - go env -w GOPROXY=https://goproxy.cn,direct
+
+## Go 包管理
+
+- 全局安装 `go install -v golang.org/x/tools/gopls@latest`
+
+## vscode检查需要安装的几个包
+```
+go install -v golang.org/x/tools/gopls@latest
+go install -v github.com/cweill/gotests/gotests@v1.6.0
+go install -v github.com/fatih/gomodifytags@v1.17.0
+go install -v github.com/josharian/impl@v1.4.0
+go install -v github.com/haya14busa/goplay/cmd/goplay@v1.0.0
+go instlal -v github.com/go-delve/delve/cmd/dlv@latest
+go install -v golang.org/x/lint/golint@latest
+go install -v honnef.co/go/tools/cmd/staticcheck@latest
+```
 
 ## GoLand Debug启动慢
 
