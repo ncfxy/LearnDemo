@@ -29,6 +29,10 @@
   - 切换会话： `tmux switch -t <session-name>`
   - 重命名话： `tmux rename-session -t old new`
   - 汇总：`ls new detach attach kill-session switch rename-session`
+- 快捷键
+  - `ctrl+b d` 离开当前会话
+  - `ctrl+b c` 创建新窗口
+
 
 ## Linux & Mac 目录规范
 
