@@ -13,3 +13,8 @@
 
 ## 常见问题的处理
 - 背景光太亮，人脸显暗： 可以用人物挡住光源
+
+## 处理照片拍摄日期
+
+- 下载exiftool: <https://exiftool.org/>
+- 执行命令：`./exiftool.exe -DateTimeOriginal="2025:06:21 12:00:00" -overwrite_original "filePath`
