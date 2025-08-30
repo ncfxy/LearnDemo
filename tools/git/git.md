@@ -23,6 +23,8 @@
 ## Git 其他好用的命令
 
 - `git grep`
+- `current_branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)` 获取当前代码分支的分支名称
+  - 防止错误信息产生 `2>/dev/null`
 
 ## 设置代理服务器
 
