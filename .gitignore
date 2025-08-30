@@ -8,6 +8,8 @@ java/learnJavaDemo/target
 
 js/vueDemo/node_modules
 
+tmp/
+
 node_modules
 
 # hide file in macOS
