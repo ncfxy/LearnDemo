@@ -209,3 +209,10 @@ import re                       # 正则表达式模块
     source path/to/venv/bin/activate
     python3 -m pip install xyz
 ```
+
+- 常用环境管理脚本
+```shell
+    python3 -m venv venv
+    source venv/bin/activate
+    pip3 install -r requirements.txt
+```
