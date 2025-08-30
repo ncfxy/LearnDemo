@@ -121,6 +121,11 @@
 - `json.Marshal()`
 - `json.MarshalIndent()`
 
+## Go 环境
+- 查看go安装路径：`go env GOROOT`
+- 查看GOPATH: `go env GOPATH`
+
+
 ## Go 代理配置
 
 - `go env -w GO111MODULE=on`
