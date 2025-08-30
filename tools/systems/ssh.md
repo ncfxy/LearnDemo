@@ -32,4 +32,10 @@ Host <别名>
   HostName 127.0.0.1
   User root
   StrictHostKeyChecking no
+
+Host 域名
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
+    IdentityFile ~/.ssh/id_ed25519    # 使用的秘钥文件
+
 ```
