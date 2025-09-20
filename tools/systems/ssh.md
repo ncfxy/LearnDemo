@@ -34,6 +34,7 @@ Host <别名>
   StrictHostKeyChecking no
 
 Host 域名
+    Port 1111 # 指定端口
     GSSAPIAuthentication yes
     GSSAPIDelegateCredentials no
     IdentityFile ~/.ssh/id_ed25519    # 使用的秘钥文件
