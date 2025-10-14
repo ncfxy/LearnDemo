@@ -20,6 +20,31 @@
 - iStat：查看温度 `gem install iStats` `istats`
 - 屏幕放大缩小: `option & command & +/-`
 
+- 切换brew源
+```shell
+# 1. 切换到中科大的镜像源（推荐）
+git -C "$(brew --repo homebrew/core)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
+# 2. 中科大镜像
+git -C "$(brew --repo homebrew/cask)" remote set-url origin https://mirrors.ustc.edu.cn/homebrew-cask.git
+
+# 还原 core 源
+git -C "$(brew --repo homebrew/core)" remote set-url origin https://github.com/Homebrew/homebrew-core.git
+# 还原 cask 源
+git -C "$(brew --repo homebrew/cask)" remote set-url origin https://github.com/Homebrew/homebrew-cask.git
+```
+
+- 一键替换brew源脚本：
+```shell
+# 使用中科大镜像
+export HOMEBREW_API_DOMAIN="https://mirrors.ustc.edu.cn/homebrew-bottles/api"
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.ustc.edu.cn/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.ustc.edu.cn/homebrew-core.git"
+export HOMEBREW_PIP_INDEX_URL="https://pypi.mirrors.ustc.edu.cn/simple/"
+
+# 然后运行安装或更新命令
+brew update
+```
+
 ## Mac常用功能
 
 ### Mac聚焦搜索 command + 空格
