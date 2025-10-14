@@ -25,7 +25,31 @@ var promise = import(module-name);
 - peerDependencies: 前置依赖，推荐依赖本项目的项目安装这些依赖
 - How npm3 works: <https://npm.github.io/how-npm-works-docs/npm3/how-npm3-works.html>
 
-## 依赖管理工具
+## 环境搭建 & 依赖管理工具
+
+### nvm
+node 版本管理
+- macOs安装nvm: `brew install nvm`
+常用命令
+```shell
+nvm install <version>  # 安装指定版本
+nvm install --lts # 安装最新LTS版本
+nvm ls-remote # 列出所有远程版本
+nvm list # 列出所有本地版本
+nvm use <version> # 设置默认版本
+node version
+```
+
+初始化环境的脚本
+```shell
+brew install nvm
+nvm install --lts
+node --version
+npm install -g npm@latest
+npm --version
+npm install -g yarn
+yarn --version
+```
 
 ### npm
 
