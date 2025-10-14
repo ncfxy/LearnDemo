@@ -117,7 +117,7 @@ server_id = 1 # 配置mysql replication需要定义，主从之间的不能相�
   - flush privileges;
   - create user "用户名"@"IP地址" identified by "密码";
   - drop user "用户名"@"IP地址"
-  - set password='new_password';
+  - ALTER USER 'root'@'localhost' IDENTIFIED BY '新密码';
   - 也可以直接修改mysql.user表
   - grant 权限列表  on 库名.表名 to 用户名@'客户端主机'  [identified by '密码'  with参数];
   - grant ALL ON *.* to 用户名@'%' identified by ‘mima' 
@@ -133,3 +133,16 @@ server_id = 1 # 配置mysql replication需要定义，主从之间的不能相�
 
 - dsn: `<driver>://<username>:<password>@<host>:<port>/<database>`
 - 附加参数: `?charset=utf8mb4&parseTime=true`
+
+## 使用docker部署mysql
+
+```shell
+# 启动MySQL容器
+docker run -d \
+  --name mysql-server \
+  -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=your_strong_password \ # 务必修改密码
+  -v /opt/mysql/data:/var/lib/mysql \          # 数据持久化
+  -v /opt/mysql/conf:/etc/mysql/conf.d \       # 配置持久化
+  mysql:8.0
+```
