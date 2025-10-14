@@ -14,3 +14,4 @@ node_modules
 
 # hide file in macOS
 .DS_Store
+/site_manager/.vitepress/cache
