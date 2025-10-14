@@ -20,6 +20,7 @@
 
 - 生成新的秘钥对: `ssh-keygen -t rsa`
 - 上传到服务器免登陆: `ssh-copy-id -i ~/.ssh/mykey user@host`
+- 服务上存储位置: `~/.ssh/authorized_keys`
 
 ## ssh命令速记
 
