@@ -42,3 +42,43 @@
 | `/usr/lib`       | 系统依赖 library   | `C:/Windows/System32` |
 | `/usr/local`     | 用户级程序目录     | `C:/Program Files`    |
 | `/usr/local/opt` | 可选软件的安装目录 | `D:/Software`         |
+
+## 快速输出linux系统的系统信息
+
+```shell
+#!/bin/bash
+
+{
+  echo "===== 系统信息 ====="
+  uname -a
+  lsb_release -a 2>/dev/null || cat /etc/*release*
+  uptime
+
+  echo -e "\n===== CPU信息 ====="
+  lscpu
+  # macos 获取cpu信息
+  sysctl -a | grep machdep.cpu.brand_string
+
+  echo -e "\n===== 内存信息 ====="
+  free -h
+
+  echo -e "\n===== 硬盘信息 ====="
+  lsblk
+  df -h
+
+  echo -e "\n===== 显卡信息 ====="
+  lspci | grep -i vga
+  nvidia-smi 2>/dev/null
+
+  echo -e "\n===== 网卡信息 ====="
+  ip addr
+  hostname -I
+
+  echo -e "\n===== 端口信息 ====="
+  lsof -i -P -n
+
+  echo -e "\n===== 环境变量信息 ====="
+  echo "PATH=$PATH"
+
+} | tee system_info.txt
+```
