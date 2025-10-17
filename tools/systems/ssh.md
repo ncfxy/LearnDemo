@@ -19,6 +19,8 @@
 ## 秘钥管理
 
 - 生成新的秘钥对: `ssh-keygen -t rsa`
+  - `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+  - `ssh-keygen -t ed25519 -C "your_email@example.com"`
 - 上传到服务器免登陆: `ssh-copy-id -i ~/.ssh/mykey user@host`
 - 服务上存储位置: `~/.ssh/authorized_keys`
 
@@ -41,3 +43,8 @@ Host 域名
     IdentityFile ~/.ssh/id_ed25519    # 使用的秘钥文件
 
 ```
+
+## 通过SCP上传文件
+
+- 递归上传: `scp -r /path/to/local/file user@host:/path/to/remote/file`
+- 上传单个文件: `scp /path/to/local/file user@host:/path/to/remote/file`
