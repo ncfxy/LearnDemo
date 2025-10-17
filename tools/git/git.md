@@ -20,6 +20,11 @@
     git reset
     git log
 
+## 私有git搭建
+
+- Gitea: <https://docs.gitea.com/zh-cn/>
+- gitlab: <https://gitlab.cn/>
+
 ## Git 其他好用的命令
 
 - `git grep`
