@@ -42,6 +42,7 @@
 | `/usr/lib`       | 系统依赖 library   | `C:/Windows/System32` |
 | `/usr/local`     | 用户级程序目录     | `C:/Program Files`    |
 | `/usr/local/opt` | 可选软件的安装目录 | `D:/Software`         |
+| `/opt`            | 第三方软件存储     | `D:/Software`         |
 
 ## 快速输出linux系统的系统信息
 
