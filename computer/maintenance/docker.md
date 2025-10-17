@@ -21,6 +21,22 @@
 | `docker volume create xxx`                        | 创建共享的卷             |
 | `docker network create xxx`                       | 创建一个共享网络         |
 
+### 搭建临时私有仓库
+```shell
+# 启动 registry
+docker run -d -p 5000:5000 --name registry --restart=always registry:2
+
+# 配置为不安全 registry（因为使用 HTTP）
+echo '{"insecure-registries": ["192.168.1.100:5000"]}' | sudo tee /etc/docker/daemon.json
+sudo systemctl restart docker
+
+# 操作镜像
+docker pull hello-world
+docker tag nginx:alpine 192.168.1.100:5000/hello-world
+docker push 192.168.1.100:5000/hello-world
+```
+
+
 ### Examples
 
 - <https://www.runoob.com/docker/docker-container-usage.html>
@@ -68,3 +84,9 @@ docker run -d \
 ## Kubernetes
 - K8s官方网站: <https://kubernetes.io/>
 - K8s中文社区: <https://www.kubernetes.org.cn/>
+
+## 我的场景镜像
+
+|---|---|
+|hello-world|验证docker是否正常|
+|mysql:8.0| 官方mysql镜像 |
