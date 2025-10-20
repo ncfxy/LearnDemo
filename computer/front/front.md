@@ -2,7 +2,7 @@
 
 ## 常用实现
 
-[load-spinner](./loading-spinner.html)
+- `loading-spinner.html`
 
 ## HTML
 

@@ -9,6 +9,12 @@
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
+    "docs:debug": "vitepress build --debug",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@mermaid-js/mermaid-mindmap": "^9.3.0",
+    "mermaid": "^11.12.0",
+    "vitepress-plugin-mermaid": "^2.0.17"
   }
 }

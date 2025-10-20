@@ -5,24 +5,10 @@
 - 官网：<https://www.python.org/>
 - 可用版本查询：<https://www.python.org/downloads/>
 
-## 私有源设置 (~/.pip/pip.conf)
+## 其他页面跳转
 
-```
-[global]
-index-url=地址
-```
-
-- 安装时带上镜像地址: `pip install matplotlib -i https://pypi.tuna.tsinghua.edu.cn/simple/`
-
-## venv/virtualenv/pipenv/poetry/virtualenvwrapper
-
-- 创建独立的python执行环境，下载的包安装到当前目录，不会污染全局
-
-## 安装pip
-
-- 下载ez_setup.py: https://bootstrap.pypa.io/ez_setup.py
-- 安装easy_install工具: `python ez_setup.py`
-- 安装pip: `easy_install pip`
+- [Python生态](./python生态.md)
+- [Python语言基础](./python语言基础.md)
 
 ## python之禅
 
@@ -69,7 +55,3 @@ Python 之禅 Tim Peters:
 如果你无法向人描述你的方案，那肯定不是一个好方案；反之亦然（方案测评标准） 
 命名空间是一种绝妙的理念，我们应当多加利用（倡导与号召）
 ```
-
-## 其他页面跳转
-
-- [Python基础](./python基础.md)

@@ -92,9 +92,9 @@
         keepAliveTime： 动态线程的等待时间
         排队方式、新线程产生方式、拒绝策略
     提交方式
-        Future<T> submit(Callable<T> task)	是
-        void execute(Runnable command)	否
-        Future<?> submit(Runnable task)	否，虽然返回Future，但是其get()方法总是返回null
+        `Future<T> submit(Callable<T> task)`	是
+        `void execute(Runnable command)`	否
+        `Future<?> submit(Runnable task)`	否，虽然返回Future，但是其get()方法总是返回null
 11. Runnable 和 Callable
     Callable允许有返回值
 12. Java线程间通信
@@ -112,7 +112,6 @@
     字节流：InputStream、OutputStream
     字符流：Reader、Writer
     NIO （https://blog.csdn.net/forezp/article/details/88414741）
-    
 17. Java 序列化
     继承Serializable接口
     ObjectOutputStream writeObject readObject

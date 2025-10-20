@@ -99,3 +99,13 @@ import webbrowser
 url='http://www.baidu.com'
 webbrowser.open(url)
 ```
+
+## 文件操作
+
+```python
+path = 'dir/abc.txt'
+f.open(path)
+f.close()
+with open(path) as f:
+    lines = [x.rstrip() for x in f]
+```

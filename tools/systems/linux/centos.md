@@ -33,7 +33,7 @@ CentOS 安装后 network 无法工作
 - 安装：yum install mysql-server
 - 启动：systemctl start mysqld (stop, restart, status)
 - 连接：mysql -uroot -p -h127.0.0.1 -P3306
-- [常用操作指令](../../../database/MySQL.md#MySql常用操作指令)：
+- [常用操作指令](../../../computer/database/MySQL.md#MySql常用操作指令)：
 
 ## 网络设置
 

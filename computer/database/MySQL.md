@@ -97,10 +97,6 @@ server_id = 1 # 配置mysql replication需要定义，主从之间的不能相�
 - 两种复制方式：基于binlog和基于GTID（全局事务标示符）
 - [深入解析 MySQL binlog](https://zhuanlan.zhihu.com/p/33504555)
 
-## Books
-
-- [高性能MySQL](../readingnotes/高性能MySQL.md)
-
 ## MySql常用操作指令
 
 - 常用操作指令：

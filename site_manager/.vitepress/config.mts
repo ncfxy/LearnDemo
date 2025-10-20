@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid, MermaidPlugin } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,6 +8,14 @@ export default defineConfig({
   
   // 源目录（相对于 root）
   srcDir: '../',
+  markdown: {
+    lineNumbers: true,
+  },
+  mermaid: {
+    // 配置项
+    // ...
+    theme: 'default'
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -27,5 +36,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
 })
+
+// export default withMermaid(config)

@@ -19,14 +19,22 @@ graph TD;
   C-->D;
 ```
 
+```mermaid
+flowchart TD
+    A[客户端] --> B[负载均衡器]
+    B --> C[服务器1]
+    B --> D[服务器2]
+    B --> E[服务器3]
+```
+
 ## Github API
 
-* 官方文档
-  * [REST API v3](https://developer.github.com/v3/)
-  * [GraphQL API v4](https://developer.github.com/v4/)
+- 官方文档
+  - [REST API v3](https://developer.github.com/v3/)
+  - [GraphQL API v4](https://developer.github.com/v4/)
 
-* 其他文章
-  * [一篇文章搞定Github API 调用 (v3）](https://segmentfault.com/a/1190000015144126)
+- 其他文章
+  - [一篇文章搞定Github API 调用 (v3）](https://segmentfault.com/a/1190000015144126)
 
 ## Jekyll
 

@@ -38,8 +38,10 @@
   - chat-deepseek: <https://chat.deepseek.com/>
 - 通义千问
   - 通义千问：<https://www.tongyi.com/?s=1>
+  - 阿里云百炼: <https://bailian.console.aliyun.com/#/home>
 - Kimi
   - KIMI: <https://www.kimi.com/>
+  - Kimi API: <https://platform.moonshot.cn/docs/overview>
 
 
 ## ollama 用于下载和运行各家的大模型
