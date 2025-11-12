@@ -1,7 +1,7 @@
 # Euclidea Game
 
-Website: <https://www.euclidea.xyz/en/>
-Online Version: <https://www.euclidea.xyz/en/game/packs>
+- Website: <https://www.euclidea.xyz/en/>
+- Online Version: <https://www.euclidea.xyz/en/game/packs>
 - Euclidea几何构建全关卡通关攻略大全 <https://m.yoyou.com/game/euclidea/151204.html>
 
 ## 单词
@@ -23,17 +23,19 @@ Online Version: <https://www.euclidea.xyz/en/game/packs>
 - 内切圆圆心
 - 到三条边距离相等
 
-<canvas id="incenter" width="200" height="100" style="border:1px solid #d3d3d3;"></canvas>
-<script>
-    var incenter = document.getElementById('incenter');
-    var ctx = incenter.getContext("2d");
-    ctx.moveTo(40, 80);ctx.lineTo(160, 80);ctx.stroke();
-    ctx.moveTo(40, 80);ctx.lineTo(80, 40);ctx.stroke();
-    ctx.moveTo(80, 40);ctx.lineTo(160, 80);ctx.stroke();
-    ctx.beginPath();
-    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
-    ctx.stroke();
-</script>
+```html
+    <canvas id="incenter" width="200" height="100" style="border:1px solid #d3d3d3;"></canvas>
+    <script>
+        var incenter = document.getElementById('incenter');
+        var ctx = incenter.getContext("2d");
+        ctx.moveTo(40, 80);ctx.lineTo(160, 80);ctx.stroke();
+        ctx.moveTo(40, 80);ctx.lineTo(80, 40);ctx.stroke();
+        ctx.moveTo(80, 40);ctx.lineTo(160, 80);ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+    </script>
+```
 
 ### 外心
 
