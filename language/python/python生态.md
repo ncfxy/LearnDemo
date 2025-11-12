@@ -42,6 +42,10 @@ index-url=地址
     pip3 install -r requirements.txt
 ```
 
+```shell
+    pip freeze > requirements.txt # 把当前环境的依赖写入到requirement.txt中
+```
+
 
 ## 常用第三方包
 
