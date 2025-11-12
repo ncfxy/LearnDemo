@@ -9,7 +9,7 @@
 * [Guide 文档](https://guides.github.com/features/mastering-markdown/)
 * [帮助文档](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 
-## 测试Github是否支持mermaid作图
+## 测试Github是否支持作图
 
 ```mermaid
 graph TD;
