@@ -35,7 +35,14 @@
   - 扣子：<https://coze.cn/> : AI应用构建平台
 - Deepseek
   - Deepseek-r1: <https://www.deepseek.com/>
+    - 论文: <https://arxiv.org/pdf/2501.12948>
   - chat-deepseek: <https://chat.deepseek.com/>
+  - DeepSeek-R1: <https://github.com/deepseek-ai/DeepSeek-R1>
+  - DeepSeek-Coder: <https://github.com/DeepSeek-AI/DeepSeek-Coder>
+  - DeepSeek-V3: <https://github.com/deepseek-ai/DeepSeek-V3>
+
+
+
 - 通义千问
   - 通义千问：<https://www.tongyi.com/?s=1>
   - 阿里云百炼: <https://bailian.console.aliyun.com/#/home>
