@@ -20,3 +20,8 @@ for pdf in pdf_lst:
 
 file_merger.write(dir + "/merge.pdf")
 ```
+
+## 在线工具
+
+- SmartPdf: <https://smartpdf.net>
+- smallPdf: <https://smallpdf.com>
