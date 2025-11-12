@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid, MermaidPlugin } from 'vitepress-plugin-mermaid'
+import dayjs from 'dayjs'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  title: "My Awesome Project",
-  description: "A VitePress Site",
+export default withMermaid(defineConfig({
+  title: "My LearnDemo Project",
+  description: "My LearnDemo Project, A VitePress Site",
   
   // 源目录（相对于 root）
   srcDir: '../',
@@ -12,14 +13,28 @@ export default defineConfig({
     lineNumbers: true,
   },
   mermaid: {
-    // 配置项
-    // ...
-    theme: 'default'
+    theme: 'dark'
   },
+  vite: {
+    optimizeDeps: {
+      include: [
+        'mermaid'
+      ]
+    },
+    build: {
+      rollupOptions: {
+        external: [
+          'vue/server-renderer',
+          'vue'
+        ]
+      }
+    }
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Home', link: '/index' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -33,10 +48,12 @@ export default defineConfig({
       }
     ],
 
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
 })
+)
 
 // export default withMermaid(config)
