@@ -10,7 +10,37 @@
 - 《深入理解 Linux 内核》
 - 《深入理解 Nginx；模块开发与架构解析》
 
+## 安装配置
+
+- Ubuntu
+```shell
+sudo apt install nginx # 安装Nginx
+sudo apt systemctl enable nginx # 开机自启动
+sudo apt systemctl start nginx # 启动Nginx
+sudo apt systemctl stop nginx # 停止Nginx
+sudo apt systemctl restart nginx # 重启Nginx
+sudo apt systemctl status nginx # 查看Nginx状态
+sudo vim /etc/nginx/nginx.conf # 配置文件
+sudo nginx -t  # 检查配置语法
+```
+
 ## 配置实例
+
+### 常见管理命令
+```shell
+# 创建这样的符号链接（启用站点）
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+
+# 删除符号链接（禁用站点）
+rm /etc/nginx/sites-enabled/default
+
+# 检查链接是否有效
+readlink /etc/nginx/sites-enabled/default
+
+# 查看日志
+tail -f /var/log/nginx/access.log
+tail -f /var/log/nginx/error.log
+```
 
 ### 设置静态文件夹
 
