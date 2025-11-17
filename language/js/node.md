@@ -30,6 +30,9 @@ var promise = import(module-name);
 ### nvm
 node 版本管理
 - macOs安装nvm: `brew install nvm`
+- linux安装nvm: 
+  - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
+  - <https://github.com/nvm-sh/nvm/blob/v0.40.3/install.sh>
 常用命令
 ```shell
 nvm install <version>  # 安装指定版本
