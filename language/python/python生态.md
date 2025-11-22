@@ -22,11 +22,14 @@ index-url=地址
 ## 环境管理
 
 ### 使用Anaconda进行环境管理
+  - <https://www.anaconda.com/>
   - <https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html>
-  - conda create --name myenv python=3.8
-  - conda create --prefix ./venv python=3.8
-  - conda activate myenv
-  - conda deactivate
+  - 创建全局环境: `conda create --name myenv python=3.8`
+  - 在指定目录创建环境: `conda create --prefix ./venv python=3.8`
+  - 激活使用某环境: `conda activate myenv`
+  - 停止使用虚拟环境: conda deactivate
+  - 删除某环境: `conda remove -n env_name --all`
+  - 列出当前环境: `conda env list`
 
 ### 创建和使用虚拟环境来安装包
 ```shell
@@ -84,4 +87,5 @@ xxx?        # 输出命令的介绍文档
 ```
 
 - 最前边添加!，可以用来执行command命令
+  - `!pip install xxx`
 

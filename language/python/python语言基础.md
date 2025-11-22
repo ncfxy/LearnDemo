@@ -216,3 +216,12 @@ import re                       # 正则表达式模块
     source venv/bin/activate
     pip3 install -r requirements.txt
 ```
+
+### 常用python命令记录
+
+```
+# 启动服务器 
+python -m http.server 8080
+# 执行代码
+python -c "print('hello world')"
+```

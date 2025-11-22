@@ -38,3 +38,6 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted unive
 | `sudo snap revert <snap name>`    | 把一个包还原到以前安装的版本    |
 | `sudo snap remove <snap name>`    | 删除一个snap包                  |
 | `sudo snap info xxxx`             | 查看软件包详细信息              |
+
+- snap不支持通过文件配置参数
+  - 通过set命令修改参数 `sudo snap set xxxx.xxxx xxx=xxx`

@@ -12,6 +12,11 @@
 | free    | 内存使用情况查看                     |
 | date +%s | 获取当前时间戳                      |
 
+## 监控命令
+- `watch -n 1 xxx`： 循环执行命令
+- `top`： 显示正在运行的进程
+- `htop`： 进程管理
+
 
 ## Linux 常用软件
 
@@ -77,9 +82,44 @@
 
   echo -e "\n===== 端口信息 ====="
   lsof -i -P -n
-
+linux
   echo -e "\n===== 环境变量信息 ====="
   echo "PATH=$PATH"
 
 } | tee system_info.txt
 ```
+
+
+## 使用systemd管理Linux服务
+- 系统级服务目录: `/etc/systemd/system/`
+- 用户级服务目录: `/usr/lib/systemd/system/`
+- 创建服务文件: `sudo vim /usr/lib/systemd/system/<service-name>.service`
+```ini
+[Unit]
+Description=<service-description>
+After=network.target
+
+[Service]
+LimitNOFILE=65535
+User=<service-user>
+Group=<service-group>
+WorkingDirectory=/home/<service-user>
+ExecStart=/usr/bin/<service-command>
+StandardOutput=file:/data/service/frp/logs/stdout.log
+StandardError=append:/data/service/frp/logs/stderr.log
+StandardOutput=
+Restart=on-failure
+RestartSec=10s
+
+[Install]
+WantedBy=default.target
+```
+- 常用管理命令
+  - 启动服务: `sudo systemctl start <service-name>`
+  - 停止服务: `sudo systemctl stop <service-name>`
+  - 重启服务: `sudo systemctl restart <service-name>`
+  - 重新加载服务:  `sudo systemctl daemon-reload` 
+  - 列出所有服务: `sudo systemctl list-units --type=service`
+  - 列出所有服务状态: `sudo systemctl status --type=service`
+  - 列出所有服务状态并显示服务描述: `sudo systemctl status --type=service | grep -E "^ *(active|inactive)"`
+  - 开机启动服务: `sudo systemctl enable <service-name>`
