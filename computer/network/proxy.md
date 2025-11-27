@@ -31,6 +31,7 @@ export https_proxy=http://192.168.31.101:8787
 - 一键安装脚本: `bash <(curl -s -L https://git.io/v2ray.sh)`
 - <https://github.com/2dust/v2rayN/releases>
 - <https://233boy.com/v2ray/v2ray-script/>
+- Linux客户端: <https://github.com/v2rayA/v2rayA>
 
 # Windows 10 设置系统代理
 
