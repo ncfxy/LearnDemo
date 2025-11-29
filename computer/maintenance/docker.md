@@ -20,6 +20,11 @@
 | `docker build -f [DockerfilePath] -t [NAME] .`    | 构建 docker              |
 | `docker volume create xxx`                        | 创建共享的卷             |
 | `docker network create xxx`                       | 创建一个共享网络         |
+| `docker logs [containerId]`                         | 查看 container 的日志 |
+
+## docker-compose常用命令
+- `docker-compose up -d`: 启动 compose
+- `docker-compose down`: 停止 compose
 
 ### 搭建临时私有仓库
 ```shell
