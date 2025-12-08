@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
-  srcDir: "..",
+export default withMermaid(defineConfig({
+  srcDir: ".",
   
   title: "LearnDemo Site",
   description: "LearnDemo Site render by VitePress",
@@ -27,4 +28,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
-})
+}))
