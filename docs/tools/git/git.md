@@ -76,6 +76,12 @@ git config --list
 commitizen: <https://github.com/commitizen/cz-cli>
 commit message 介绍: <http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html>
 
+## git remote 命令
+
+- `git remote add origin https://github.com/yourusername/yourrepository.git` 添加远程仓库
+- `git remote -v` 查看远程仓库
+- `git remote rm origin` 删除远程仓库
+
 ## 混迹 Github
 
 | URL                                                            | 用途                                          |
