@@ -55,6 +55,8 @@ index-url=地址
 - 第三方包搜索: <https://pypi.org/>
     - 快捷跳转：<https://pypi.org/search/?q=apache-airflow>
 - `python -m pip install --upgrade pip     # pip 升级`
+- `pip list` # 列出当前环境安装的包
+- `pip install xxx==0.0.2 --force-reinstall` # 强制重新安装某个版本的依赖
 - `python -m virtualenv --version`         # 查看对应依赖的版本
 
 | 命令                   | 作用                                                | 官方地址                                        |

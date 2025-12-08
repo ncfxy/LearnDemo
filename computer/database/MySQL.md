@@ -117,6 +117,7 @@ server_id = 1 # 配置mysql replication需要定义，主从之间的不能相�
   - 也可以直接修改mysql.user表
   - grant 权限列表  on 库名.表名 to 用户名@'客户端主机'  [identified by '密码'  with参数];
   - grant ALL ON *.* to 用户名@'%' identified by ‘mima' 
+    - GRANT ALL PRIVILEGES ON *.* TO 'name'@'%'  # 8.0需要使用这个语句
 - MySQL设置相关
   - show variables [like %xxx%];
   - show binary logs; # 查看binlog文件列表

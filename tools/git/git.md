@@ -45,6 +45,9 @@ git config --global user.email "mygitlab@mali.cn"
 // 为单个repository设置
 git config user.name "yougithubname"
 git config user.email "mygithubemail@mail.com"
+
+# 获取当前配置
+git config --list
 ```
 
 ```
